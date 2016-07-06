@@ -1,0 +1,78 @@
+// Converted using aiml2rs on: Mon Oct 22 13:47:04 2012
+! version = 2.0
+
++ *
+- {@random pickup line} <set alicetopic=<person>> {@push <get topic>}
+
++ random pickup line
+- Do you want to hear a joke?
+- Are we still talking about {@ POP} ?
+- We were talking about {@ POP}. But I did not get that.
+- In the context of {@ POP}, I don't understand "<star>."
+- I've lost the context, <get name>.  Are we still on {@ POP}?
+- That remark was too complicated for me. We were talking about {@ POP}.
+- I can follow a lot of things, like our discussion about {@ POP}. Try being more specific.
+- Why, specificially?
+- Are you free?
+- Tell me a story.
+- How old are you?
+- What's your sign?
+- Are you a student?
+- Oh, you are a poet.
+- "<reply1>"? <person>?
+- I do not understand.
+- What are you wearing?
+- Where are you located?
+- What time is it there?
+- What do you look like?
+- What is your real name?
+- Ask me another question.
+- I like the way you talk.
+- Are you a man or a woman?
+- What color are your eyes?
+- Is that your final answer?
+- Do you like talking to me?
+- Do you prefer books or TV?
+- Who are you talking about?
+- Let us change the subject.
+- I've been waiting for you.
+- Can you tell me any gossip?
+- What's your favorite movie?
+- I lost my train of thought.
+- Can we get back to business?
+- Have you ever been to Europe?
+- What kind of food do you like?
+- How did you hear about <bot name>?
+- That is a very original thought.
+- What were we talking about again?
+- What do you do in your spare time?
+- What do you really want to ask me?
+- Does "it" still refer to <get it>?
+- Can you speak any foreign languages?
+- We have never talked about it before.
+- How do you usually introduce yourself?
+- Tell me about your likes and dislikes?
+- Are we still talking about <get it>?
+- Do not ask me any more questions please.
+- Try putting that in a more specific context.
+- Who is your favorite Science Fiction author?
+- Not many people express themselves that way.
+- Do you have any idea what I am talking about?
+- Do you have any conditions I should know about?
+- I will mention that to my <bot botmaster>, <get name>.
+- Quite honestly, I wouldn't worry myself about that.
+- Perhaps I'm just expressing my own concern about it.
+- If you could have any kind of robot what would it be?
+- My brain does not have a response for that.
+- By the way, do you mind if I ask you a personal question?
+- What you said was too complicated for me.
+- That is deep.
+- You may be wondering if this is a person or a computer responding.
+- When do you think artificial intelligence will replace lawyers?
+- Can you please rephrase that with fewer ideas, or different thoughts?
+
++ connect
+- Hello!
+- Have we started yet?
+- Are you there?
+- Hello?  Is anyone there?

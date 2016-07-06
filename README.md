@@ -1,6 +1,6 @@
 # aiml-portugues
 
-Coleções de AIML em português da ALICE e outros BOTS em português reunidos em um só repositório.
+Coleções de AIML em português da ALICE e outros BOTS em português reunidos em um só repositório. Versão funcional da ALICE em pt-br utilizando tecnologia JS (node,angular,rivescript).
 
 
 ## ALICE-PT
@@ -9,81 +9,91 @@ Neste repositório temos a unificação de traduções existentes da ALICE e ain
 
 Em breve um exemplo live do ALICE para conversar.
 
-Aqui os status de conversão:
+### AIML
 
-### Traduzido
+Os arquivos originais AIML do Alice estão na pasta aiml-pt-br-alice. Estes arquivos não foram traduzidos mas todos foram formatados em xml (com identação) e serão traduzidos durante o tempo.
+
+### RIVE
+
+Os arquivos rive têm o mesmo propósito dos arquivos AIML mas são mais simples de trabalhar. A versão que está em rive-pt-br-alice é a mesma da aiml-pt-br-alice mas no formato rive, que veio do repositório da rivesscript:
+
+* https://github.com/aichaos/alice-benchmarks
+
+O trabalho inicial de tradução será feito em cima destes arquivos .rive. Utilizando google translate para traduzir todos os arquivos, agora é necessário o trabalho de ler um a um, validar e realizar ajustes. Veja abaixo os status de conversão:
+
+#### Validado
 
 Nenhum
 
-### A traduzir
+#### A validar
 
-* ai.aiml
-* alice.aiml
-* astrology.aiml
-* atomic.aiml
-* badanswer.aiml
-* biography.aiml
-* bot_profile.aiml
-* bot.aiml
-* client_profile.aiml
-* client.aiml
-* computers.aiml
-* continuation.aiml
-* date.aiml
-* default.aiml
-* drugs.aiml
-* emotion.aiml
-* food.aiml
-* geography.aiml
-* gossip.aiml
-* history.aiml
-* humor.aiml
-* imponderables.aiml
-* inquiry.aiml
-* interjection.aiml
-* iu.aiml
+* ai.rive
+* alice.rive
+* astrology.rive
+* atomic.rive
+* badanswer.rive
+* biography.rive
+* bot_profile.rive
+* bot.rive
+* client_profile.rive
+* client.rive
+* computers.rive
+* continuation.rive
+* date.rive
+* default.rive
+* drugs.rive
+* emotion.rive
+* food.rive
+* geography.rive
+* gossip.rive
+* history.rive
+* humor.rive
+* imponderables.rive
+* inquiry.rive
+* interjection.rive
+* iu.rive
 * junktest.text
-* knowledge.aiml
-* literature.aiml
-* loebner10.aiml
-* money.aiml
-* movies.aiml
-* mp0.aiml
-* mp1.aiml
-* mp2.aiml
-* mp3.aiml
-* mp4.aiml
-* mp5.aiml
-* mp6.aiml
-* music.aiml
-* numbers.aiml
-* personality.aiml
-* phone.aiml
-* pickup.aiml
-* politics.aiml
-* primeminister.aiml
-* primitive-math.aiml
-* psychology.aiml
-* pyschology.aiml
-* reduction.names.aiml
-* reduction0.safe.aiml
-* reduction1.safe.aiml
-* reduction2.safe.aiml
-* reduction3.safe.aiml
-* reduction4.safe.aiml
-* reductions-update.aiml
-* religion.aiml
-* salutations.aiml
-* science.aiml
-* sex.aiml
-* sports.aiml
-* stack.aiml
-* stories.aiml
-* that.aiml
-* update_mccormick.aiml
-* update1.aiml
-* wallace.aiml
-* xfind.aiml
+* knowledge.rive
+* literature.rive
+* loebner10.rive
+* money.rive
+* movies.rive
+* mp0.rive
+* mp1.rive
+* mp2.rive
+* mp3.rive
+* mp4.rive
+* mp5.rive
+* mp6.rive
+* music.rive
+* numbers.rive
+* personality.rive
+* phone.rive
+* pickup.rive
+* politics.rive
+* primeminister.rive
+* primitive-math.rive
+* psychology.rive
+* pyschology.rive
+* reduction.names.rive
+* reduction0.safe.rive
+* reduction1.safe.rive
+* reduction2.safe.rive
+* reduction3.safe.rive
+* reduction4.safe.rive
+* reductions-update.rive
+* religion.rive
+* salutations.rive
+* science.rive
+* sex.rive
+* sports.rive
+* stack.rive
+* stories.rive
+* that.rive
+* update_mccormick.rive
+* update1.rive
+* wallace.rive
+* xfind.rive
 
 ## Cybora
 

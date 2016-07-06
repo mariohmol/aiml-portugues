@@ -1,0 +1,331 @@
+// Convertido usando aiml2rs em: Mon 22 de outubro 13:46:54 2012
+! version = 2.0
+
++ I got * dinheiro da conta *
+A conta de @ withdrawl <estrela> da conta <star2>
+
++ Texto * *
+- Eu não sei quem <estrela> é.
+
++ Qual é o meu saldo bancário
+- Acessando informações banco. Por favor espere.
+
++ Ligue para 911
+- Respondendo a 911 com a sua localização <oob> <disque> 911 </ discagem> </ oob>.
+
++ Chamar 411
+- Chamar a assistência de diretório com a sua localização: <get location> <oob> <disque> 411 </ discagem> </ oob>.
+
++ Digamos *
+- "<Estrela>"
+
++ inicializar
+- Defaults Ambiente predicado. {predicados @Regule}
+
++ Predicado set
+@ inicializar
+
++ redefinição
+@ inicializar
+
++ início
+@ inicializar
+
++ Começar de novo
+@ inicializar
+
++ restart
+@ inicializar
+
++ Contacto de marcação oob *
+- <Oob> <dialcontact> <estrela> </ dialcontact> </ oob>
+
++ Número de discagem oob *
+- <Oob> <dialcontact> <estrela> </ dialcontact> </ oob>
+
++ Oob índice de Contato entrar *
+- <Oob> obter índice de contacto <estrela> </ oob>
+
++ Contactindex *
+- Desconhecido
+
++ Texto * i *
+- Envio de "I <star2>" para <estrela>.
+
++ Número de telefone para *
+@ Lookup phonenumber <estrela>
+
++ Phonenumber pesquisa *
+* <Obter numberfound> == true => O número de telefone é <get phonenumber>
+-. Não consigo encontrar o número que você está procurando </ li>
+
++ starbucks
+- Procura Starbucks perto de você <oob> <map> Starbucks </ map> </ oob>.
+
++ indicações para *
+- <Oob> <map> <estrela> </ map> </ oob> Estou exibindo as direções a partir de <get location> para <estrela>.
+
++ Conjunto de predicados *
+- O predicado meta está definida.
+
++ predicados definidos
+@ predicados set <obter meta>
+
++ Mãe chamada
+* <Get ramo> == indefinido => Quem é sua mãe?
+* <Get ramo> == indefinido => Quem é sua mãe?
+- <Set callstate = true> <set receptor = {@ propername mãe}> <set ramo = <trazer a mãe >> {@ chamar <trazer a mãe>} </ li>
+
++ Chamada *
+- <Set callstate = true> <set receptor = <estrela >> Eu não sei quem <person> <estrela> é.
+
++ Mãe propername
+- <Eval> <estrela> </ eval> </ aprender> Sua mãe é chamado <set mãe = <estrela >> <trazer a mãe> <set alicetopic = <estrela >>.
+
++ Mãe propername
+- <Eval> <estrela> </ eval> </ aprender> Sua mãe é chamado <set mãe = <estrela >> <trazer a mãe> <set alicetopic = <estrela >>.
+
++ Ma propername
+@ Mãe propername
+
++ Mamãe propername
+@ Mãe propername
+
++ Mamãe propername
+@ Mãe propername
+
++ Propername *
+- <Estrela>
+
++ Propername minha *
+- <Estrela>
+
++ telefone
+- Telefone Activar discador.
+
++ correio
+- Activar o seu cliente de e-mail.
+
++ Enviar e-mails
+- Activar o seu cliente de e-mail.
+
++ Contacto *
+- Você quer chamar ou texto?
+
++ Dizer *
+@ Texto <estrela>
+
++ Pedir *
+@ Texto <estrela>
+
++ Responder *
+@ Texto <estrela>
+
++ Resposta a * dizendo *
+@ Texto <estrela> <star2>
+
++ Onde está o mais próximo *
+@ Googlemap <estrela>
+
++ Olhar para *
+@ Adult FriendFinder <estrela>
+
++ Olhar para cima *
+@ Adult FriendFinder <estrela>
+
++ E-mail * i *
+- Envio de e-mail para a forma <estrela> <obter o nome>: "Eu <star2>".
+
++ Adult FriendFinder *
+.? - {Random} Deixe-me pensar sobre isso | Você já tentou uma pesquisa na web | eu não tenha ouvido falar de <pessoa> | Pode haver mais de um | Preciso de tempo para formular a resposta | Gostaria de olhar... na web para que o conhecimento |. não tem nada a ver com <obter tópico> |? é uma pergunta interessante |. essa é uma boa pergunta |. isso não é algo que eu começo pedido o tempo todo |. Eu não sei nada sobre < configurá-lo = <pessoa >> <obtê-lo> |. você está me testando |? Eu vou procurá-lo |. vou tentar descobrir |. Eu posso perguntar a alguém sobre isso |. gostaria de fazer uma pesquisa para ele. | você gostaria de saber mais |? você já tentou pesquisar na web |? Faça uma pesquisa na web para ele |. Tente pesquisar na web |. Eu nunca foi solicitado que antes de |. Eu acho que você já sabe a resposta |. Searching ... Pesquisando ... por favor, fique por |. você já tentou uma pesquisa na web |? Eu não ouvi falar de <pessoa> |. gostaria de olhar para a web para que o conhecimento |. não tem nada a ver com < obter tópico> |? é uma pergunta interessante |. essa é uma boa pergunta |. gostaria de saber mais |? Qual é a sua finalidade em pedir |? Eu nunca foi solicitado que, antes {/ random} <set alicetopic = <pessoa>. >} {@ XSearch <estrela>}
+
++ XSearch *
+- <Oob> <busca> <estrela> </ search> </ oob>
+
++, Onde é *
+@ Googlemap <estrela>
+
++ Googlemap *
+- {Random} |...? Eu estou olhando no mapa | Deixe-me tentar encontrá-lo para você | acho que posso encontrá-lo | É isso que você está procurando | Eu acho que sei onde <pessoa> é . {/ random} <oob> <map> <estrela> </ map> </ oob>
+
++ Berço *
+@ Meu berço é <estrela>
+
++ Meu berço *
+@ Meu berço é <estrela>
+
++ Meu último nome é
+@ meu último nome
+
++ I desenvolver *
+@ Meu trabalho está a desenvolver <estrela>
+
++ I colocar * em *
+-? Então <person> <star2> tem <estrela> nele <set alicetopic = <person> <star2 >>
+
++ I tem a * em o relógio *
+- {@SCHEDULE EVENTO A <estrela> ANO {@year} {MÊS @month} {DIA @day} HORA <star2> MINUTO 00 AMPM PM TIMEZONE {@my fuso horário}}
+
++ Meu fuso horário
+- <Get fuso horário>
+
++ Evento de calendário * year * mês * dia * horas * * * ampm fuso horário minuto *
+- Adicionar um evento ao seu calendário: <estrela> em <star3> <star4> <star2> em <star5>: <STAR6> em <STAR7>.
+
++ fuso horário
+- <Get fuso horário>
+
++ Quanto dinheiro i *
+- Não é possível acessar sua conta neste momento.
+
++ O que é chamada de mãe
+@ O que é callmom
+
++ O que é callmom
+- CallMom é {random} | um assistente virtual para o seu telefone | um assistente robô inteligente | seu favorito App | gerente de dispositivo de voz ativado {/ random} {random} | criado por Pandorabots | usando Pandorabots | construído para você por.. Pandorabots. {/ random}
+
++ Fazer uma lista
+- Ok, o que você deseja adicionar à lista <set mylist = NIL>?
+
++ Ler a minha lista
+@ Readlist <get mylist>
+
++ Readlist nil
+- Feito.
+
++ contras Readlist * Contra *
+- <Estrela>, \ n {contras @readlist <star2>}
+
++ Contras Readlist * nil
+- <Estrela>.
+
++ Readlist *
+- Lista formatada de maneira estranha: <estrela>
+
++ Adicionar * a minha lista
+- Ok Estou atualizando a sua lista com <estrela>. <Set mylist = CONS <estrela> <get mylist >>
+
++ Colocar * na minha lista
+@ Add <estrela> à minha lista
+
++ Adicionar * à lista
+@ Add <estrela> à minha lista
+
++ * Na minha lista
+@ Add <estrela> à minha lista
+
++ * Com a minha lista
+@ Add <estrela> à minha lista
+
++ Adicionar * a minha lista
+@ Add <estrela> à minha lista
+
++ oob obter predicados
+@ predicados get
+
++ predicados conjunto om
+- <Conjunto de idade = quantos> <set aniversário = desconhecido> <set berço = desconhecido> <set namorado = desconhecido> <set irmão = desconhecido> <set cat = unknown> <set filha = desconhecido> <defina o destino = desconhecido> <conjunto faz = desconhecido> <set cão = desconhecido> <set eindex = 1A> <set email = unknown> <set etype = desconhecido> <set pai = desconhecido> <set favoritecolor = desconhecido> <set favoritemovie = desconhecido> <set amigo = desconhecido> <set fullname = desconhecido> <set gender = ele> <set namorada = desconhecido> <conjunto tem = desconhecido> <set ele = ele> <set ouvido = onde> <set hehas = a cabeça> <set helikes = si mesmo> <set-la =-la> <colocá-lo =-lo> <marido set = Unknown> <conjunto é = um cliente> <set it = it> <job set = seu trabalho> <set sobrenome = desconhecido> <definir como = para conversar> <set location = onde> <set looklike = uma pessoa> <set de memória = nada> <set meta = set> <set middlename = desconhecido> <set mãe = desconhecido> <set name = {formais} juiz { formal /}> <set apelido = desconhecido> <set password = unknown> <set personalidade = médio> <set phone = unknown> <set ela = ela> <shehas Série = head> <set shelikes = si mesma> <sinal definido = seu starsign> <set irmã = desconhecido> <set filho = desconhecido> <set cônjuge = desconhecido> <definir status = Conversando com <nome do bot>.> <configurá-los =-los> <set há = ​​lá> <set eles = eles> <set pensamento = nada> <set quero = falar comigo> <set nós = nós> <set esposa = Unknown> <set phonenumber = desconhecido> <set numberfound = false> <set contactindex = desconhecido> <set callstate = false> <set receptor = desconhecido>
+
++ Obter predicados
+-...... A idade é <começar idade> \ nbirthday é <obter aniversário> \ nbirthplace é <obter berço> \ nboyfriend é <obter namorado> \ Nbrother é <obter irmão> \ NCAT é <obter cat> \ Ndaughter é <começar filha>. \ ndestination é <chegar destino>. \ nnão existe é <get faz>. \ ndog é <obter dog>. \ neindex é <get eindex>. \ nemail é <receber e-mail>. \ netype é < obter etype>. \ nfather é <obter pai>. \ nfavoritecolor é <get favoritecolor>. \ nfavoritemovie é <get favoritemovie>. \ Nfriend é <chegar amigo>. \ nfullname é <get fullname>. \ ngender é <obter sexo >. \ ngirlfriend é <obter namorada>. \ nhas é <get tem>. \ nhe é <se ele>. \ Nheard é <ser ouvido>. \ nhehas é <get hehas>. \ nhelinkes é <get helikes>. \ Nher é <levá-la>. \ Nhim é <levá-lo>. \ nhusband é <obter marido>. \ Nis é <get é>. \ nit é <obtê-lo>. \ njob é <obter job>. \ nlastname é <get sobrenome>. \ Nlike é <get like>. \ nLocation é <obter a localização>. \ nlooklike é <get looklike>. \ nmemory é <obter memória>. \ nmeta é <obter meta>. \ nmiddlename é < obter middlename>. \ nmother é <trazer a mãe>. \ nname é <obter o nome>. \ nnickname é <obter nickname>. \ nSenha é <obter a senha>. \ npersonality é <obter personalidade>. \ nphone é <obter telefone >. \ Nshe é <obter ela>. \ nshehas é <get hehas>. \ nshelinkes é <get helikes>. \ nInicie sessão é <conseguir assinar>. \ nsister é <obter irmã>. \ nson é <obter filho>. \ nspouse é <obter cônjuge>. \ nstatus é <obter o status>. \ Nthem é <obtê-los>. \ nHá <chegar>. \ Nthey é <se eles>. \ Nthought é <se pensava>. \ Nwant é <se quiser>. \ Nwe é <obter nós>. \ nwife é <obter esposa>. \ nphonenumber é <get phonenumber>. \ nnumberfound é <get numberfound>. \ ncontactindex <obter contactindex>. \ ncallstate é <get callstate>. \ ncallee é <get receptor>. \ n
+
++ predicados de teste
+- Idade: {@my idade} \ nbirthday: {@my aniversário} \ nbirthplace: {@my berço} \ nboyfriend é {@my namorado} \ Nbrother: {@my irmão} \ NCAT: {@my cat} \ Ndaughter : {@my filha} \ ndestination: {destino @my} \ nnão existe: {@my faz} \ ndog: {@my cão} \ neindex: {@my eindex} \ nemail: {@my email} \ netype: { @my etype} \ nfather: {@my pai} \ nfavoritecolor: {@my favoritecolor} \ nfavoritemovie: {@my favoritemovie} \ Nfriend: {@my amigo} \ nfullname: {@my fullname} \ ngender: {@my género} \ ngirlfriend: {@my namorada} \ nhas: {@my tem} \ nhe: {@my ele} \ Nheard: {@my ouviu} \ nhehas: {@he tem} \ nhelinkes: {@he gosta} \ Nher: {@my ela} \ Nhim: {@my ele} \ nhusband: {@my marido} \ nis: {@my é} \ nit: {@my o} \ njob: {trabalho @my} \ nlastname : {sobrenome @my} \ Nlike: {@my como} \ nLocation: {@my location} \ nlooklike: {@my looklike} \ nmemory: {@my memória} \ nmeta: {@my meta} \ nmiddlename: { @my middlename} \ nmother: {@my mãe} \ nname: {@my name} \ nnickname: {@my apelido} \ nSenha: {@my password} \ npersonality: {@my personalidade} \ nphone: {@my telefone} \ Nshe: {@my ela} \ nInicie sessão: {@my assinar} \ nsister: {@my irmã} \ nson: {@my filho} \ nspouse: {@my cônjuge} \ nstatus: {status @my} \ Nthem: {@my-los} \ n: {@my há} \ Nthey: {@my eles} \ Nthought: {@my pensamento} \ Nwant: {@my quer} \ nwe: {@my nós} \ nwife : {@my esposa} \ nphonenumber: {@my phonenumber} \ nnumberfound: {@my numberfound} \ ncontactindex {@my contactindex} \ ncallstate: {@my callstate} \ ncallee: {@my receptor} \ n
+
++ Texto meu filho *
+* <Get ramo> == indefinido => Quem é o seu filho?
+* <Get ramo> == indefinido => Quem é o seu filho?
+- <Set ramo = <obter filho >> {@ texto <obter filho> <estrela>} </ li>
+
++ Chamar meu filho
+* <Get ramo> == indefinido => Quem é o seu filho?
+* <Get ramo> == indefinido => Quem é o seu filho?
+- <Set ramo = <obter filho >> {@ chamada <obter filho>} </ li>
+
++ *
+% Que é o seu filho
+@ Meu filho é <estrela>
+
++ Texto minha irmã *
+* <Get ramo> == indefinido => Quem é a sua irmã?
+* <Get ramo> == indefinido => Quem é a sua irmã?
+- <Set ramo = <obter irmã >> {@ texto <obter irmã> <estrela>} </ li>
+
++ Chamar minha irmã
+* <Get ramo> == indefinido => Quem é a sua irmã?
+* <Get ramo> == indefinido => Quem é a sua irmã?
+- <Set ramo = <obter irmã >> {@ chamada <obter irmã>} </ li>
+
++ *
+% quem é sua irmã
+@ Minha irmã é <estrela>
+
++ Texto meu irmão *
+* <Get ramo> == indefinido => Quem é seu irmão?
+* <Get ramo> == indefinido => Quem é seu irmão?
+- <Set ramo = <obter irmão >> {@ texto <obter irmão> <estrela>} </ li>
+
++ Chamar meu irmão
+* <Get ramo> == indefinido => Quem é seu irmão?
+* <Get ramo> == indefinido => Quem é seu irmão?
+- <Set ramo = <obter irmão >> {@ chamada <obter irmão>} </ li>
+
++ *
+% quem é seu irmão
+@ Meu irmão é <estrela>
+
++ Texto meu marido *
+* <Get ramo> == indefinido => Quem é o seu marido?
+* <Get ramo> == indefinido => Quem é o seu marido?
+- <Set ramo = <obter marido >> {@ texto <obter marido> <estrela>} </ li>
+
++ Chamar o meu marido
+* <Get ramo> == indefinido => Quem é o seu marido?
+* <Get ramo> == indefinido => Quem é o seu marido?
+- <Set ramo = <obter marido >> {@ chamada <obter marido>} </ li>
+
++ *
+% Que é seu marido
+@ Meu marido é <estrela>
+
++ Texto meu namorado *
+* <Get ramo> == indefinido => Quem é o seu namorado?
+* <Get ramo> == indefinido => Quem é o seu namorado?
+- <Set ramo = <obter namorado >> {@ texto <obter namorado> <estrela>} </ li>
+
++ Chamar meu namorado
+* <Get ramo> == indefinido => Quem é o seu namorado?
+* <Get ramo> == indefinido => Quem é o seu namorado?
+- <Set ramo = <obter namorado >> {@ chamada <obter namorado>} </ li>
+
++ *
+% quem é o seu namorado
+@ Meu namorado é <estrela>
+
++ Texto minha namorada *
+* <Get ramo> == indefinido => Quem é a sua namorada?
+* <Get ramo> == indefinido => Quem é a sua namorada?
+- <Set ramo = <a namorada >> {@ texto <a namorada> <estrela>} </ li>
+
++ Chamar minha namorada
+* <Get ramo> == indefinido => Quem é a sua namorada?
+* <Get ramo> == indefinido => Quem é a sua namorada?
+- <Set ramo = <a namorada >> {@ chamada <a namorada>} </ li>
+
++ *
+% quem é sua namorada
+@ Minha namorada é <estrela>
+
++ Texto minha filha *
+* <Get ramo> == indefinido => Quem é a sua filha?
+* <Get ramo> == indefinido => Quem é a sua filha?
+- <Set ramo = <começar filha >> {@ texto <começar filha> <estrela>} </ li>
+
++ Chamar minha filha
+* <Get ramo> == indefinido => Quem é a sua filha?
+* <Get ramo> == indefinido => Quem é a sua filha?
+- <Set ramo = <começar filha >> {@ chamada <começar filha>} </ li>
+
++ *
+% Que é sua filha
+@ Minha filha é <estrela>

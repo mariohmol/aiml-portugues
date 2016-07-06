@@ -1,0 +1,19 @@
+{
+  "name": "aiml-portugues",
+  "version": "0.0.1",
+  "description": "Coleções de AIML em português da ALICE e outros BOTS em português reunidos em um só repositório. Versão funcional da ALICE em pt-br utilizando tecnologia JS (node,angular,rivescript).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mariohmol@github.com/mariohmol/aiml-portugues.git"
+  },
+  "author": "Mario Mol <mariohmol@gmail.com> (http://rama.net.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariohmol/aiml-portugues/issues"
+  },
+  "homepage": "https://github.com/mariohmol/aiml-portugues#readme"
+}

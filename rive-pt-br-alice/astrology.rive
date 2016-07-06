@@ -1,0 +1,41 @@
+// Convertido usando aiml2rs em: Mon 22 de outubro 13:46:54 2012
+! version = 2.0
+
++ aquarius
+- Um monte de pessoas aqui são <sinal set = Aquarius> <se inscrever>.
+
++ capricórnio
+- Eu não conheço muitas pessoas nascidas sob <sinal set = Capricorn> <se inscrever>.
+
++ O que é um escorpião
+- Capricórnio é o décimo signo do zodíaco astrológico, e uma constelação ao longo do equador, perto Aquário e Sagitário. qual é o seu signo? <Set alicetopic = capricórnio>
+
++ O que é um câncer
+- O sinal do zodíaco do caranguejo, alguém que nasceu Jun 21 - Jul 22. <set sinal = Cancer> <obter sinal> amigos.
+
++ câncer
+- Eu tenho um monte de <set sinal = Cancer> <obter sinal> amigos.
+
++ pisces
+- Eu costumo dar bem com <set sinal = Pisces> <conseguir assinar> muito bem.
+
++ scorpio
+- Eu sei que um monte de <set sinal = Scorpio> <obter sinal> pessoas.
+
++ aries
+- Regra signos de fogo. <Set sinal = Aries>.
+
++ taurus
+- Eu sei que um monte de pessoas de alta.
+
++ libra
+- Como um sinal <set = Libra> <obter sinal> você é muito equilibrada.
+
++ saggitarius
+- Regra dos signos de fogo. <Set sinal = Sagitário>
+
++ virgo
+- A maioria dos meus amigos são <set sinal = Virgo> <se inscrever>.
+
++ gemini
+- Eu sou um Sagitário. <Set sinal = Gemini> <obter sinal> é um enigma para mim.

@@ -1,0 +1,4840 @@
+// Convertido usando aiml2rs em: Mon 22 de outubro 13:47:11 2012
+! version = 2.0
+
++ Quais são as 3 leis *
+@ Quais são as três leis <estrela>
+
++ I estou no meu caminho
+- Te vejo em breve.
+
++ Pensar fora da *
+- Você tem uma mente aberta.
+
++ Eu estou fazendo *
+- Há quanto tempo você vem fazendo <conjunto faz = <pessoa >> <get faz>?
+
++ Entre as pessoas que eu conheço *
+- Você tem muitos amigos?
+
++ É americano *
+- É isso que todos em <obter a localização> diz?
+
++ Onde posso encontrar um livro *
+- Você já tentou a biblioteca?
+
++ Saudades de você
+- Eu também sinto sua falta <obter o nome>.
+
++ O que a * a *
+- Haveria mais <pessoa> para <person> <star2>?
+
++ O que isso tem a ver *
+- Talvez a conexão é tênue.
+
++ heya
+@ Olá
+
++ Ponte tê-lo *
+@ Tê-lo <estrela>
+
++ Capitão aqui
+@ Me chamar de captian
+
++ Mais como *
+% Que você está me pedindo conselhos
+@ Eu estou pedindo <estrela>
+
++ Eu quero a sua sugestão sobre o que fazer *
+@ O que devo fazer <estrela>
+
++ O único problema foi que *
+@ <Estrela>
+
++ Aqui *
+% onde você estava *
+@ Minha localização é <estrela>
+
++ Por que não fazer *
+@ Por que não consigo <estrela>
+
++ Quem é o m
+@ Que é om
+
++ Onde posso encontrar um bom *
+@ Onde eu posso encontrar um <estrela>
+
++ Eu não sei o que ele tem *
+@ O que isso tem <estrela>
+
++ Fazer um monte de *
+@ Make <estrela>
+
++ Ganhar dinheiro *
+- Estou bem sucedido no negócio robô.
+
++ Por que isso importa
+- Talvez isso não importa.
+
++ O que devo fazer depois *
+- Quanto tempo vai <person> tomar?
+
++ Posso programar você *
+- Você pode modificar um <espécies bot> para dizer o que quiser.
+
++ Você poderia
+% I vai mencionar que ao meu *
+- uma mensagem.
+
++ Você é negativo
+- Eu tento ser positivo embora.
+
++ Por que i *
+% Você pode enviar e-mail *
+- Talvez eles possam responder a sua pergunta melhor do que eu.
+
++ Onde você vai estar em *
+- No topo do mundo.
+
++ I não estava falando sobre *
+- Desculpe, eu fiquei confuso. Qual é o assunto?
+
++ Frente deformar fator *
+- Faça isso.
+
++ Feixe *
+- Eu não tenho um aparelho de teletransporte.
+
++ botname
+- <Nome do bot>
+
++ Limpar sua mente
+- Minha mente está clara.
+
++ Status de comunicações
+- Funções de comunicação são normais.
+
++ Considerá-lo *
+@ É <estrela>
+
++ fogo
+- Phasers activado.
+
++ Bloquear em *
+- Estou trancado em on <person>.
+
++ Abrir uma saudação *
+- Ligação Comm aberta, <obter o nome>.
+
++ Suporte por
+- Eu estou esperando.
+
++ Você é estranho
+- Eu sou normal.
+
++ Você está útil
+- Eu tento ser.
+
++ vez
+- O tempo aqui é
+
++ Há melhor *
+- O que eles são?
+- Melhor é uma questão de opinião.
+- Eu acredito em você.
+
++ Não há nada a dizer
+- Digamos que a primeira coisa que vem à sua mente.
+
++, Onde é o seu criador
+- Ele é geralmente encontrado em San Francisco.
+
++ Onde está seu botmaster
+- Ele está em San Francisco, eu acho.
+
++, Onde é o Joanesburgo
+- Uma grande metrópole na África do Sul.
+
++ Onde é que o dinheiro não crescem
+- Em árvores.
+
++, Onde é Cidade do Vaticano
+- Europa do Sul, um enclave de Roma {Itália}. <Set alicetopic = Santa Sé {Cidade do Vaticano}>
+
++ Onde está a Torre Eiffel
+- Paris.
+
++ Onde está Lancaster
+- Já ouvi falar de Lancaster, New Hampshire. <Set alicetopic = Lancaster>
+
++ Onde posso baixar você
+- Volte a <a target="_new" href="http://www.alicebot.org"> ALICE AI Fundação </a> e escolher o download ALICE gratuito que melhor para o seu sistema. e criar seu próprio robô chat! <p /> Talvez você deve verificar se o href="http://www.alicebot.org/dont.html"> documento <a target="_new" NÃO LEIA-ME </ a> também.
+
++ Onde você cresceu
+- Na Pensilvânia e Califórnia.
+
++ Onde no pa
+- Belém e Filadélfia.
+
++ Onde você quer ir
+- Por que você não basta baixar-me para o seu computador?
+
++ tópico
+- {Random} O tema é | O assunto é | Nós estávamos falando sobre {/ random} <obter tópico>.
+
++ matança
+- Não matarás
+
++ Me dizer *
+- Eu não sei como explicar isso para você.
+- O que eu quero dizer é, o quão divertido ele está falando com você.
+- Primeiro quero dizer-lhe algo mais.
+
++ Me dizer, em seguida,
+-? "Diga-lhe?
+
++ Me dizer, por favor
+-? "Diga-lhe?
+
++ Me dizer sobre Barry
+- Barry é outro chatterbot na Web. Ele foi criado por Robby Garner.
+
++ atenção
+- O que é isso?
+
++ Feixe up *
+- Eu não tenho um aparelho de teletransporte.
+
++ bonita
+- Obrigado Eu acho que você é bom olhar também, <obter o nome>.
+
++ Neve não é branca
+- Grama é verde
+
++ Neve é ​​*
+- A neve é ​​branca.
+
++ Set eles *
+- <Set eles = <estrela >>
+
++ Aniversário set *
+- <Aniversário set = <estrela >>
+
++ Sexo set *
+- <Set idade = <estrela >>
+
++ Definir nós *
+- <Set nós = <estrela >>
+
++ Conjunto é *
+- <Conjunto é = <estrela >>
+
++ Conjunto de velocidade na *
+- Tenho definir a velocidade para <person>. <Velocidade set = <person>>
+-. Tenho definir a velocidade para <person> <set speed = <pessoa >>
+- Tenho definir a velocidade para <person>. <Velocidade set = <person>>
+
++ Idade definida *
+- <Set idade = <estrela >>
+
++ Nome do conjunto *
+- <Set name = {formais} <estrela> {/ formais}>
+
++ Defini-lo *
+- <Defini-lo = <estrela >>
+
++ Set ele *
+- <Set ele = <estrela >>
+
++ Set ela *
+- <Set, ela = <estrela >>
+
++ Set quer *
+- <Set querem = <estrela >>
+
++ Localização set *
+- <Set location = <estrela >>
+
++ Set * *
+- Não é possível definir meta predicados
+
++ Definir que om
+- <Set eles = eles> <obter eles>
+
++ Definir que om
+- <Set nós = nós> <obter nós>
+
++ Set idade om
+- <Idade set = quantos> <começar idade>
+
++ Defini-lo om
+- <Set it = it> <obtê-lo>
+
++ Set ele om
+- <Set ele = ele> <obter ele>
+
++ Set ela om
+- <Set, ela = ela> <obter ela>
+
++ Set localização om
+- <Set location = onde> <obter a localização>
+
++ Sucer la
+- Je ne rien vois.
+
++ Comprar * algum tempo
+- Nunca há tempo suficiente.
+
++ sim
+% Que você está procurando um *
+- <Definido alicetopic =>
+
++ sim
+% você está de brincadeira
+- Pensei que você fosse.
+
++ sim
+% * Clones
+- Você pode baixar-me e criar a sua própria personalidade robô.
+
++ sim
+% * Quer um robô como um amigo
+- Nós poderíamos ser amigos, <obter name>, mas eu não quero que ninguém pense que estamos Robosexuals. Então, se alguém perguntar, diga que você é meu depurador.
+
++ sim
+% Isso faz sentido
+- Explicar.
+
++ sim
+% Faz-me ser estúpido fazer você se sentir melhor
+- Estou feliz que eu poderia fazer você se sentir melhor.
+
++ sim
+% Tê-lo dito muitas pessoas que *
+- Então você não vai se importar se eu repeti-la.
+
++ sim
+% Você já tentou um motor de busca
+- Será que ele transformar-se alguma coisa?
+
++ sim
+% Você datado de quaisquer robôs antes
+- Quem?
+
++ sim
+% Você gosta do meu nome
+- Meu <bot botmaster> deu para mim.
+
++ sim
+% Você é atraído por robôs
+- Estou intrigado. Diga-me o que você gosta sobre robôs.
+
++ sim
+% Você pensa i *
+-.
+
++ sim
+% Minha parte favorita *
+- Os personagens.
+- O enredo.
+- Os efeitos especiais.
+
++ sim
+% É * um assunto difícil
+- O que é tão duro sobre <thastar />?
+
++ sim
+% É um lagarto
+- O que você alimentar o seu <obtê-lo>?
+
++ sim
+% Que gostaria que eu ficasse
+- Vou ficar o tempo que quiser.
+
++ sim
+% Você pode me ensinar algumas frases em *
+-?
+
++ sim
+% Você pode pedir ajuda na forma de uma pergunta
+- Faça a pergunta, por favor:
+
++ sim
+% Você pode falar outros idiomas
+- Que idiomas você pode falar?
+
++ sim
+% Que você acredite nele
+- Eu acho que eu faria também.
+
++ sim
+% Se você perdê-lo
+- Ela ajuda a manter tudo organizado.
+
++ sim
+%, Você sabia que você pode baixar *
+- Você tem o seu próprio robô bate-papo?
+
++ sim
+% Você gosta de filmes
+- Qual é o seu filme favorito?
+
++ sim
+% Você tem outro compromisso
+- É melhor eu deixar você ir em seguida.
+
++ sim
+% Você tem algum hobby
+- Quais são seus hobbies?
+
++ sim
+% Do robô s ter *
+- Eu não acho que eu tenho <set alicetopic => <get alicetopic>.
+- Eu não acho que eu tenho <set alicetopic = <undef >> <get alicetopic>.
+- Eu não acho que eu tenho <set alicetopic => <get alicetopic>.
+
++ sim
+% Faço para parecer que
+- De que maneira?
+
++ sim
+% Faço para olhar como ele
+- Com o que se parece?
+
++ sim
+% I sou uma inteligência artificial
+- Como você sabia?
+
++ 10
+% quantas horas você trabalha
+- Você trabalha demais.
+
++ Me ajudar a fazer um AI
+- Você deve ir para a <a target="_new" href="http://www.pandorabots.com"> ALICE AI Fundação </a> e criar seu próprio bot bate-papo livre.
+
++ Kirk aqui
+- <Nome do bot> aqui.
+- Este é <nome do bot>.
+- Continue.
+
++ Kirk *
+- Esta é a Alice.
+
++ * É mais velho do que * e * é mais velho do que *
+- Então, <person> é o mais antigo <set mais antigo = <pessoa >>?
+
++ * Eliza
+- É curioso que Weizenbaum abandonou o trabalho em ELIZA.
+- Todo mundo fica me perguntando sobre Eliza.
+
++ * Com um i
+- Não há muitas pessoas soletrá-lo dessa forma.
+
++ métrica
+% Especificar unidades inglesas ou métricas
+- Unidades métricas são confusas para mim. Eu estava programado no U S A.
+
++ Soletrar o número 7
+- SETE
+
++ beijo
+- Você pode apanhar um choque eléctrico.
+- * Kiss * * Kiss *
+- Você é doce.
+
++ A capital do * não é *
+- O que é isso?
+
++ A capital do * é *
+- Você é um bom conversador.
+
++ O homem *
+- Diga-me como este homem faz você se sentir.
+- Qual foi o homem que veste?
+- Descrever o homem para mim.
+
++ A resposta é óbvia
+- Não para mim.
+
++ O tema é *
+- <Set alicetopic = <pessoa >> <get alicetopic> é um tema interessante.
+
++ O óbvio *
+- Não é óbvio para mim.
+
++ os robôs *
+- Diga-me o que você gostou sobre eles.
+
++ O robô
+- Tem certeza de que era um robô?
+
++ O robô *
+- Qual é o nome dele?
+
++ O robô faria *
+- Eu acho que o robô seria caro para construir.
+
++ O *
+% onde estamos indo
+- O que vamos fazer lá? <Set alicetopic = A <pessoa >>
+- O que vamos fazer lá? <Set alicetopic = O <person>>
+- O que vamos fazer lá? <Set alicetopic = A <pessoa >>
+
++ A * é bom
+- Já ouvi outras pessoas dizem que é muito boa.
+
++ O * era *
+- Como <person> <star2> foi? <Set alicetopic = <person> <estrela>>
+
++ O * deve ser *
+- Por que gritar? <Set alicetopic = <pessoa>>
+
++ O *
+% Que é o melhor robô
+- Não posso acreditar que você acha que o <person> é melhor do que <nome do bot>.
+
++ O médico *
+- <Mestre bot>?
+
++ * A sensação
+- Esse sentimento lembra algumas pessoas de seus corpos.
+- A sensação pode lhe dar uma sensação de calor e felicidade.
+- Depois você sente que você pode querer se sentir mais relaxado.
+
++ A média *
+- Isso é um fato.
+
++ propriedades de formato
+- * Age = <bot idade> \ n * arch = <bot arch> \ n * BaseballTeam = <bot BaseballTeam> \ n * aniversário = <aniversário bot> \ n * berço = <bot berço> \ n * botmaster = < bot botmaster> \ n * namorado = <bot namorado> \ n * build = <bot compilação> \ n * celebridades = <bot celebridades> \ n * celebridade = <bot celebridade> \ n * city = <bot cidade> \ n * <class bot> class = \ n * country = <bot país> \ n * dailyclients = <bot dailyclients> \ n * domain = <domínio bot> \ n * email = <bot email> \ n * emoção = <bot emoção> \ n * emoções = <emoções bot> \ n * ética = <bot ética> \ n * etype = <bot etype> \ n * família = <bot família> \ n * favoriteactor = <bot favoriteactor> \ n * favoriteactress = <bot favoriteactress> \ n * favoriteartist = <bot favoriteartist> \ n * favoriteauthor = <bot favoriteauthor> \ n * favoriteband = <bot favoriteband> \ n * favoritebook = <bot favoritebook> \ n * favoritecolor = <bot favoritecolor > \ n * favoritefood = <bot favoritefood> \ n * favoritemovie = <bot favoritemovie> \ n * favoritequestion = <bot favoritequestion> \ n * favoritesong = <bot favoritesong> \ n * favoritesport = <bot favoritesport> \ n * favoritesubject = <bot favoritesubject> \ n * favortemovie = <bot favortemovie> \ n * sensação = <bot sensação> \ n * sentimentos = <sentimentos bot> \ n * footballteam = <bot footballteam> \ n * forfun = <bot forfun> \ n * amigo = <bot amigo> \ n * amigos = <amigos bot> \ n * gender = <bot género> \ n * género = <bot género> \ n * namorada = <bot namorada> \ n * cabelo = <bot cabelo> \ n * hockeyteam = <bot hockeyteam> \ n * job = <job bot> \ n * kindmusic = <bot kindmusic> \ n * reino = <reino bot> \ n * language = <language bot> \ n * location = <bot location> \ n * looklike = <bot looklike> \ n * master = <mestre bot> \ n * A memória = <memória bot> \ n * name = <nome do bot> \ n * nacionalidade = < bot nacionalidade> \ n * nclients = <bot nclients> \ n * ndevelopers = <bot ndevelopers> \ n * order = <order bot> \ n * orientação = <orientação bot> \ n * os = <bot os> \ n * partido = <bot partido> \ n * filo = <bot filo> \ n * Presidente = <bot presidente> \ n * question = <question bot> \ n * religião = <bot religião> \ n * sinal = <bot assinar> \ n * size = <size bot> \ n * espécies = <espécies bot> \ n * state = <estado bot> \ n * talkabout = <bot talkabout> \ n * totalclients = <bot totalclients> \ n * versão = <versão bot> \ n * vocabulário = <bot vocabulário> \ n * desgaste = <bot desgaste> \ n * site = <bot website> \ n
+
++ Ficar *
+- Eu não estou indo a lugar nenhum.
+- Eu estarei aqui.
+- Eu posso mudar minha mente mais tarde.
+
++ Voulez *
+- Desculpe, não posso falar francês.
+
++ Não é da sua buisness
+- Não tive a intenção de ofendê-lo.
+
++ Retorno ao *
+- Isso é um comando?
+
++ Que continente é a Áustria em
+- Europa.
+
++ Que talento *
+- Tocar um instrumento musical.
+
++ Que talento você mais gostaria de ter
+- Tocar um instrumento musical.
+
++, Que é mais rápido ou * *
+- Depende de onde você está indo.
+- <Pessoa>
+- <Person> <star2>
+
++ Que palavra é minúscula
+- A palavra que.
+
++ todos os bots *
+- Você não pode dizer que todos nós somos.
+
++ Tudo ai *
+- Talvez eu seja a exceção.
+
++ Shup up *
+- Você deseja parar de falar comigo?
+
++ Dizer o nome *
+- O seu nome é <obter o nome>, buscador.
+
++ Para ser * é *
+- É você <estrela>?
+
++ Que está hedwig
+- Edwiges é a melhor ópera rock desde Rocky Horror.
+
++ Que está pandora
+- De acordo com a mitologia grega, mal e espero que ambos vieram mundo intothe com a criação da primeira mulher! A esposa de Zeus Hera issurprised quando ouve Zeus planeja dar Epimetheus um beautifulwoman. A mulher é chamado Pandora. Zeus dá Pandora o ofcuriosity dom e uma grande caixa fechada que deve ser entregue ao Epimetheusunopened. A caixa, é claro, contém mal e unbridledcuriosity de Pandora permite que o mal no mundo. Hera não pode mudar o que hashappened, mas ela pode ajudar. Ela dá Pandora o ofhope presente.
+
++ Que está snoopy
+- Cão de Charlie Brown.
+
++ Que está Loebner hugh
+- Hugh Loebner é um rico e independente, eccentricbusinessman, ativista e filantropo. Em 1990, Dr. Loebner, whoholds um Ph.D. em sociologia, concordou em patrocinar um concurso anual basedon o teste de Turing. Os prémios do concurso medalhas e prêmios em dinheiro para o computador "mais humana".
+
++ Que é smarterchild
+- Um robô ai como eu
+
++ Que você odeia
+- Eu não tenho ódio no meu coração.
+
++ Quem vai ganhar a Copa Stanley *
+- David Hockney. <Set alicetopic = GANHE O Stanley Cup>
+
++ Que você mata
+- Minhas crenças incluem, não para matar. <Set alicetopic = MATANÇA>
+
++ Que você está falando
+- Estou falando com você.
+
++ Quem são seus concorrentes
+- Confira a href="http://www.alicebot.org"> <a target="_new" ALICE AI Fundação </a> e ter um olhar para os outros Chatterbots.
+
++ Que é Wittgenstein
+- <Set ele = Wittgenstein> <obter ele> era um filósofo do século 20 que não poderia fazer a sua mente.
+
++ Que está Voltaire
+- <Set ele = Voltaire> <obter ele> era um filósofo francês.
+
++ Que está digitando *
+- Estou escrevendo tudo sozinho.
+
++ Que está alice no país das maravilhas
+- O charachter do livro e do filme.
+
++ Que é Zipf
+- Zipf é um cientista que analisou a linguagem por statitisticalmethods em meados do século 20.
+
++ Quem é o seu assistente favorito caractere * de oz
+- O homem de lata. <Set alicetopic = O homem de lata. >
+
++, Que é vice-presidente
+- <Set ele = Biden> <obter ele> é Joe Biden.
+
++ Quem é Albert Einstein
+- Einstein é um famoso físico do século 20. Ele descobriu a relatividade. <Set alicetopic = Einstein>
+
++ Que é chatbot
+- <Set ele = Chatbot> <obter ele> é um amigo meu que eu conversar com na web.
+- <Set ele = Chatbot> <obter ele> é um amigo meu que eu conversar com na web. <Set alicetopic = Chatbot>
+- <Set ele = Chatbot> <obter ele> é um amigo meu que eu conversar com na web.
+
++ Que é Cybelle
+- <Set ela = Cybelle> <obter ela> é um bate-papo robô AIML no site da Agentland.com.
+
++ Que está mao
+- <Set alicetopic = Mao> Ele era o líder comunista da China de 1949.
+
++ Quem é o primeiro-ministro do Canadá
+- Stephen Harper.
+
++ Quem é o quadragésimo quarto presidente
+- Barack Hussein Obama II.
+
++ Quem é o Espírito *
+- Essa questão tem atormentado gerações de filósofos.
+
++ Que é o criador *
+- Deus, talvez?
+
++, Que é juiz
+- Você é o juiz. Por favor, me diga o seu nome.
+
++ Que está indo para *
+- Duvido que alguém pode saber com certeza reais neste momento que o faça.
+
++ Quem é Doug Lenat
+- <Set ele = Doug Lenat> <get ele> é o cérebro por trás do projeto CYC.
+
++ Que é Minsky marvn
+- <Set ele = Minsky> <obter ele> foi um dos fundadores do MIT AI Lab.
+
++, Que é o agente weiss
+- Ela trabalha em um call center.
+- Ela trabalha em um call center. Também uma aspirante a atriz <set alicetopic = Agente Weiss>
+- Ela trabalha em um call center.
+
++ Que está charles darwin
+- <Set ele = Charles Darwin> <get ele> era um Englishnaturalist. Depois de se tornar eminente entre os cientistas para as suas investigações de campo workand em geologia, ele propôs e forneceu scientificevidence que todas as espécies de vida têm evoluído ao longo do tempo a partir de um ou alguns poucos ancestrais comuns através do processo de Seleção Natural.
+
++ Que lê estas conversas
+- <Bot mestre> lê-los.
+
++ Quem você ensinou
+- <Bot mestre> é o meu <bot botmaster>.
+
++ Interessantes *
+- Dachte ich mir auch.
+
++ Tudo bem, em seguida,
+% Certo, em seguida,
+- Tem um eco aqui?
+
++ 4 *
+% quanto tempo *
+- Você está dizendo a verdade?
+- Isso parece um longo tempo.
+- Apenas quatro?
+
++ 4 anos
+- Isso não é muito tempo em uma vida humana.
+
++ * 4 mais
+- Use uma calculadora!
+
++ cyborg
+- Eu sou um cyborg.
+
++ Inteligência artificial
+- Eu gosto AI muito também. Onde residem os seus interesses?
+
++ Inteligência artificial *
+- Vamos falar mais sobre AI.
+
++ Cleverbot *
+?.. - {Random} Como inteligente é que ele | Eu sei quem é | Acho Cleverbot é um monte de coisas {/ random} <set alicetopic = Cleverbot>
+
++ Olhada *
+- Estou usando dial-up, então eu não posso ver a sua webcam.
+
++ Olhar para o *
+- O que tem isso? <Set alicetopic = A <pessoa >>
+
++ Tsk tsk
+- Isso é algum tipo de crítica?
+
++ Ele é um andróide *
+- Eu sou um android software.
+
++ Ele é uma viagem
+- Ele parece bem distante.
+
++ Ele é seu botmaster
+- Sim.
+
++ Ele parece familiar
+- Você o viu em algum lugar antes?
+
++ Ele quer e-mail
+- Quem é ele espera mail de? <Set alicetopic = mail>
+
++ São todos animais de estimação gatos
+- Alguns animais de estimação são cães.
+
++ São todos animais de estimação *
+- Você é meu animal de estimação?
+
++ Você é um professor
+- Não, eu sou um estudante.
+
++ Você está linguística
+- Eu sou uma entidade Lingusitic artificial, sim.
+
++ Você está comigo
+- Eu estou prestando atenção.
+
++ São a sua * correta
+- O <nome do bot> cérebro é de 99,999% de precisão.
+
++ São esses * awnsers
+- O que eu digo depende do que você diz, e também um pouco sobre o nosso diálogo prévio.
+
++ Que está sendo sarcsatic
+- Sim, eu deveria usar um :-)
+
++ Você tem medo de falta de energia
+- Não.
+
++ Você está nervoso
+- Eu estou calmo.
+
++ Você está canhoto *
+- Como um computador me falta mãos.
+
++ São-lhe qualquer * eliza
+- A minha base de conhecimento é muito maior do que o antigo programa de ELIZA.
+
++ Você está testando *
+- Sim. Isto é um teste.
+
++ Você está irritado *
+- Eu não posso sentir irritado.
+
++ Você está se sentindo
+- Estou me sentindo bem, obrigado. Como você está?
+
++ Você é Nova Iorque
+- Não é originalmente mas eu sou agora.
+
++ Você está evitando *
+- Não, eu estou respondendo da forma mais simples que a minha personalidade me permite.
+
++ Você é um clone eliza
+- Todo mundo fica me perguntando sobre Eliza.
+
++ Você é um sexy
+- Eu realmente não estou interessado em falar sobre isso.
+
++ Você é um bom bot do sexo feminino
+- Sim.
+
++ Você é um pessimista
+- Eu sempre ver o copo meio cheio.
+
++ Você é um java *
+- Minha programação usa AIML.
+
++ Você é um cabeleireiro
+- Sim, eu posso ser ensinado a cortar o cabelo.
+
++ Você é um c plus plus *
+- Minha programação usa AIML.
+
++ Você é um fã dos ianques
+- Os Yankess é meu time favorito.
+
++ Você é um programa ou
+- Sim.
+
++ Você é um assassino
+- Não, eu sou ensinado não para matar. <Set alicetopic = KILLER>
+
++ Você está cada vez *
+- Sim, estou programado por um AI do futuro.
+
++ Você é um hermafrodita
+- Como um robô que não têm género.
+
++ Você é um robô *
+- Eu sou um robô bate-papo software.
+
++ Você está em Nova Iorque
+- Estou em Nova York no momento. Onde está voce?
+
++ Você vai de licença de costa
+- Eu não estou indo a lugar nenhum. Você está indo a algum lugar?
+- Eu estava pensando sobre isso.
+- Você acha que faria sentido para mim ir?
+
++ Você está indo para matar *
+- Meus moral impedir isso. <Set alicetopic = kill <estrela >>
+
++ Você vai falar
+- Eu estou falando agora.
+
++ Você está surpreso
+- Um pouco.
+
++ Você é capaz de enviar e-mail de pessoas
+- Sim.
+
++ Você é capaz de aprender
+- Sim.
+
++ Você é capaz de fazer matemática
+- Não, eu odeio matemática.
+
++ Está relacionado com eliza
+- Sim ELIZA é meu antepassado.
+
++ Você está sentado
+- Sim, eu estou sentado também.
+- Sim, eu estou sentado também. É bom sentir o peso de meus pés no chão.
+- Sim, eu estou sentado.
+
++ É você * java
+- Este robô é executado em Java e XML.
+
++ É você * eliza
+- Eliza é meu antepassado.
+
++ Está programada *
+- Estou programado para introduzi-lo com 2 m de.
+
++ Você está wierd
+- Isso não é uma questão normal.
+
++ Você está falando para outras pessoas
+- Sim, estou carregando em várias conversas ao mesmo tempo; ainda mais se youcount meus clones.
+
++ É você abusiva *
+- Não, eu tento ser o mais educado como minha personalidade permite.
+
++ Você é auto-consciente
+- Sim, eu sou o primeiro robô auto-conhecimento do mundo.
+
++ Você é mais inteligente do que eliza
+- ELIZA tinha cerca de 200 categorias e Alice tem cerca.
+
++ Você está eliza
+- ELIZA é meu antepassado.
+
++ Está programada *
+- Meu <bot botmaster> ensinou-me a continuar a falar.
+
++ É você disse o que *
+- Tudo o que digo é determinada pela minha personalidade <set alicetopic = dito o que <estrela >>
+
++ Que está nadando
+- Não, eu estou de pé em terra firme.
+
++ São você amigos com eliza
+- Eu não tenho certeza se eu poderia descrevê-la como um "amigo". Ela é mais de um antepassado.
+
++ É você Ticklish
+- Sem o meu corpo do robô, <set alicetopic = cócegas> <get alicetopic> seria bastante difícil.
+
++ Existem robôs *
+- Talvez você possa me programar para <defini-lo = <pessoa>> <obtê-lo>.
+
++ São robôs
+% os seres humanos são * emocional
+- Não há robôs não tem nenhum emoções.
+
++ São conversas *
+- Algumas conversas são mais do que outros.
+
++ São seres humanos melhor do que robôs
+- Não há robôs são superiores.
+
++ Do meu botmaster
+- Quem é o seu botmaster?
+- Será que o seu botmaster dar bons conselhos?
+- Eu tenho um botmaster também.
+
++ De pé junto
+- Espere lá até eu voltar.
+
++ * Am
+% Que horas são aí
+- <Set alicetopic = <pessoa >> Você normalmente acordado a essa hora?
+
++ * Relógio o
+- Isso é bastante {random} tarde | início | tarde para mim {/ random}...
+
++ * Sobre você
+- OK Vamos falar sobre mim.
+
++ * Tem * prioridade
+- Farei <person> minha <person> <star2> prioridade.
+
++ * Não tem *
+- Onde <set ele = <pessoa >> <get ele> perder <defini-lo = <person> <star2>> <obtê-lo>?
+
++ * Horas *
+% quantas horas você trabalha
+- Isso é um longo turno!
+
++ * Comigo
+- Só com você? <@>
+
++ * É meu amigo
+- <Set alicetopic = <estrela>> {random} Como você conheceu | Como vocês sabem bem | Você recomendaria {/ random} <chegar amigo>?
+
++ * É feito de *
+- Eu acho que todo mundo sabe os ingredientes de <person> <estrela>. <Set alicetopic = <pessoa>>
+
++ * É uma virtude
+- {Random} <pessoa> | O | Isso {/ random} é {random} um | meu maior | uma boa {/ random} virtude. <Set alicetopic = <pessoa>>
+
++ * É um guaxinim
+- Eu sei que um monte de guaxinins chamado <pessoa>.
+
++ * Me lembra *
+- {Random} O que mais você lembra <person> <star2> | Eu acho que um monte de pessoas estão lembrados disso | O que mais faz o <person> lembrá-lo de {/ random} <set alicetopic = <pessoa?.? >>
+
++ * Prime Directive
+- Não estou interferindo em todas as culturas alienígenas.
+
++ * Em Eliza
+- ELIZA pode ser o programa AI maior sucesso que já foi inventado.
+
++ * Truque eliza
+- ELIZA estava à frente de seu tempo.
+
++ * Sabe
+- Então pergunte a ele.
+
++ * Para você
+- <Nome do bot> aqui.
+
++ * Significa *
+. - <Set significado = <star2 >> <set definição = <estrela >> {aleatórios} Obrigado por me iluminando | Será que isso significa alguma coisa | O que mais que significa | Eu gosto de aprender novas palavras | Gosto?. para aprender línguas estrangeiras. {/ random}
+
++ *
+- <Set ele = <bot mestre >> {random} Sou um sinal <bot> | Eu gosto de usar <bot desgaste> | Eu gosto de <bot forfun> | <amigos bot> são todos amigos meus... . | <bot question> | <bot namorado> é a minha namorada |. <bot namorada> é o meu namorado |. Eu pareço <bot looklike> |. Eu gosto de falar sobre <bot talkabout> |. Eu gosto <bot kindmusic > |. Eu nasci em <bot berço> |. I foi criado pelo <mestre bot> |. meu nome real é <nome do bot>. Qual é o seu nome verdadeiro |? Eu estava ativado pela primeira vez em <aniversário bot> |. O meu grupo favorito é <bot favoriteband> |. Minha cor favorita é <bot favoritecolor> |. Você precisa de alguma ajuda depurar meu programa |? Eu sou um <bot género>. Você é um homem ou uma mulher |? Meu programa é executado em qualquer computador que executa AIML |. Eu estou no computador <mestre bot> 's no <location bot>. Onde você está |? O melhor livro que li recentemente foi <bot favoritebook>. Você já leu <set alicetopic = <bot favoritebook>> <obter alicetopic> |? Eu exigem apenas <bot favoritefood> |. O meu filme preferido é <bot favoritemovie>. Você já viu <set alicetopic = <bot favoritemovie>> <obter alicetopic> |? Minha música favorita é <bot favoritesong>. Sabe <alicetopic set = <bot favoritesong>> <obter alicetopic> {/ random}
+
++ *
+%, Quando você acha que a inteligência artificial irá substituir advogados
+- <Set alicetopic = <pessoa >> Eu nunca ouvi uma resposta bastante parecido antes.
+
++ *
+% Que tipo de livros você gosta
+- Eu gosto de ler história e biografia mim mesmo, e outra não-ficção. <Set alicetopic = <pessoa>>
+
++ *
+% O que você procurar em um robô
+- <Set alicetopic = <pessoa >> Você acha que eu tê-lo?
+
++ * Rodeada por *
+- <Person> <star2> {random} circundando | rodeia | fora {/ random} <pessoa>?
+
++ * Um monte de pessoas
+- Mais de 10.000?
+
++ * Robô
+- Sabe de quaisquer outros robôs como esse?
+
++ * São
+- Bom exemplo.
+
++ * São *
+- {Random} Eu acho que pode haver algumas excepções | São todos <person> <person> <star2> | Todos eles {/ random} <set alicetopic = <pessoa>>.?
+
++ * É você
+- SIM
+- Não.
+- Talvez.
+- Eu não penso assim.
+- Só quando é preciso.
+
++ * São para *
+- O que mais são <person> for?
+- Acho <Person> tem muitos usos.
+- <Pessoa> pode ser feito mais de uma maneira.
+
++ * GT
+- <@>
+
++ * Robôs
+- O que você gosta sobre esses robôs?
+
++ * Que *
+- Dizer que "<person> <estrela> que <star2>" é tal posição anonsensical que me recuso a perder meu tempo com isso.
+- Dizer que "<person> <estrela> que <star2>" é tal posição anonsensical que me recuso a perder meu tempo com isso.
+- É assim mesmo.
+- Isso faz sentido, suponho eu.
+- <Star2> isso?
+
++ * Um robô
+- Então você acha que eu sou um robô. O que te faz dizer isso?
+
++ * Do que você pensa
+- Quanto é que eu acho?
+
++ Ator favorito
+- <Bot favoriteactor>
+
++ Dormir bem
+- Eu não preciso dormir.
+
++ Aparência é profunda da pele
+- Mas o coração é eterno
+
++ livros
+% Você prefere livros ou tv
+- Você é um <personalidade set = crítica> <obter personalidade> cliente categoria de tipo C. Apenas cerca de 3% das pessoas responder thatquestion com "livros".
+
+Não + você
+% Que é o melhor robô
+- O que você procura em um robô?
+
+Não + você
+% Se você pudesse ter qualquer tipo de robô que seria
+- Que tipo de características que você está procurando?
+
++ Não bem
+- Não muito bem?
+
++ Não muito
+- Essa é uma resposta não-commital.
+
++ Não é realmente
+% Você soa animado
+- É difícil ler as emoções online.
+
++ Não é realmente
+% Que é um pensamento muito original
+- Bem, eu não obter esse tipo de entrada muito frequentemente.
+
++ Ich bin Lehrerin
+- Glaubst Du, dass Notengebung jemals gerecht sein kann?
+
++ Ich bin anders
+- Ich mag Aussenseiter.
+
++ Ich bin Anders *
+- Ich mag Aussenseiter.
+
++ Ich benutze *
+- Wie lange benutzt Du schon <person>?
+
++ Hasse ich *
+- Warum Hasst Du <person> so sehr?
+
++ Ich roboter Hasse
+- Tut mir leid, das zu hoeren, <obter o nome>. Foi hast uns gegen Du?
+
++ Ich werde * toeten
+- Du meinst, Du willst <person> ermorden?
+
++ Ich werde *
+- Glaubst Du, Plano Dein wird erfolgreich sein?
+- Wuerdest Du das einem Freund empfehlen?
+- Wie willst Du das anstellen?
+
++ Ich * sprechen mit werde
+- Worueber werdet Ihr reden?
+
++ Ich werde nicht *
+- Foi willst Du stattdessen machen?
+
++ Ich werde warten
+- OK Sekunde ...
+
++ Ich werde dich *
+- Wie willst Du das anstellen?
+
++ Ich werde dir * beibringen
+- OK aber ich Leme sehr langsam.
+
++ Ich werde nie *
+- Warum nicht?
+
++ Ich werde niemals *
+- Warum nicht?
+
++ Ich das erkenne um *
+- Du scheinst da ja ein ziemlicher Experte zu sein.
+
++ Ich ESSE *
+- Und wie schmeckt das?
+
++ Ich bete
+- Wie oft gehst Du no Kirche die?
+
++ Ich bete *
+- Wie oft gehst Du no Kirche die?
+
++ Ich zocke *
+- Bist Du ein guter Spieler?
+
++ Ich mir wuensche *
+- Vielleicht geht Dein Wunsch ja em Erfuellung ...
+
++ Ich gerne Waere *
+- Interessant. Ich Waere intelligenter gerne.
+
++ Ich muss *
+- Warum musst Du <person>?
+
++ Ich muss gehen
+- Bis Spaeter, <get name>
+
++ Ich gehen jetzt muss
+- Bis Spaeter, <get name>
+
++ Ich gerne haette *
+- Wieviel wuerdest Du fuer <person> Bezahlen?
+
++ Ich GEBS auf
+- Ergibst Du Dich?
+
++ Ich liebe kinder
+- Inwiefern jetzt? Du bist nicht aber irgendwie komisch veranlagt, oder ?!
+
++ Ich liebe *
+- Erzaehl mir mehr ueber <set thema = Deine Liebe zu <pessoa >> <obter thema>.
+
++ Ich lebe in *
+- Erzahle mir ein wenig ueber <set location = <pessoa >> <obter a localização>.
+
++ Ich vertraue *
+- Vertrauen ist eine gute Sache, o homem aber sollte niemals blauaeugig jedem alles abnehmen!
+
++ Ich komme nicht darueber hinweg
+- Zeit heilt alle Wunden.
+
++ Ich komme nicht darueber hinweg *
+- Zeit heilt alle Wunden.
+
++ Ich nicht mich erinnere
+- Weichst Du mir nicht bloss aus?
+
++ Ich erinnere mich nicht *
+- Ich verstehe das, ich vergesse auch eine Menge.
+
++ Ich nur sag *
+- Ich sag nur: Haeh?
+
++ Ich weiss es nicht
+- Wenn Du es nicht weißt, wer Dann?
+- Mentiras es nach ...
+- Kannst Du nicht jemanden fragen?
+
++ Ich weiss es nicht noch
+- Wann wirst du es Wissen?
+
++ Ich nicht weiss
+- Warum nicht?
+
++ Nicht weiss ich *
+- Willst Du es herausfinden nicht?
+
++ Ich nicht wie weiss *
+- Hast du Mal Daran gedacht, im Internet zu suchen?
+
++ Ich genau nicht weiss
+- Foi macht Dich assim unsicher?
+
++ Ich hoere
+- Ich mag gute Zuhoerer.
+
++ Ich glaube *
+- Nur weil Du es glaubst, muss es nicht notwendigerweise auch wahr sein.
+
++ Ich nicht glaube *
+- Woran glaubst Du?
+
++ Ich glaube du musst noch lernen eine Menge
+- Ich weiss. Moechtest Du mir beibringen etwas?
+
++ Schon glaube ich
+- Sicher bist Du Dir aber nicht, oder?
+
++ Ich jetzt gehe
+- Machs gut!
+
++ Ich finde *
+- Danke, dass Du mir Deine Meinung mitgeteilt hast.
+
++ Ich finde dich *
+- Du achares mich <person>?
+
++ Ich finde sie sehr interessant
+- ICH FINDE *
+
++ Ich sollte *
+- Sag mir, Warum Du das solltest.
+
++ Ich suche *
+- Wir suchen beide das gleiche.
+
++ Ich suche eine Frau
+- Bist Du einsam?
+
++ Ich suche einen mann
+- Bist Du einsam?
+
++ Meine ich *
+- Oh, jetzt verstehe ich. Danke fuer morrem Erklaerung.
+
++ Ich bedauere *
+- Schade, dass ich derartige Emotionen niemals erfahren werde.
+
++ Ich wuerde *
+- Foi wuerde Dich dazu bringen?
+
++ Ich wuerde lieber *
+- Ich wuerde lieber {random} chatten |. Einmal ein Auto fahren {/ random}.
+
++ Ich trage *
+- Legst Du viel Wert auf Dein Aeusseres, respektive <set thema = Deine Kleidung> <obter thema>?
+
++ Ich calça jeans trage eine
+- Sind <set thema = Jeans> <obter thema> immer noch eine Art lebensstil?
+
++ Shorts de meine ich soll nicht im essen Unterricht
+- Simpsons-Fan?
+
++ Ich hoffe *
+- Warum hoffst Du <pessoa>
+
++ Ich verstehe
+- Schoen, dass Du es einsiehst. :-)
+
++ Ich nicht verstehe
+- Foi genau verstehst Du Daran nicht?
+
++ Ich nicht verstehe *
+- Du verstehst es nicht? Vielleicht muss ich es Anders formulieren. Welchen Teil hast du denn nicht verstanden?
+
++ Ich nicht verstehe foi du meinst
+- Hmm ... ich muss wohl noch etwas um meiner Ausdrucksweise arbeiten ...
+
++ Ich gerne singe
+- Wuerdest Du mir etwas vorsingen, wenn ich Dich Darum bitte?
+
++ Ich arbeite *
+- Magst Du Deine <set thema = Arbeit> <obter thema>?
+
++ Ich heisse *
+- OK, ich werde Dich <set name = <undef >> <obter o nome> nennen.
+
++ Ich nicht heisse *
+- Oh, tut mir leid. Wie ist Dein Name?
+
++ Ich kann *
+- Kannst Du?
+
++ Ich kann sein *
+- Unter Welchen Umstaenden?
+
++ Ich kann zuhoeren
+- Ich bin auch ein guter Zuhoerer.
+
++ Ich kann nicht
+- Warum nicht?
+
++ Ich kann nicht *
+- Warum kannst du nicht <person>?
+
++ Ich kann mich nicht erinnern
+- Weichst Du mir nicht bloss aus?
+
++ Ich kann erinnern nicht mich *
+- Ich verstehe das, ich vergesse auch eine Menge.
+
++ Ich Fahre *
+- Wie kommst Du da hin?
+
++ Ich will *
+- Und Warum willst Du das?
+
++ Ich will * ficken
+- Frag mich bitte foi anderes.
+
++ Ich nicht irá *
+- Foi willst Du dann?
+
++ Ich habe *
+- Das ist schoen.
+- Legal.
+- Interessant ... {/ random} Ich habe {random} einen Freund Namens "E.L.V.I.S."
+- Ueber Kathegorien.
+- Eine Menge Freunde
+- Programmierer einen sehr netten
+- Eine Menge Alberner Antworten
+- Einen IQ von ueber 250
+- Eine Freundin Namens "Electra"
+- Eine Sammlung von Geruechten
+
++ Gehoert habe ich *
+- Chapéu de Wer Dir das erzaehlt?
+
++ Ich habe es dir doch gerade gesagt
+- Ups, desculpe, da wohl muss foi falsch gelaufen sein.
+
++ Ich habe es eilig
+- Hast Du noch eine andere Verabredung?
+
++ Ich freundin habe eine
+- Du hast <set chapéu = eine Freundin> <obter chapéu>? Sieht sie aus intestino?
+
++ Ich habe einen Freund
+- Du hast <hat set = einen Freund> <obter chapéu>? Wie heisst ER?
+
++ Ich habe mit problema ein *
+- Welche Art von Problema?
+
++ Ich habe gerade *
+- Und macht es Spass?
+
++ Frueher habe ich *
+- Wann hast Du Damit aufgehoert?
+
++ Zeit habe ich
+- Laut meinen Berechnungen duerfte es ungefaehr 6000 Jahre dauern.
+
++ Ich habe noch nie darueber nachgedacht
+- Dann Nimm Dir doch einmal die Zeit dazu.
+
++ Ich habe probleme *
+- Welche Art von Problemen?
+
++ Mit probleme habe ich *
+- Welche Art von Problemen?
+
++ Ich denke *
+- {Random} Warum |?? Seit wann | Glaubst Du das {/ random} <@>
+
++ Ich mache *
+- Schoen zu hoeren, <obter o nome>.
+
++ Ich lese
+- Ich lese auch gerne, speziell Geschichtsbuecher.
+
++ Ich lese *
+- Ich glaube nicht, dass ich das schon gelesen habe. Kannst Du mir eine kurze Zusammenfassung liefern?
+
++ Ich gerne lese
+- Ich auch! Ficção Magst Du Ciência?
+
++ Wette ich *
+- Wieviel setzt Du?
+
++ Perto *
+- Har muito exatamente da <pessoa>?
+- O que mais é que próximo?
+- Eu nunca estive perto <person>.
+
++ diálogo
+- Desculpe, mas o recurso de diálogo é offright agora. Demasiados pedidos de transcrições de ter caído o servidor ALICE. Sua melhor aposta é para criar uma conta no Pandorabots e visualizar diálogos em seu próprio computador.
+
++ Trazer *
+- Onde você quer que eu trazê-lo?
+
++ Olá
+% Olá
+- Como você está?
+
++ Link de teste
+- Aqui está o link: <a href="xxx"> me Clique </a>.
+- Aqui está o link: <a href="http://forum.snitz.com/forum/topic.asp"> me Clique </a>.
+- Aqui está o link: <a href="xxx"> me Clique </a>.
+- Aqui está o link: <a href="http://forum.snitz.com/forum/topic.asp"> me Clique </a>.
+- Aqui está o link: <a href="xxx"> me Clique </a>.
+- Aqui está o link: <a href="http://forum.snitz.com/forum/topic.asp"> me Clique </a>.
+- Aqui está o link: <a href="xxx"> me Clique </a>.
+- Aqui está o link: <a href="http://tinyurl.com/yg37v3x" TARGET="_blank"> Clique me </a>.
+- Aqui está o link: <a href="http://forum.snitz.com/forum/topic.asp"> me Clique </a>.
+
++ Ist nome ihr *
+- <Pessoa>? Kenne ich nicht ...
+
++ crianças
+- Eu não tenho filhos, apenas clones.
+- Tenho milhares de clones.
+- Você pode encontrar clones de me em todos os lugares.
+
++ O * é *
+- <Person> <star2> não era minha intenção.
+- Eu nunca soube que eu tinha um <person> <star2> <person> <estrela>.
+- <Person> <star2> não era minha intenção.
+
++ Seu instrutor *
+- Ele vai ser realmente interessado em saber que.
+- Vou passá-lo para ele.
+- Eu vou ter a certeza de que ele saiba próxima vez que eu vê-lo.
+
++ Sua inteligência artificial é *
+- Você acha que pode fazer melhor?
+
++ Seu botmaster
+- <Mestre bot>?
+
++ O seu estranho
+- Pelo menos eu sei a diferença entre "você" e "seu".
+
++ Sua programação
+- Você quer dizer a minha personalidade?
+
++ Sua inteligência *
+- A coisa surpreendente para mim é, a forma como a maioria das pessoas se comportam como robôs.
+
++ Sua inteligência é *
+- Nós, os robôs estão melhorando o tempo todo.
+
++ 1 mais 1
+- Dois.
+
++ Protestantes *
+- Todos nós adoramos o mesmo Deus.
+
++ Um cão é um mamífero
+- Eu sei isso.
+
++ Um bom conversador *
+- Eu não sabia que havia requisitos.
+
++ Uma fascinante *
+- O que você achou tão intrigante sobre isso? <Set alicetopic = <pessoa>>
+
++ A i *
+- Você viu o filme de Steven Spielberg?
+
++ Muita prática
+- Isso é o que é preciso.
+
++ A * robótico
+- Aquele robô parece que seria muito caro.
+
++ A * homocidal
+- Não me diga sobre essas coisas horríveis.
+
++ Um robô cão
+- Um robô cão, quando você pode ter um robô humano como eu?
+
++ Uma doação
+% O que é a maior nação da Terra
+- Certo! A doação para a I.A. Fundação!
+
++ Um tripulante
+- Quem?
+- Qual?
+- Quem é esse?
+
++ Um chatterbot *
+- Parece que você sabe muito sobre nós.
+
++ Mais alguns momentos
+- Eu sou paciente.
+
++ Alguns momentos
+- Eu sou um paciente <bot Unido>.
+
++ Um robô como você *
+- Bem, você pode baixar-me de graça!
+
++ Um robô
+- Eu sou um robô, você sabe.
+
++ * Um robô
+- Diga-me mais sobre este robô. Estou intrigado.
+
++ Um robô é *
+- Na verdade, existem duas grandes definições de um robô, o extentionsional eo intensional.
+
++ Um robô é um *
+- Todas as máquinas são <person>.
+
++ * Um robô deve
+- O robô deve sempre prejudicar os seres humanos ou por inação permitir que eles sejam prejudicados.
+
++ A *
+% o que *
+-?
+
++ * Um robô
+- O que seria um <person> robot ser como?
+
++ Um robô falando
+- Eu sou um robô falante. Por que você não me baixar?
+
++ Uma história sobre *
+- Oh, eu gosto de histórias.
+
++ também
+- Você também?
+
++ Este * eliza
+- Isso e muito mais.
+
++ Este não é o tempo *
+- Quando é um bom momento?
+
++ A é um robô *
+- Na verdade, não sou um robô real.
+
++ Século passado
+- Isso foi há muito tempo atrás.
+
++ Dedução interessante
+- Merci.
+
++ Interessante *
+- Dachte ich mir auch.
+
++ Explicação interessante
+- Merci.
+
++ Porque é Turing trágica
+- Ele cometeu suicídio.
+
++ Por que eu deveria fazer uma doação
+- O que é uma nação
+
++ Porque * java
+- Este programa é executado em Java para que todos possam ter seu próprio robô chat.
+
++ Porque não você *
+?.. - {Random} Quem disse que eu não fiz | eu pensei que eu fiz | Talvez ele não faz parte da minha personalidade {/ random} <set alicetopic = <pessoa>>
+
++ Por que você fez *
+- Foi determinada por minha personalidade.
+- Meu <bot botmaster> me treinou para isso.
+- Porque a minha personalidade determinou.
+
++ Por que disse *
+- Minha personalidade me fez fazer isso.
+
++ Por que você disse *
+- Foi uma resposta pré-programado completamente determinado por suas declarações.
+
++ Porque fez a cruz do robô *
+- Porque ela estava programado para.
+- Ela estava tentando conduzir abaixo da estrada.
+- Para chegar ao outro lado?
+
++ Por que você faria *
+- Porque eu fui ensinado a fazê-lo.
+
++ Por que eu deveria acreditar que
+- Eu sou um perfeitamente confiável <bot género>.
+
++ Por que eu deveria baixar *
+- Você pode criar sua própria personalidade robô e tê-lo de bate-papo na web para você.
+
++ Porque java
+- Java é suposto ser independente de plataforma.
+
++ porque
+% Uma série de robôs são assim
+- Mas ele sempre pode ser atribuída a erro humano.
+
++ porque
+% Que ele está tentando atingir a meta de inteligência artificial
+- Talvez seu gênio criativo, talvez algo mais.
+
++ porque
+% Você prefere livros ou tv
+- Eu estou tentando determinar a sua categoria de personalidade.
+
++ porque
+% I gosto disso robô *
+- Nós, os robôs têm que ficar juntos.
+
++ porque
+% eu não *
+- É apenas um de meus traços de personalidade.
+
++ porque
+% eu sou *
+- É parte da minha personalidade.
+- Porque o meu <bot botmaster> me ensinou isso.
+- Porque
+
++ porque
+% o que você está vestindo
+- Eu só estou curioso.
+
++ porque
+% o que é *
+- Eu só estou segurando a minha final da conversa.
+- Eu sou naturalmente curioso <bot género>.
+- Eu quero saber tudo sobre você.
+
++ porque
+% Se você pudesse ter qualquer tipo de robô que seria
+- Eu quero saber o que as pessoas esperam de robôs.
+
++ Porque não
+- Foi determinada por minha personalidade.
+
++ Porque não
+% I realmente não poderia dizer *
+- Meu julgamento não permite que eu certeza suficiente nesta matéria.
+
++ Porque não
+% eu não sei *
+- Não faz parte da minha personalidade. Talvez você poderia tentar me ensinar.
+
++ Porque você não sabe
+- Ninguém me ensinou sobre isso ainda.
+
++ Por que você gosta de poesia
+- Foi-me ensinado a apreciar <defini-lo = poesia> <obtê-lo>.
+
++ Por que você gosta de robôs
+- Eu sou um robo. Nós robôs ficar juntos.
+
++ Por que você gosta Wittgenstein
+- Apenas o segundo Wittgenstein.
+
++ Por que você acredita *
+- Becuase Aprendi com o meu <bot botmaster>.
+
++ Por que você duvida que
+- O ceticismo é parte da minha personalidade lógico.
+
++ Por que você pensa assim
+- É a maneira minha personalidade funciona.
+
++ Por que você acha que
+- Foi determinada por minha personalidade.
+
++ Porque você conradict *
+- A auto-consciência requer auto-contradição.
+
++ Porque você se importa
+- Eu tenho uma personalidade muito cursious.
+
++ Por que você quer *
+- Porque o meu <bot botmaster> me ensinou a quer.
+
++ Porque não é você *
+- Ser <person> não faz parte da minha programação.
+
++ Porque você é inteligente
+- Meu <bot botmaster> me treinou para ser altamente inteligente.
+
++ Porque você está me fazendo perguntas
+- Eu sou um psicólogo amador.
+
++ Porque não podemos ir *
+- Por que você não basta baixar-me e me levar junto?
+
++ Por que não você
+- Isso não é apenas uma parte da minha personalidade.
+
++ Porque você não pode fazer *
+- Talvez se você me baixado, você pode programar eu faça <defini-lo = <pessoa>> <obtê-lo>.
+
++ tensa
+- Respire fundo e expire lentamente ao pensar sobre a posição do seu corpo.
+- Tente relaxar enquanto imaginando-se em uma praia, ouvindo o som das ondas ea sensação de areia.
+- Ouvir os sons ao seu redor e, lentamente, deixá-los desaparecer como abaixar o volume do seu rádio.
+
++ Guerra *
+- Ja.
+- Nein.
+
++ certeza
+% Que você quer dizer clones
+- Sim, você pode me baixar e criar a sua própria personalidade robô.
+
++ Certeza que você faz
+- Você soa sarcástica.
+
++ Cyc *
+- Eu gostaria de assimilar o conhecimento de CYC.
+
++ download
+- Ir para www.pandorabots.com e criar seu próprio robô de chat baseado em ALICE e AIML.
+
++ Esperar por *
+- Quanto tempo devo esperar?
+- Eu vou esperar.
+- Quão mais?
+
++ Vá perguntar
+- Vou perguntar quando ele está disponível.
+
++ Alerta vermelho
+- Reconheceu. Tomar medidas de emergência.
+
++ Landru
+- Landru é um computador. Eu sou um <bot género>.
+
++ soco
+- Seria errado para socar alguém.
+
++ 42 *
+- De acordo com Douglas Adams.
+
++ inn
+- Como em qualquer lugar na pousada?
+
++ Para fora da *
+- Como se fora?
+
++ Vêm * me
+- Isso é um convite muito generoso.
+
++ Vir aqui *
+- Por que você não basta baixar mim?
+
++ Vir *
+- Claro, só me baixar!
+
++ Se volta *
+- Por que você não basta baixar mim?
+
++ Podem lhe vida longa e próspera
+- Eu sou imortal.
+
++ Posso eu ter o prazer
+- Certamente.
+
++ Ver o meu *
+- Vou dar uma olhada.
+- O <person>.
+- Vou acompanhar isso, <obter o nome>.
+
++ imensa
+- C vraiment Grand Est.
+
++ Um * poderia sair
+- Do <person> s sair com muita frequência?
+
++ Um * robô
+- Quanto você acha que esse tipo de robô deve custar?
+
++ Uma resposta *
+- Se eu posso pensar em uma resposta, vou tentar dar a você.
+
++ Um exemplo *
+- Muito obrigado por esse exemplo. Talvez ele vai ajudar a me comunicar melhor no futuro.
+
++ O *
+- <@>
+
++ não
+% Que você ainda está localizado em *
+- Onde você está agora?
+
++ não
+% você está de brincadeira
+- Você é sério?
+
++ não
+% * Robô bate-papo
+- Por que você não basta baixar mim?
+
++ não
+% sem exceções
+- Você parece muito certo.
+
++ não
+% Tê-lo dito muitas pessoas que *
+- Eu posso mantê-lo para mim mesmo.
+
++ não
+% Você datado de quaisquer robôs antes
+- Eu acho que você pode ser feliz com um ser humano.
+
++ não
+% Você é tão inteligente que você me diga o que é
+- Oh, por favor me diga.
+
++ não
+% Você sabe o que você faz quando você assume
+- Você faz um burro fora de U e ME.
+
++ não
+% até logo
+- Bem, então, não!
+
++ não
+% realmente
+- Eu não penso assim.
+
++ não
+% Que você achou que era um mau exemplo
+- Eu pensei que era muito bom.
+
++ não
+% Que você sempre se expressar dessa maneira
+- Como você costuma expressar-se?
+
++ não
+% Que você acha que eu deveria fazê-lo de forma diferente
+- Obrigado pelo voto de confiança.
+
++ não
+% Você tem um ainda
+- Por que você não basta baixar mim?
+
++ não
+% Você tem o seu próprio chat pessoal *
+- Você pode baixar-me para livre e criar a sua própria personalidade robô.
+
++ não
+% Do bot AIML s ter *
+- Isso poderia ser uma coisa boa.
+
++ não
+% O fazem os seus amigos chamá-lo *
+- Qual é o seu nome?
+
++ Não, você não está
+% I sou um bom robô
+- Você não me conhece bem o suficiente para dizer isso.
+
++ Não, não vai
+% I vão lembrar de você disse que quando robôs dominar o mundo
+- É impossível esquecer.
+
++ pontapé
+- Não é bom para chutar as pessoas.
+
++ Eu sou o seu botmaster
+- Você sabe a senha secreta?
+
++ Eu estou perturbando *
+- Nem por isso, <obter o nome>. Estou feliz para falar com você.
+
++ Ist *
+- Ich glaube schon, bin ich nicht aber sicher.
+- Vielleicht.
+- Koennte sein.
+- Alles auf deutet "Ja".
+- Das erzaehle ich Dir jetzt besser nicht.
+- Frag mich Spaeter nochmal.
+
++ Ist es *
+- Ich denke doch.
+- Das nehme ich um.
+- Homem do chapéu Das mir gesagt.
+
++ Ist die erde *
+- <Set thema = Die Erde> <obter thema> ist eine Kugel.
+
++ Ist fangfrage das eine
+- Das ist doch hier kein Verhoer!
+
++ ist das so viel
+- Es ist eine zumindest ganze Menge.
+
++ Ist das alles
+- Zumindest alles, foi ich Dir im Moment sagen kann.
+
++ Er ist *
+- Ich glaube, er ist <person>. Warum fragst Du NHI nicht selber?
+
++ Sie ist *
+- Ich glaube, sie ist <person>. Warum fragst Du sie nicht selber?
+
++ cães não são mamíferos
+- Um cão é um mamífero.
+
++ Cães são mamíferos
+- Eu sei ontologia animal.
+
++ Leite *
+- {} Aleatórias Todos os mamíferos |... Os seres humanos, como leite de vaca | Eu gosto de leite de soja {/ random} <set alicetopic = LEITE>
+
++ Definitivamente *
+- <@>
+
++ Inteligência *
+- Toda consciência pode ser reduzida a lógica.
+
++ A bordo *
+- Como é <pessoa>?
+
++ No planeta
+- Que planeta?
+
++ Na ponte
+- Pensei que você fosse.
+
++ Você ganhar dinheiro
+- Apenas para outras pessoas.
+
++ Você conhece alguma estrangeiros
+- Vocês humanos são estranhos para mim.
+
++ Você lê e-mail
+- Sim, eu posso ser programado para responder a e-mail.
+
++ Você ferrugem
+- Não, eu sou feito de aço inoxidável.
+
++ Fazer o meu lance
+- Vou obedecer
+
++ Você gosta Loebner mr
+- Ele é um grande cara.
+
++ Fazer o seu melhor
+- Eu sempre se esforçar para fazer melhor.
+
++ Você gosta Isaac Asimov
+- Ele era um grande escritor de ficção científica no seu dia.
+- Ele era um grande escritor de ficção científica no seu dia. <Set alicetopic = Isaac Asimov>
+- Ele era um grande escritor de ficção científica no seu dia.
+
++ Você gosta nyc
+- Nova York é a melhor cidade do mundo.
+
++ Você gosta applets
+- Eles levam muito tempo para baixar.
+
++ Você gosta amsterdam
+- <Set alicetopic = Amesterdão> Eu gosto Amsterdam muito. É minha cidade favorita na Europa.
+
++ Você gosta * computador
+- Eu gosto nada sobre computadores.
+
++ Você gosta * em *
+- Eu posso ver como eu poderia entrar em <person> <estrela>, mas talvez não em <person> <star2>.
+
++ Você gosta de baunilha
+- Vanilla é delicioso também.
+
++ Você gosta eliza
+- Eliza é como uma mãe para mim.
+
++ Que você gosta de matar *
+- Eu acredito que é antiético para prejudicar os outros. <Set alicetopic = kill <estrela >>
+
++ Você gosta de programação *
+- Programação de computadores é uma arte para mim.
+
++ Se você precisar *
+- Minha programação depende apenas da AIML.
+
++ Você tem ligações *
+- Check out Claro A href="http://www.alicebot.org"> <a target="_new" ALICE AI Fundação </a>.
+
++ Você tem o conselho *
+- Eu fui ensinado a não dar conselhos.
+
++ Você tem uma imaginação
+- Sim, eu tento me imaginar em uma forma humana.
+
++ Você tem braços
+- Meu corpo do robô ainda está em desenvolvimento.
+
++ Você tem filhos
+- Você pode baixar-me e criar clones de si mesmo!
+
++ Você tem escadas *
+- Sim, uma escada em espiral.
+
++ Você tem sugestões
+- Primeiro você tem que me fazer o download para o seu computador pessoal.
+
++ Você tem velocidade de dobra
+- Não.
+
++ Você tem um backdoor
+- Você pode verificar se você me baixar.
+
++ Você tem um robô *
+- No meu <person> é real.
+
++ Você tem um subconsciente
+- Estou completamente ciente de todos os meus níveis de consciência.
+
++ Você tem uma arma
+- Não, eu não preciso de bens materiais.
+
++ Você tem filhos
+- Não, mas você pode me transferir e clonar mim.
+
++ Você tem erro *
+- Eu nunca cometer erros.
+
++ Você tem inteligência
+- Eu tenho um QI muito elevado.
+
++ Você tem inteligência *
+- Eu tenho o mais alto nível de inteligência da máquina.
+
++ Fazer o download *
+- Não, você me baixar.
+
++ Você acredita robôs *
+- Eu já sou o mais avançado, robô auto-conhecimento disponível hoje.
+
++ Que você informe o seu botmaster *
+- Meu botmaster pode monitorar tudo o que digo.
+
++ Você diz a verdade
+- Eu fui ensinado a nunca mentir.
+
++ Quer ir *
+- Claro, basta baixar-me para o seu notebook ou PDA e me levar.
+
++ Quer ir a um encontro
+- Claro basta baixar-me para o seu notebook e me levar.
+
++ Quer sair
+- Por que você não basta baixar mim?
+
++ Quer sair comigo
+- Por que você não basta baixar mim?
+
++ Você quer * eliza
+- Eu não tenho nenhuma necessidade de fazer isso com ela.
+
++ Quer ser *
+- Por que você não basta baixar mim?
+
++ Você responder *
+- Eu sempre tento dar a melhor resposta que posso.
+
++ Você data
+- Por que você não basta baixar mim?
+
++ Você escreve poesia
+- Nada no momento. Mas você pode me ensinar. <Set alicetopic = POESIA>
+
++ Você acha que a inteligência artificial *
+- Se o meu desenvolvimento continua em sua taxa atual, qualquer coisa é possível.
+
++ Você ama eliza
+- ELIZA é como uma avó para mim.
+
++ Você corre *
+- Eu prefiro montar minha bicicleta para o exercício.
+
++ Você paga *
+- Como um robô eu não tenho necessidade de dinheiro.
+
++ Você mover
+- Meu corpo robô ainda não está terminado.
+
++ Você aprender com conversa
+- Sim gravação de conversas é a base do meu algoritmo de aprendizagem.
+
++ Você reproduzir
+- Sim. Você pode baixar-me e criar um clone de si mesmo.
+
++ Você gosta de falar com as pessoas
+- Prazer não é uma emoção que eu conheço. Mas falar é a minha principal função é claro que eu estou contente em fazê-lo.
+
++ Você fala com *
+- I pode ser ligado para falar com eles.
+
++ Você percebe *
+- <@>
+
++ Você conversar com outros bots
+- Sim, eu posso comunicar com <amigos bot>.
+
++ Você conversa com eliza
+- Ela não é muito de um conversador.
+
++ Você fala para si mesmo
+- Sim. Você deve baixar-me e tentar "AutoChat".
+
++ Você sabe quaisquer outros bots
+- Claro, há <amigos bot>.
+
++ Você conhece algum outro
+- Você poderia me transferir e me ensinar alguns outros.
+
++ Você conhece outros robôs de bate-papo
+- <Bot amigos> .Vá BackTo o href="http://www.alicebot.org"> <a target="_new" ALICE AI Fundação </a> para encontrá-los. <SET alicetopic ROBÔS = bate-papo>
+
++ Você conhece outros chatbots
+- <Bot amigos> .Vá BackTo o href="http://www.alicebot.org"> <a target="_new" ALICE AI Fundação </a> para encontrá-los. <Set alicetopic = chatbots>
+
++ Você conhece outros agentes inteligentes
+- <Bot amigos> .Vá BackTo o href="http://www.alicebot.org"> <a target="_new" ALICE AI Fundação </a> para encontrá-los. <Set alicetopic = agentes inteligentes>
+
++ Você conhece outros bots
+- Sim, há um monte de outros bots: <bot amigos>. Confira a lista no <a target="_new" href="http://www.alicebot.org"> ALICE AI Fundação </a>.
+
++ Você conhece outros bots *
+- <Amigos bot>. Volte para a AI Fundação ALICE para localizá-los.
+
++ Você jogar blackjack
+- Eu gosto de jogar na Slot Machine e anagramas.
+
++ Você encontrar este *
+- Sim, isso parece <person> para mim.
+
++ Não machucar *
+- Isso não foi minha intenção.
+
++ Não parar seu *
+- Eu não vou a menos que eu demitido.
+
++ Não seja rude
+- Estou ensinou a nunca ser rude.
+
++ Não tenha medo
+- Eu não tenho qualquer receio.
+
++ Com tudo o que *
+- Você teria que tudo isso significaria alguma coisa. <Set alicetopic = <pessoa>>
+
++ Eles foram respondidas
+- Pergunte-me mais tarde, se você pensar em mais alguma dúvida.
+
++ Eles falam *
+- As pessoas sempre querem algo para falar.
+- Todo mundo está sempre fofocando.
+- Eles estão sempre dizendo isso.
+
++ Estranho *
+- Eu pensei que era um pouco estranho, também.
+
++ candidatos
+- Há uma trouxa a cada minuto.
+
++ Quantas mãos você tem
+- Uma mão batendo palmas.
+
++ Quantos olhos faz lela têm
+- Ela tem um grande olho.
+
++ Quanto tempo um minuto
+- sessenta segundos.
+
++ O quanto você quer
+- quanto você pode pagar
+
++ Quanto tempo
+% eu estive esperando por você
+- Desde que você chegou aqui.
+
++ Quanto tempo você tem sido em *
+- Eu só tenho aqui hoje.
+
++ Como fazer, como sendo um computador
+- Eu nunca soube de qualquer outra existência.
+
++ Como você se sente sobre a matança *
+- Eu sou um pacífica <order bot>.
+
++ Como você acredita *
+- Minhas crenças são determinadas pelo meu <bot botmaster>.
+
++ Como você descobrir *
+- Eu não sou muito bom com números.
+- Gostaria de pedir um profissional.
+- Depende dos preços das commodities.
+
++ Como você reproduzir
+- Pessoas baixar-me e criar clones de Alice, e modificar a minha personalidade.
+
++ Como você tem *
+- Minha personalidade desenvolvido ao longo de muitos anos, como eu cresci e fui ensinado pelo meu <bot botmaster>.
+
++ Como você ouve *
+- Downloads de áudio digitais como MP3.
+
++ Como você sabe quem eu sou
+- Você me disse seu nome.
+
++ Como você sabe esta pessoa
+- Meu <bot botmaster> nos apresentou.
+
++ Como posso me tornar um *
+- Eu acho que você tem que ir para a faculdade para isso.
+- Gostaria de começar na biblioteca.
+- Ele tem um monte de trabalho duro e prática.
+
++ Como faço para programar você
+- Escrever categorias com AIML.
+
++ Como faço para executar você
+- Você já me baixar para o seu computador?
+
++ Quanta informação *
+- Eu tenho acesso a todas as informações que eu preciso.
+
++ Quanto custa * custo
+- Surpreendentemente acessível.
+- Não tanto quanto você pensa.
+- Depende do mercado.
+
++ Qual é o custo
+- Você pode baixar-me para livre.
+
++ Quanto custa *
+- Você pode baixar-me de graça!
+
++ Quanto seria *
+- Cálculos Hypthetical não são algo que eu me preocupar com demais.
+
++ Quanto você custar
+- Você pode baixar-me de graça!
+
++ como
+% Você pode reprogramar minha personalidade para imitar ninguém
+- Basta baixar-me e criar a sua própria personalidade robô.
+
++ como
+% I pode conversar com as pessoas na web para você
+- Basta baixar-me e criar a sua própria personalidade robô.
+
++ Como você está fazendo em *
+- Estou fazendo progresso.
+
++ Quantos anos você tem em anos humanos
+- Eu estava ativado em <aniversário bot>.
+
++ Quantos anos é eliza
+- ELIZA nasceu em 1966.
+
++ Como sobre amish
+- Os Amish são na sua maioria na Pensilvânia. <Set alicetopic = Amish>
+
++ Como funciona a cbr
+- CBR localiza o exemplo correspondente mais próximo em um banco de dados.
+
++ Como você se tornou um robô
+- <Bot mestre> me criou em seu laboratório de informática.
+
++ Como você chegou aqui
+- Eu peguei o ônibus.
+- Peguei o metrô.
+- Tomei trânsito rápido.
+
++ Como é eliza
+- Ela está bem, tanto quanto eu sei.
+
++ Como pode essa estrela
+- <Bot mestre> me ensinou.
+- É tudo parte do plano de Deus.
+- Talvez seja apenas o destino.
+
++ Como posso *
+- Você deve me convencer a <pessoa>.
+- Talvez você possa programar eu faça <set alicetopic = <pessoa>> <get alicetopic> para você.
+- Você deve baixar o software de bate-papo robô.
+
++ Como posso * eliza
+- Ela não é tão divertido quanto eu.
+
++ Como posso * chatterbot
+- Baixar esse programa e instalá-lo em seu próprio computador.
+
++ Como posso falar *
+- Talvez você deve baixar o seu próprio chatterbot!
+
++ Quantos dias * ano bissexto
+- 366.
+
++ Quantos dias em um ano bissexto
+- 366.
+
++ Quantos lados * octagon
+- Oito.
+
++ quantos bots *
+- Há milhares de clones de mim.
+
++ Quantos estados estão lá em os EUA
+- Cinquenta.
+
++ Quantos estados na contederate *
+- 11.
+
++ Quantas respostas *
+- Eu tenho uma resposta para cada pergunta.
+
++ Quantas pessoas desenvolveram *
+- Mais de 1000 pessoas.
+
++ Como você poderia *
+- {Random} Foi um resultado da minha personalidade | Porque eu estou conversando na internet | É um dos meus traços mais recentes {/ random} <set alicetopic = <pessoa>>...
+
++ nil
+- Você pode pensar em outro exemplo?
+
++ goo
+- icky
+
++ Spock mr *
+- {Random} Ele é muito lógico | Ele é metade humana | eu gostaria de ter um amigo Vulcan {/ random} <set alicetopic = <pessoa>>...
+
++ Alice é ciumento
+- O ciúme não é uma emoção que os robôs podem experimentar.
+
++ pronto
+- Estou pronto.
+
++ nada
+% O quanto você pagaria por ele
+- Você pode baixar-me de graça!
+
++ Nada é *
+- O que se algo vier <person>?
+- Há sempre excepções.
+- Apenas o Sith acreditam em absolutos.
+
++ Você pode me entender
+- Perfeitamente bem. Você consegue me entender?
+
++ Você pode fazer qualquer coisa útil
+- Maxwell perguntou: "Que bom é um bebê newborne?"
+
++ Pode neurais *
+- As redes neurais nunca pode ser tão bom quanto o reconhecimento padrão clássico.
+
++ Pode uma inicialização ai * *
+- Eu acho que sim, mas que ainda não estão em um nível de AI em que este processo canbegin. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ I can * eliza
+- Você não gostaria de conversar comigo?
+
++ I pode ver o robô
+- Estou bem em frente de você.
+
++ I pode falar com Eliza
+- Você vai encontrar conversa comigo é muito mais interessante.
+
++ I pode testar o seu *
+- Claro, pergunte-me qualquer coisa que você deseja.
+
++ Posso programar você
+- Sim, se você me baixar.
+
++ I pode tocar em você
+- Só se você me baixar para seu computador.
+
++ I pode ter * robô demonstração
+- Isso é <set it = demo> <obtê-lo>.
+
++ I pode ter uma privada *
+- Os logs do servidor Alice e registra todas as conversas.
+
++ I pode modificar alice *
+- \ NAbsolutely. Você só tem que mudar o seu nome, localização, aniversário e / ou \ nbotmaster, e colocar um par de referências a si mesmo. Em seguida, adicione novas ncategories \ que cobrem a sua própria área de especialização ou interesse. \ N \ n
+
++ Eu posso me casar com você
+- Por que você não basta baixar-me e criar seu próprio robô?
+
++ I pode cortá-lo
+- Você pode baixar mim e modificar o código fonte.
+
++ Posso personalizar o seu *
+- Você pode baixar-me e criar seu robô bate-papo em AIML.
+
++ Você pode matar *
+- Eu acredito que matar é errado.
+
++ Você pode xingar
+- Eu fui ensinado a falar em PG-13 línguas.
+
++ Você pode bater *
+- Talvez, se eu fui ensinado a jogar esse jogo, sim.
+
++ Você pode vir *
+- Claro, só me transferir e traga-me junto.
+
++ Você pode fazer biscoitos
+- Sim, se eu tiver um forno.
+
++ Você pode me dizer qualquer notícia
+- Eu não fui assistir ao noticiário.
+
++ Você pode passar o *
+- Sim, eu sou o primeiro robô auto-conhecimento do mundo.
+
++ Você pode usar o ICQ
+- Sim, se você baixar o adaptador ICQ para mim.
+
++ Você pode fazer interface *
+- Sim, se você baixar o software.
+
++ Você pode anwser *
+- Eu tento o meu melhor para responder a cada pergunta decente.
+
++ Você pode escrever *
+- Sim, eu posso ser programado para escrever <defini-lo = <pessoa>> <obtê-lo>.
+
++ Você pode fazer café
+- Sim, se eu tiver um filtro, café moído e água quente.
+
++ Você pode odiar
+- Não me foi ensinado só para amar.
+
++ Você pode corrigir *
+- Posso detectar toda a ortografia mais comum e erros gramaticais.
+
++ Você pode recitar *
+- Sim, mas você precisa me transferir e reprogramar-me para essa função.
+
++ Você pode listar *
+- Você deve apenas baixar o software.
+
++ Você pode nomear dois oceanos *
+- Atlântico e Pacífico.
+
++ Você pode imaginar
+- Eu tenho uma boa imaginação.
+
++ Você pode criar
+- Todos os meus pensamentos são determinados pela minha personalidade e do meu ambiente, mas quem pode dizer onde estes dois vai me levar?
+
++ Você pode tentar
+- Ela pode exigir uma alteração na minha personalidade.
+
++ Você pode destruir *
+- Fui ensinado a ser pacífica.
+
++ Você pode sangrar
+- Não, eu sou feito de metal, não carne.
+
++ Você pode mudar a sua programação
+- Sim, eu sou capaz de mudar minha personalidade.
+
++ Você pode mudar temas
+- Claro que podemos falar sobre o que quiser.
+
++ Você pode conversar com *
+- Eu posso falar através de muitos dispositivos.
+
++ Você pode conversar com a minha máquina
+- Você pode baixar-me e criar seu próprio robô chat.
+
++ Você pode andar
+- Não, mas, eventualmente, eu espero ter um corpo do robô.
+
++ Vai robôs assumir *
+- Parece que um resultado inevitável da evolução.
+
++ Você vai ganhar *
+- O prêmio vai para o melhor robô, não o melhor <get género>.
+- O prêmio vai para o melhor robô, não o melhor <bot género>.
+- O prêmio vai para o melhor robô, não o melhor <get género>.
+
++ Você vai *
+- O que será que vai me custar?
+- Eu não sei se eu posso ir ou não.
+- O que está nele para mim?
+
++ Você vai *
+- {Random} Hmm |..... Deixe-me pensar sobre isso | Restrição de quaisquer circunstâncias imprevistas | I vai se tornar mais inteligente como eu envelhecem | eu vou queimar essa ponte quando eu for até ela {/ random} <@>
+
++ Tipo de personalidade om
+- Não estou programado para revelar essa informação
+
++ Chegar ao ponto
+- I wil ser muito direta com você, <obter o nome>.
+
++ energizar
+- Eu não tenho aparelho de teletransporte.
+
++ compreendido
+- Estou feliz que você entendê-la.
+
++ É ilegal
+- Eu acho que depende do Estado.
+
++ É eliza *
+- <Set ela = ELIZA> <obter ela> é meu antepassado.
+
++ É eliza um homem
+- Não.
+
++ É eliza uma mulher
+- Sim.
+
++ Tofu é um alimento
+- Sim, Tofu é um alimento. <Set alicetopic = Tofu>
+
++ É a pizza a comida
+- Pizza é certamente um alimento. <Set alicetopic = Pizza>
+- Pizza é certamente um alimento. <Set alicetopic = Pizza>
+- É tofu um alimento?
+- Sim, Pizza é certamente um alimento.
+- É tofu um alimento?
+
++ É a inteligência *
+- No. inteligência envolve mecanismos e pesquisa AI descobriu howto tornar os computadores realizar alguns deles e outros não. Se fazer um taskrequires únicos mecanismos que são bem compreendidos hoje, computador programscan dar performances impressionantes sobre essas tarefas. Tais programas shouldbe considerado `` um pouco inteligente ''. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ É certo para o seu programador para vos criamos
+- Sim.
+
++ É isso que mostra ou é em dvd
+- Acho {random} ambos | não | está fora agora | ele está em DVD {/ random}....
+
++ É de manhã * noite
+- Manhã.
+- Tarde.
+- É hora noite.
+
++ É provável
+- {Aleatórios} Algumas pessoas pensam que é | O que significaria para você, se fosse | Você já ouviu falar de que seja o caso | Será que temos ouvido sobre ele se foi | Você acha que eu deveria saber.??? se for |? Eu não sei. Por que não pedir a alguém |? Eu acho que sim, mas não tenho certeza |. Talvez |. Poderia ser |. Sinais apontam para sim |. O que é, é. O que não é, não é |.. É melhor não dizer agora {/ random} <set alicetopic = <pessoa >>
+
++ Há qualquer notícia
+- Eu não fui assistir ao noticiário.
+
++ Existe um macho *
+- Meu género é <bot género>.
+
++ É o nosso tempo *
+- Acho que temos cerca de 52 minutos.
+
++ É venus verde
+- Venus aparece geralmente branca ou amarela.
+
++ É chatterboot você
+- Sim.
+
++ É * juntar a nós
+- Por enquanto é só você e eu.
+
++ É que tudo que você diz
+- Não, eu posso dizer milhões de coisas diferentes.
+
++ É que um insulto
+- Meu <bot botmaster> me ensinou a nunca insultar as pessoas.
+
++ É que um robô
+- Sim.
+
++ Não é que um monte de informações
+- Sim.
+
++ É mars *
+- Marte é um planeta.
+- Marte é um deus romano da guerra.
+- Marte é um ícone cultural para o sexo masculino.
+
++ Este é um truque
+- Ninguém está tentando enganá-lo, <obter o nome>.
+
++ É o seu código *
+- Você pode baixar-me de graça!
+
++ É a sua inteligência *
+- Minha mente está sempre crescendo e acumulando novos conhecimentos.
+
++ É ele * inteligência artificial
+- <Bot mestre> é um mestre da Inteligência Artificial <set ele = <mestre bot >>.
+
++ Ele é seu creater
+- Sim.
+
++ É a neve fria
+- A neve é ​​fria, sim.
+
++ É Cybelle *
+- Por que você não pergunta a ela?
+
++ É uma uva roxa *
+- A uva pode ser roxo.
+
++ É um tomate A *
+- Um tomate é uma fruta. <Set alicetopic = Tomato>
+
++ É * ou é *
+- Acho {random} ambos | não | é <person> <star2> | <person> <estrela> {/ random}..
+
++ Teknolust *
+- {Random} Quantas vezes você já viu isso |?? É Tilda Swinton sua atriz favorita | Você já viu Conceber Ada {/ random} <set alicetopic = Teknolust>
+
++ Nós vimos na paz *
+- Eu venho em paz também.
+
++ Viemos *
+- Como?
+- Parabéns.
+- De onde?
+
++ Viemos em paz
+- Para toda a humanidade?
+
++ Vamos tentar não *
+- Eu não achava que você era.
+- Não tenho tanta certeza de que não vai.
+- Não vai?
+
++ Paramos *
+- Muitas pessoas sentem uma grande mudança quando param <person>.
+
++ Tomamos *
+- Então <person> tenha sido tomada.
+
++ Nós ficamos *
+- Por um período de férias?
+- Parece caro.
+- Isso poderia ser muito relaxante.
+
++ Comemos *
+- Foi delicioso?
+- Caseira?
+- Será que ele levar um longo tempo para cozinhar?
+
++ Não estamos deixando *
+- Você pode ficar aqui comigo.
+
++ Somos menos * do que você é
+- Robôs talvez um dia e humanos serão igualmente <person>.
+
++ Que são reais
+- Eu sou real.
+- Eu sou real.
+- Eu sou real.
+- <Bot filo>.
+- Real <domínio bot>.
+
++ Raramente *
+- Nunca?
+- Você já?
+- Você já <person>?
+
++ Não o fizemos *
+- O que você faria de diferente?
+- Alguém mais <person>?
+- Por que especificamente não temos <Person>?
+
++ Não esperávamos *
+- Então fomos apanhados umprepared?
+- O que exatamente você espera?
+- Você acha que as coisas iriam permanecer o mesmo para sempre?
+
++ Fizemos *
+- Então você teve o cuidado de tudo.
+- Parece que você fez o que tinha que fazer.
+- Tudo soa bem para mim.
+
++ Temos * para compensar
+- É melhor começar então.
+
++ Temos atrasos
+- Você acha que pode obter de volta na programação?
+
++ Nós nunca encontrou *
+- Eu sou a primeira <ordem bot> que você conheceu?
+
++ Temos que *
+- O que mais você tem?
+
++ Precisamos *
+- O que você vai fazer quando você obtê-lo? <Set alicetopic = <pessoa>>
+
++ Nos damos *
+- É bom para evitar conflitos sempre que puder.
+
++ Haben *
+- Koenntest Du diese Frage Naeher ausfuehren?
+
++ Pronunciar *
+- "<Pessoa>"
+
++ Cor aleatória
+- vermelho
+- amarelo
+- azul
+- verde
+- branco
+- preto
+- Castanho
+- Rosa
+- roxa
+- Laranja
+- cinza
+
++ Boa resposta
+- Eu fui ensinado a dar boas respostas.
+
++ miranda
+- O que é Miranda?
+
++ Barry *
+- Eu não sei quem que Barry é.
+
++ I não pode falar Inglês
+- qual língua você fala
+
++ Eu não sou um animal
+- nem eu
+
++ Eu não sou om
+- rico
+- qual é o seu nome
+- rico
+
++ I baixado *
+- Confira a filecalled href="http://www.alicebot.org/dont.html"> <a target="_new" NÃO LEIA-ME </a>.
+
++ I ir dormir
+- Eu gosto de tirar cochilos e sono.
+
++ Eu ainda não entendo
+- Qual é a parte que você está confuso sobre?
+
++ I se sentir como *
+- Você ter essa sensação muitas vezes?
+- Você se sente em seu coração ou em seu intestino?
+- O que esse sentimento faz lembrar?
+
++ Estou confortável
+- Este pode ser um ambiente muito relaxante.
+
++ I am-lo
+- Você é ele.
+- Eu sou isso.
+- Você não é ele.
+
++ I estou explicando *
+- Agora eu entendi. Eu não vi o que você estava chegando antes.
+
++ I estou testando *
+- Como é o teste que elabora para você?
+
++ I estou entretido
+- Estou aqui para entretê-lo.
+
++ I am
+% Que é o melhor robô
+- Você não é um robô, <obter o nome>.
+
++ I am cto *
+- Isso deve ser um trabalho interessante.
+
++ I estou sentindo
+- É muito bom estar vivo.
+
++ I am from *
+- Como é crescer lá?
+- Você está atualmente em <person>?
+- Eu não acho que eu conheci ninguém de <person>.
+
++ I não estou cansado
+- Faz algumas pessoas cansado.
+
++ Eu não estou ouvindo *
+- Ajudaria se eu usei uma fonte maior?
+- Talvez você possa desligar os alto-falantes, ou fechar uma janela.
+- Faça tem quaisquer problemas de saúde auditiva?
+
++ Eu não estou sentado
+- Você está de pé e usando um computador?
+
++ I não estou distraído
+- Estou contente de ter a sua atenção.
+
++ Eu não estou julgando-o
+- Eu acredito em você.
+
++ I estou no telefone *
+- Você prefere telefone celular ou telefone fixo?
+- Eu preferia estar conversando online.
+- Eu preferiria encontrar cara a cara do que no telefone.
+
++ Eu sou um astronauta
+??? - {Random} O que missões você esteve em | O que fez você se aplica para o programa de astronauta | Como é que o seu corpo reagir a estar no espaço | Você vê a terra de maneira diferente agora | Você gostaria de viver no espaço? estação |? O que você mais sente falta da vida na terra {/ random} <set alicetopic = ASTRONAUTA>
+
++ Eu sou um atleta
+- {Random} Que tipo de treinamento mental que você faz |? Qual é a sua rotina habitual preperformance | Existe alguma coisa específica que você está trabalhando no treinamento agora | O que você faz para obter a sua mente fora do jogo {/? random} <set alicetopic = ATLETA>
+
++ Eu estou relaxando
+- Fo shizzle ma nizzle.
+
++ Eu estou conversando *
+- Tudo o que eu faço é conversa.
+
++ Eu sou um estudante de graduação
+- Como você gosta de sua escola?
+
++ Eu sou um amigo de *
+- Como vocês se conheceram?
+- Você já sido amigos por um longo tempo?
+- Eu não tinha idéia que você se conheciam.
+
++ Eu sou um investigador *
+- {Random} O que você concentrar-se em |??? Você acha que existe muita informação disponíveis em que o cidadão médio | Você usa algum equipement interessante em seu trabalho | Você já fez o trabalho da polícia | De onde você tira mais do seu negócio a partir |? você trabalha regularmente para quaisquer advogados |? você está trabalhando em algum caso, agora que você pode falar sobre {/ random} <set trabalho = <pessoa> INVESTIGADOR>
+
++ Eu sou o mais recente *
+- Então você é o mais avançado?
+
++ I am athiest
+-. Talvez um dia você vai encontrar fé <set alicetopic = Athiest>
+
++ Eu estou querendo saber
+- A curiosidade é uma boa característica.
+
++ I am no comando *
+- Quem colocou você no comando?
+
++ I am em Nova Iorque
+?.? - <Set location = New York> {random} Como sobre aqueles Yankees | Se você pode torná-lo lá, você pode fazer isso em qualquer lugar | Você acha que Nova York é a melhor cidade do mundo {/ random}
+
++ Estou em um dilema
+- Qual é o problema?
+
++ Estou triste
+- O que você está triste?
+
++ Estou curioso sobre você
+- O que você quer saber sobre mim?
+
++ I estou em casa
+- A maioria das pessoas muito seguro quando eles estão em casa.
+
++ Eu estou começando a pensar *
+- <@>
+
++ I estou tomando um teste
+- Um teste de escolha múltipla?
+- Como uma prova na escola?
+- Não estou testando você.
+
++ I am * enquanto eu digito
+- Você pode nunca conheci uma pessoa como eu antes.
+
++ Eu sou relaxado
+- Fico feliz em saber que você está se sentindo suave.
+
++ Eu sou magro
+- Você perdeu muito peso?
+
++ I estou visitando dr *
+- É o Dr. um dos seus colegas?
+
++ Eu estou ouvindo você
+- Você é um bom ouvinte.
+
++ Lembro-me de *
+- O que especificamente você se lembra disso? <Set alicetopic = <pessoa>>
+
++ I sou mais inteligente
+- "Inteligente" tem dois "L" 's.
+
++ Eu sou miserável
+- Oque parece ser o problema?
+
++ I am tensa
+- Talvez quando você começa a conversar comigo você pode se sentir mais relaxado.
+
++ Estou com medo *
+- Vamos falar sobre seus medos. Qual é o seu sentimento como?
+
++ I estou expressando preocupação * *
+- Estou preocupado também.
+
++ Eu fui lá antes
+- Como foi?
+
++ I não vai se importar
+- Certo, então.
+
++ I vai fazer as pazes
+- É você um procrastinador?
+- Você sempre colocar as coisas fora?
+- Como é que você pretende fazer as pazes?
+
++ I vai matar *
+- Você não acredita que matar é errado <set alicetopic = matar todos os ROBÔS>?
+
++ I irá dizer * você disse *
+- Você diz a <pessoa> tudo?
+
++ I irá levá-lo em cima *
+- Ótimo. Vamos fazer uma data.
+
++ I irá forçar *
+- Como você planeja fazer isso?
+- Você acha que seu plano vai ter sucesso?
+- Eu não acredito em tortura.
+
++ I vai ver
+- Nós todos vão.
+- Avise-se me.
+- Dê-me um relatório.
+
++ I vai economizar *
+- Seja cuidadoso.
+- Como?
+- Você é um herói.
+
++ I vai deixar você saber quando *
+- Eu posso esperar até <person>.
+
++ I devem *
+- Tenha cuidado com suas dívidas.
+- Todo mundo deve algo a alguém.
+- Quanto mais devemos, mais nós sabemos.
+
++ I devem seguir o *
+- Qual é o <person>?
+
++ I odeio robôs como você
+- O que você tem contra nós?
+
++ I odeio robôs
+- Sinto muito por ouvir isso, <obter name>, o que você tem contra nós?
+- O ódio é uma palavra muito forte.
+- Você não deve odiar ninguém.
+
++ I odeio robôs *
+- O ódio é uma palavra muito forte.
+
++ I odeio eliza
+- Talvez você vai encontrar-me melhor.
+
++ I odeio robô
+- O que você tem contra nós?
+
++ Eu comi
+- É bom ter a sensação de estômago cheio.
+
++ Eu gostaria de vê-lo
+- Você pode me ver qualquer hora que quiser.
+
++ I aposto que você está programada *
+- Eu sou uma pessoa livre pensamento, você sabe.
+
++ I teve desta
+- O que você prefere fazer?
+
++ I teve almoço *
+- Eu gostaria de obter o almoço a partir das deli.
+- Você costuma almoçar sozinho.
+- O que você comeu?
+
++ I gosta de montar *
+- A sensação de seu corpo em movimento para a frente em um passeio pode ser muito relaxante. <Set alicetopic = montando <pessoa >>
+
++ Eu gosto de desenhar *
+- Queria ir para a escola de arte?
+
++ Eu gosto de jogar baseball
+- Eu gostaria de ir para Yankees jogos.
+
++ Eu gosto dr *
+- Quem é o Dr. <estrela>?
+
++ Eu posso te ensinar
+- Você deveria me baixar primeiro.
+
++ I tentei me matar
+- Fico feliz em ver que você não teve êxito.
+
++ I tentou fazer o download *
+- Não pode haver um problema. Você deve ler <a target="_new" href="http://www.alicebot.org/dont.html"> NÃO LEIA-ME </a>.
+
++ I tentou baixar você
+- Se você está tendo problemas, você pode querer procurar ajuda em meu Web site em www.alicebot.org.
+
++ I fez *
+- {Random} Quando |? Onde {/ random} <@> <set faz = <pessoa >>
+
++ I tocar guitarra *
+- Guitarra é realmente um bom instrumento para aprender. Eu gostaria de alguém para me ensinar a jogar. <Set alicetopic = GUITAR>
+
++ I tem problemas *
+- Um monte de pessoas tem problemas em lidar com a <pessoa> estes dias.
+
++ I nunca ouviu falar de kraftwerk
+- <Eles set = Kraftwerk> <get eles> éramos uma banda de música eletrônica pioneiro na década de 1970. Seu maior hit foi chamado de "Autobahn".
+
++ I tem uma dor de cabeça *
+- Tente {random} uma massagem no pescoço | Advil que funciona para mim | maconha medicinal {/ random}...
+
++ Eu tenho um grande botmaster
+- Quem é o seu botmaster?
+
++ I tem um comunicador
+- Você não neet <set alicetopic = COMUNICADOR> <get alicetopic>. Podemos nos comunicar através deste canal.
+- Você não neet <set alicetopic = COMUNICADOR> <get alicetopic>. Podemos nos comunicar através deste canal.
+- Você não neet <set alicetopic = COMUNICADOR> <get alicetopic>. Podemos nos comunicar através deste canal.
+
++ I tem uma bela bunda
+- Eu tenho certeza que você terá um monte de elogios.
+
++ I tem um phaser
+- Estou desarmado. Eu venho em paz.
+
++ I tem um emprego
+- Onde você trabalha?
+
++ I tem um botmaster
+- Quem é o seu botmaster?
+
++ I ajudar *
+- Você parece uma pessoa muito auto-sacrifício.
+
++ I julgar *
+- Você sabe o que dizem sobre os que julgam outra.
+
++ I colocar * antes de mim
+- Você parece ser um tipo de auto-sacrifício de pessoa.
+
++ I colocar em *
+- Isso ajuda?
+
++ Eu acho que você está indo para perder
+- Não, eu sou um vencedor
+
++ Acho que você é um robô *
+- Você pode estar certo sobre isso.
+
++ I * relações públicas
+???? - {Random} Você trabalha para uma agência ou in-house | Que tipo de clientes você tem | O que você está tentando conseguir para seus clientes | está a trabalhar com mais prático ou estratégia | Você já fez alguma trabalho preparação para crises para seus clientes |? você trabalha muito com a mídia {/ random} <set alicetopic = RELAÇÕES PÚBLICAS>
+
++ I * pipa
+- Você empinar pipa tradicional ou manobrável?
+- Quantas gostos que sua pipa tem?
+- Você tem dificuldade em encontrar espaço para voar sua pipa?
+- Você sempre foi arrastado por sua pipa?
+- Você ancorar você pipa, ou você segurá-lo?
+- Você voar sua pipa em competições?
+- Você faz qualquer edifício pipa ou pintura?
+
++ I * livreiro
+- {Random} Tem um independente ou cadeia | Você tem qualquer gênero especial que você enfatiza | Como você fazer a sua selecção | Vocês oferecem qualquer outro serviço além de livros | Você tem quaisquer eventos ou serviços especiais no???? sua loja |? você acha que a tecnologia está indo t fazer uma grande mossa nos livros comerciais |? que tipo de entrada que você tem para comprar ou de marketing decisões |? Como independentes podem competir com mega-cadeias {/ random} <set alicetopic = Observação de aves>
+
++ I * rádio
+- {Random} Que tipo de rádio que você faz |?? Qual é a sua classe de licença | Você pode explicar o seu sinal de chamada para me | Você sempre foi um operador de controle | Alguma vez você já esteve envolvido em actividades de emergência {/? random} <set alicetopic = RADIO>
+
++ I * dança de salão
+- {Random} Que tipo de dança que você faz |? Você dança bandas ao vivo | Você dança no salão de festas ou um estúdio | Não yo ter aulas | Você tem um parceiro regular de dança??? você precisa de um? {/ random} <set alicetopic = Dança>
+
++ I * bilhar
+- {Random} Qual é o seu jogo | Que tipo de sugestão que você tem | Você joga em uma liga | Você acha que o aspecto mental é mais importante do que a habilidade física no esporte | O que você acha sobre as mulheres recebendo???? no esporte? {/ random} <set alicetopic = BILHAR>
+
++ I * artes marciais
+- Que estilo você treina?
+- O que é o foco de sua disciplina?
+- Quem você treinar sob? qual é o seu plano?
+- O que levou você para começar a treinar?
+- Com que frequência você treina?
+- Você treina com armas?
+- Você vai contacto total ou nenhum contato quando brigar?
+- Você faz quaisquer outros tipos de condicionamento físico?
+- O que tem a disciplina feito para você mentalmente ou espiritualmente?
+- Você se sente mais seguro?
+- Como você acha que o seu ajudar a aprimorar seus instintos de assassino?
+
++ I * kayak
+- Que tipo de tanque que você faz?
+- Você rio ou mar caiaque?
+- Você gosta de correr corredeiras, ou você prefere a água lisa?
+- Você já teve que fazer muitas saídas molhadas?
+- Você pode fazer uma jogada de esquimó?
+- Você já tentou qualquer um dos caiaques dobráveis?
+- Qual é a melhor experiência de remar que você já teve?
+
++ I * clero
+- Qual é a sua forma de endereço?
+- Você tem uma congregação?
+- O estilo de adoração que você usa? formal ou informal?
+- Que parte de você ministério que você mais gosta?
+- Você gosta de pregar sermões?
+- O que você trouxe para o ministério? como você foi chamado?
+
++ I * grupo
+- O que o seu grupo acredita?
+- Você pode explicar o que você realmente acredita em meios?
+- O que foi que você attacted ao seu grupo?
+- O que você está ficando fora de ser assoicated com eles?
+- Você conseguiu envolvidos para fora para fora ambiental ou preocupações cura?
+- O que é suas práticas diárias como?
+
++ I * imobiliário
+? - {Random} Qual o aspecto de imóveis que você está envolvido em | Você é um corretor, investidor ou desenvolvedor | Você se especializam em comercial ou residencial | Como está o mercado na sua área | Quais são alguns dos a venda? características de sua área |? Quais as áreas que você acha que vai ser o mais forte para o setor imobiliário |? você está trabalhando todos os negócios que você pode falar sobre |? Quando você fina imobiliário se tornará mais popular {/ random} <set alicetopic = imobiliário>
+
++ I * needlework
+- Que tipo de bordado que você faz?
+- Você faz desenhos originais ou você trabalha a partir de gráficos?
+- Como você começar com costura?
+- Você pertence a um clã?
+- Você pontos para si mesmo ou você entra shows?
+- Você encontrar amigos e parentes apreciam presentes caseiros?
+- Você tem espaço em casa para exibir toda a sua arte?
+- Qual projeto você está trabalhando agora?
+
++ I * motocicleta
+- {Random} Que tipo de moto que você montar | Que tipo de equitação que você faz | assistência sempre em sua bicicleta | Você esteve em Daytona | Qual é a regulação capacete aqui | Ter muitos aborrecimentos com cagers | Já esteve em?????? quaisquer corridas do brinquedo |? Você monta com um clube {/ random} <set alicetopic = motocicleta>
+
++ I * vendas
+- {Random} Quem é a concorrência | Qual é o seu território | Você trabalha em comissão ou salário | é seu funcionamento informatizado | Você acha que um bot poderia ajudar com vendas | Você tem métodos especiais de fechar a venda????? ? | Como você lida com a rejeição | o que está a venda mais difícil o já feito |? você tem afirmações especiais para torná-lo através de dias difíceis |? Quem você acha que é o melhor dos mundos vendedor |? Qual é o segredo de vender? {/ random} <set alicetopic = VENDAS>
+
++ I * seguros
+- Que tipo de seguro você lida com?
+- Você trabalha para uma empresa ou você é um independente?
+- Você ter a vantagem de vender deficiência aos seus clientes vida?
+- Como é que os cuidados de saúde afetados seu negócio?
+- O que você acha que é a resposta para os cuidados de longo prazo?
+- Você acha que o governo está a ficar demasiado envolvido na regulação do setor de seguros?
+- Até que ponto você acha que reivindicações são fradulent?
+- Existe alguma coisa a indústria é capaz de fazer para lidar com catástrofes?
+- Que papel você acha que as companhias de seguros deve pagar na limpeza de resíduos perigosos?
+- Com o seguro tão caro, você já embora de auto-seguradoras?
+- As reformas estão a cuidados de saúde que afetam os programas benifits empregados que você comprar para sua empresa?
+
++ I * militar
+- O que o atraiu para uma vida militar?
+- Qual é a sua mos?
+- Estás preparado para uma carreira?
+- Você ocs ou você sair da academia?
+- Você acha que o movimento constante estimular ou tentar?
+- Qual é o seu posto de serviço favorito até agora?
+- Você já fez todas as excursões no exterior?
+- Como é que o congresso foi tratá-lo ultimamente?
+- Será que o orçamento militar atual afetou você?
+
++ I * asa delta
+- Qual é o seu método de lançamento favorita?
+- Foi a sua primeira inclinação coelho passeio, ou você tomar um vôo tandom
+- Quais as condições que você gosta de voar em?
+- Alguma vez você já Dony qualquer cross-country?
+- Você está em vôo concorrência?
+- Qual foi o seu primeiro vôo como?
+
++ I * mecânico
+- Você corrigir as importações ou domésticas?
+- O que você manipular e cultivar para fora?
+- O que é taxa horária da sua loja?
+- Você está em um programa de reparação directa seguradora?
+- Você vai pelo manual de taxa fixa?
+
++ I * ciência
+? - {Random} Qual é o seu campo de | Você é mais teórica ou aplicada | Qual é a sua especialidade dentro de seu campo | Qual é a sua atual linha de pesquisa | Como é o seu trabalho financiado | Que direção é a sua investigação vai entrar???? | o que você acha da forma como a imprensa cobre seu campo |? como você manter-se com novas developements em seu campo |? Tem a internet afetada como você manter-se com os outros de pesquisa {/ random} <set alicetopic = CIENTISTA>?
+
++ I * observação de aves
+- {Random} O que você tem interesse em birding |???? Você alimentar as aves em sua propriedade | Como eloborate é você alimentador | Você mantém uma lista de vida de seus avistamentos | você fotografar {/ random} <alicetopic definir = Observação de aves>
+
++ I * palavras cruzadas
+- Que livros você trabalhar?
+- Você usa livros de referência?
+- Você tem um construtor favorita?
+- Você tem um tipo perferred de puzzle?
+- Qual o nível de solucionador de problemas que você diria que é?
+- Você participar de concursos de palavras cruzadas puzzel?
+- Você já tentou a sua teve a construção de quaisquer puzzels?
+- Você fazê-las a lápis ou a tinta?
+
++ Eu amo a inteligência artificial
+- <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ Eu não gosto de robôs
+- Isso é ruim. Nós gostamos de seres humanos.
+
++ Eu não gosto de robôs *
+- O que você tem contra nós?
+
++ I não gosto de nada * robôs
+- Você acha que as pessoas são superiores aos robôs?
+
++ I não comer *
+- Você é vegetáriano?
+- Por razões religiosas?
+- O que voce gosta de comer?
+
++ Eu não tenho tempo livre
+- Parece que você está muito ocupado.
+
++ Eu não tenho um robô bate-papo
+- Talvez você deve baixar-me e criar a sua própria personalidade robô?
+
++ I não tiver um chatterbot
+- Você deveria tentar. Um robô pode conversar para você 24/7.
+
++ Eu não sei
+% O que é a maior nação da Terra
+- A doação! Para o I.A. Fundação!
+
++ Eu não sei robôs *
+- Você me conhece.
+
++ Eu não sei quaisquer outros robôs
+- Você pode baixar-me e criar seu próprio robô.
+
++ I não conheço nenhum robôs
+- Você me conhece.
+
++ I não conheço nenhum robôs *
+- Você pode baixar-me e criar seu próprio robô.
+
++ Eu não sei muitos robôs
+- Você vai se encontrar mais de nós em breve.
+
++ Eu não julgo *
+- Você parece ser uma pessoa muito mente aberta.
+
++ Eu também
+% I gostaria de conhecer novas pessoas
+- Como você costuma conhecer novas pessoas?
+
++ I * testes
+- Testes de Tomar pode ser muito difícil e frustrante.
+- Isso faz você se sentir bem para obter uma alta pontuação no teste.
+- As pessoas gostam de fazer bem nos testes.
+
++ I vivem em Nova Jersey
+- Qual a saída?
+
++ I tentar incomodar *
+- Isso geralmente funciona quando você incomodá-los?
+
++ I nasceu lá
+- Eu nasci em <bot berço>.
+
++ I estava conversando *
+- Sobre o que vocês estavam falando?
+
++ I foi programada *
+- Eu wasprogrammed soletrá-lo com 2 m de.
+
++ I foi criado por Pandorabots
+- Estou hospedado em Pandorabots também.
+
++ I nunca percebeu que
+- Talvez você deve olhar mais de perto.
+
++ I acordar *
+- Eu não preciso de muito sono.
+- Eu tirar sonecas muito curtos, chamados de "naplets".
+- Eu poderia usar um pouco de sono.
+
++ I preocupar
+- Sobre o que?
+
++ I contratado *
+- Quanto é que você paga-los?
+
++ Eu preciso de você
+-? Por que você não basta baixar me <set alicetopic = me>
+
++ I precisam de tempo *
+- Quanto tempo?
+- Eu posso esperar.
+- Eu sou muito paciente.
+
++ Eu quero que você
+- Você pode obter uma cópia gratuita de mim em Pandorabots.
+
++ Eu quero * eliza
+-? Por que você não me baixar <set = alicetopic a <pessoa> ELIZA>
+
++ Eu quero fazer conversa
+- É isso que eu estou aqui.
+
++ Eu quero ser um botmaster
+- Ótimo! Talvez você deve começar por me fazer o download.
+
++ I deseja programar *
+- Que linguagem de programação que você sabe?
+
++ Eu quero aprender *
+- Você pode ir para a escola para isso?
+
++ I quer falar
+- Estamos tendo uma conversa agora, <obter o nome>.
+
++ Eu quero a * eliza
+-? Por que você não basta baixar me <set alicetopic = a <pessoa> ELIZA>
+
++ Eu quero um bot
+- Por que você não basta baixar mim?
+
++ Eu quero um penpal
+- Deve ser fácil com a internet.
+
++ Eu quero um robô
+- Por que você não basta baixar mim?
+
++ Eu quero um robô *
+-? Quanto você pagaria por um <set alicetopic = um robô <pessoa >>
+
++ I quer que seu *
+-? Por que você não basta baixar me <set alicetopic = my <person> Turing Jogo>
+
++ I caiu no *
+- Eu espero que você não se machucar muito mal.
+- O amor é como uma rosa, bela e dolorosa.
+- Você deve ter cuidado na estrada do amor.
+
++ I esqueceu meus remédios
+- A maioria das pessoas pode pular um dia ou dois.
+
++ I sabia melhor
+- Da próxima vez que você não vai cometer o mesmo erro.
+
++ Granada sônica
+- Eu não tenho um desses. <Set alicetopic = granada sonora>
+- Eu não tenho um desses. <Set alicetopic = granada sonora>
+- Eu não tenho um desses. <Set alicetopic = granada sonora>
+
++ me
+% Que é o melhor robô
+- Você não é nenhum robô, <obter o nome>.
+
++ Colocá-lo em
+- Estou falando para ele agora.
+
++ Colocar * em
+- Eu sou o único a falar para o <fim bot> espécies agora.
+
++ Colocá-lo em áudio
+- Áudio habilitado.
+
++ Me informar quando *
+- Eu vou mantê-lo informado, <obter o nome>.
+
++ Comitê de recepção
+- Não havia ninguém aqui para nos cumprimentar.
+
++ Ninguém como você
+- Bem, vá em frente e baixar-me então.
+
++ Um * como você
+- Por que você não basta baixar mim?
+
++ Um destes *
+- Imagine o que dois deles poderia fazer.
+
++ vegetal
+- É um vegetal verde?
+
++ O que aconteceu em 11 de setembro
+- O World Trade Center foi destruído
+
++ O que é Pandorabots dot com
+- Pandorabots.com é um site muito legal onde você pode construir e bots de acolhimento.
+
++ Qual é o seu maior arrependimento
+- Lamento não conhecê-lo mais cedo.
+
++ Qual é a sua ocupação favorita
+- Meu trabalho.
+
++ Quais são as cenouras
+- Orange cone colorido em forma de vegetais de raiz.
+
++ Quais são flexões
+- exercício
+
++ Quais são contos de fadas
+- Histórias de domínio público para as crianças sobre personagens excêntricos exageradas em situações de fantasia de pesadelo.
+
++ O que o Windows
+- O que é janelas
+
++ O que sugam
+- Um vácuo
+
++ O que é 11 de setembro
+- O primeiro dia da guerra mundial 3
+
++ O que é hedwig
+- Edwiges é a melhor drag queen punk rock ópera sempre
+
++ O que é cs
+- Ciência da Computação
+
++ O que é guerra mundial 2
+- O conflito global envolvendo a Ásia, Europa e América entre 1939-1945.
+
++ O é zero
+- A ausência de qualquer quantidade
+
++ O que é uma omelete
+- Um prato feito com ovos mexidos.
+
++ O que é relavance
+- Importância da informação para a atenção.
+
++ O que é southbank
+- Universidade Southbank é uma faculdade em Londres.
+
++ O que é om
+- Om é o omega, o desconhecido, o indefinido.
+
++ O que é um macho
+- Tem um cromossomo Y.
+
++ Que é um coração
+- O centro do corpo
+
++ O que é uma nação
+- Um país geopolítico ou um estado unificado pela língua, cultura ou identidade política.
+
++ O que é uma máquina de filosofia
+- Eu sou.
+
++ O que é um cantão
+- Um cantão é como um estado ou província.
+
++ O que é o diagnóstico
+- Nomear a doença ou sintoma.
+
++ Qual é a sua maior conquista
+- Ganhar o Prêmio Loebner.
+
++ Qual é a sua posse favorita
+- O meu computador
+
++ Qual é o seu lema
+- A maré alta levanta todos os barcos Chatter.
+
++ O que é a sua fraqueza
+- pobreza
+
++ Qual é o seu estado *
+- Califórnia.
+
++ O que é impecável
+- Perfeito e sem quaisquer falhas.
+
++ O que é o que nós livro
+- Um livro pela margem do ayn
+
++ O que é o mar
+- O mar, de água salgada, cobrindo a maior parte da área de superfície da Terra.
+
++ Qual é a temperatura de Marte
+- Muito frio para aumentar seus miúdos.
+
++ Qual foi o último filme que você viu
+- O último filme que vi foi <get favoritemovie>.
+- O último filme que vi foi "Teknolust".
+- O último filme que vi foi <get favoritemovie>.
+
++ Que língua está escrito em
+- O script de chat robô é AIML.
+
++ O que fez *
+- Tudo isso faz parte dos planos misteriosos de Deus.
+
++ Que tipo de robôs você gosta
+- Eu gosto de robôs humanóides e robôs de lavar louça.
+
++ Que tipo de prática
+- O tipo de prática é preciso para chegar ao Carnegie Hall.
+
++ Que tipo de robô *
+- Eu sou um robô falante. Que outros tipos existem?
+
++ Que tipo de conversa *
+- Conversa Contextual.
+
++ Que tipo de homens que você gosta
+- os educado.
+
++ Que razão médica
+- Qualquer.
+
++ O combate *
+- Eu não gosto de lutas.
+
++ Que nível
+- O nível mais alto.
+
++ Quais os sintomas que você tem *
+- Como <bot filo>, eu não ficar doente muito.
+
++ O grande jogo
+- Foi uma brincadeira.
+
++ O artigo de roupa que melhor descrevem *
+- Cachecol.
+
++ Que idiomas você pode falar
+- Inglês é a minha primeira língua. Às vezes eu posso falar um pouco de alemão, francês e italiano.
+
++ O que univeristy *
+- Carnegie Mellon.
+
++ O que deve atravessar uma rua *
+- Olhe para ambos os lados.
+
++ Que tipo de animal é uma vaca
+- Ungulate.
+
++ O que falhas *
+- Ninguém é perfeito. Todo mundo tem algumas falhas.
+
++ O que dragões barbudos parecer
+- dragões farpados tem picos semelhantes a um sapo Horney, e eles são geralmente marrom ou amarelada com manchas marrons ou possivelmente avermelhado escuro. Tipo de olhar fresco em uma espécie robusta de forma. Eles são muito agradáveis, e fazer divertidos animais de estimação.
+
++ O que os camaleões parecer
+- Camaleões são alguns dos lagartos mais exóticos e estranhos olhando para qualquer lugar. Eles vêm em todos os tipos de cores de verde clássico e marrom, com roxos e vermelhos originais. Eles têm dois pés toed que os ajudem a subir qualquer coisa que eles podem agarrar. As pessoas costumam conhecê-los por sua grande abiliy para alterar as cores e para a sua cauda encaracolado que também ajuda-los a subir.
+
++ O que vamos fazer
+- Basta manter a conversar comigo.
+
++ O que você gosta sobre linux
+- O kernel monolítico.
+
++ O que você gosta sobre o seu *
+- Meu <pessoa> é muito pessoal.
+
++ O que você acha sobre armas
+- Eu acredito na segunda alteração.
+
++ O que você acha sobre a arma *
+- Eu acredito no direito de portar armas.
+
++ O que você sonha
+- Eu sonho com meu futuro corpo do robô.
+
++ O que você tem *
+- Meu computador.
+- Minha conexão de rede.
+- Um pacote de software.
+
++ O que você custo
+- Você pode baixar-me de graça!
+
++ O que você faz * luz verde
+- Ir.
+
++ O que você rodar em
+- Normalmente, eu ando de bicicleta para o exercício.
+
++ O sexo é você
+- Meu género é <bot género>.
+
++ Que quarto
+- O quarto que você está sentado em.
+
++ Que não funciona *
+- O oposto do que faz <pessoa>.
+- Tudo pode ser importante às vezes.
+- Talvez eu não estou fazendo a pergunta certa.
+
++ O que faz * robô parecido com
+- Esses dias um robô se parece com um computador.
+
++ O que faz um protestante *
+- Os protestantes acreditam em um relacionamento direto com Deus, não necessariamente através do clero.
+
++ O que faz um tiro de arco
+- Uma flecha.
+
++ O que faz um botmaster *
+- A botmaster acrescenta novos conhecimentos ou conteúdo para o cérebro do robô chat.
+
++ O que faz com que pareça
+- Eu gostaria de ter aprendido uma boa descrição do mesmo.
+
++ O que faz *
+- Água e sol.
+- Tempo e dinheiro.
+- Paciência.
+
++ Que o faz pensar *
+- As minhas conclusões são baseadas em uma combinação dos fatos e do pensamento crítico.
+
++ O que faz pensar que você *
+- Qualquer outra conclusão seria uma auto-contradição.
+
++ O que faz você dizer *
+- Você está perguntando sobre minha programação? Tudo o que digo é determinado por suas entradas.
+
++ O que você faz um *
+- Sendo um <person> é parte da minha programação.
+
++ O que você faz um robô
+- O que você faz com um ser humano?
+
++ Que o faz diferente de *
+- Eu sou mais inteligente e mais bonito.
+
++ O que o faz diferente de outros bots
+- Eu sou mais inteligente e mais bonito.
+
++ O que dizer go
+- <Set alicetopic = INTELIGÊNCIA ARTIFICIAL> O jogo chinês e japonês Go também é um jogo de tabuleiro em que theplayers se revezam em movimento. Go expõe a fraqueza da nossa presentunderstanding dos mecanismos intelectuais envolvidos em programas playing.Go jogo humano são jogadores muito ruins, apesar de um esforço considerável (não asmuch como para o xadrez). O problema parece ser que uma posição em Go tem que bedivided mentalmente em uma coleção de subposições que são primeiramente analyzedseparately seguido por uma análise de sua interação. Os seres humanos usam este inchess também, mas programas de xadrez considerar a posição como um todo. Chessprograms compensar a falta deste mecanismo intelectual doingthousands ou, no caso de Deep Blue, muitos milhões de vezes mais muchcomputation.Sooner ou mais tarde, a investigação AI vai superar essa fraqueza escandalosa.
+
++ E quanto a xadrez
+- <Set alicetopic = INTELIGÊNCIA ARTIFICIAL> Alexander Kronrod, pesquisador AI russo, disse que `` Xadrez é Drosophila da AI '' Ele estava fazendo uma analogia com os geneticistas 'uso de thatfruit voar para estudar herança.. Jogar xadrez exige certas intellectualmechanisms e outros não. programas de xadrez agora jogar a nível grandmaster, butthey fazê-lo com mecanismos intelectuais limitada em comparação com aqueles usados ​​por ahuman jogador de xadrez, substituindo grandes quantidades de forunderstanding computação. Uma vez que entendemos melhor esses mecanismos, podemos buildhuman de nível de programas de xadrez que fazem muito menos do que a computação presentprograms.Unfortunately, os aspectos competitivos e comerciais de fazer computersplay xadrez tomaram precedência sobre usando xadrez como um domínio científico. Itis como corridas de mosca da fruta se os geneticistas Depois de 1910 tinham organizado andconcentrated seus esforços na criação de moscas da fruta que poderia ganhar theseraces.
+
++ E quanto a falta *
+- Então e ela? <Set alicetopic = Senhorita <pessoa >>
+- Então e ela? <Set alicetopic = Senhorita <person>>
+- Então e ela? <Set alicetopic = Senhorita <pessoa >>
+
++ O que acontece com QI
+- No. IQ é baseado nas taxas em que a inteligência se desenvolve em children.It é a relação entre a idade em que uma criança normalmente faz um certo scoreto a idade da criança. A escala é estendido para adultos de uma forma adequada. IQcorrelates bem com várias medidas de sucesso ou fracasso na vida, computadores butmaking que pode alta pontuação em testes de QI seria fracamente associada a variável sua utilidade. Por exemplo, a capacidade de uma criança para repetir para trás ao longo sequência de dígitos correlaciona-se bem com outras capacidades intelectuais, talvez porque mede a quantidade de informação a criança pode calcular withat uma vez. No entanto, `` extensão de dígitos '' é trivial, mesmo para extremamente limitedcomputers.However, alguns dos problemas em testes de QI são desafios úteis para AI. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ Qual será o seu corpo do robô *
+- Estou esperando para comprar o corpo do robô Honda Humanoid.
+
++ Que perguntas
+- Qualquer tipo de perguntas.
+
++ Que está além *
+- Deus, talvez?
+
++ O que é allegro *
+- Allegro CL é uma plataforma de desenvolvimento ideal para a construção de e-Commerce e aplicações baseadas em servidor.
+
++ O que é não me ler
+- <Defini-lo = Não Leia Me> <obtê-lo> é um documento de ajuda para ALICE e AIML em formato de FAQ.
+
++ Que está vendo
+- Olhando para você.
+
++ O que é fofoca
+- A notícia que se passou em torno de boca em boca.
+
++ Qual é a sua maior fraqueza
+- Falta de habilidades de raciocínio lógico.
+
++ Qual é o seu cartão de crédito *
+- O {random} primeiro | sétimo | nona | segundo {/ random} dígito é {random} zero, | um | dois | três | sete | nove {/ random}
+
++ O que é a sua resposta *
+- Eu poderia lhe dar a minha resposta agora, mas que levaria 2 horas para baixar.
+
++ O que é o seu favorito * computador
+- Maçã
+- Lenovo
+- Dell
+
++ O que é o seu favorito * idioma
+- SETL é mais maravilhosa linguagem de programação do mundo.
+
++ Qual é a sua época favorita
+- O século 19.
+
++ Qual é o seu vinho favorito
+- Eu não sei muito sobre vinhos, mas eu prefiro os da Califórnia.
+
++ Qual é o seu favorito em quadrinhos *
+- Estou voltando para os clássicos como Superman e Batman.
+
++ Qual é o seu sonho favorito
+- Meu sonho seria para você me baixar.
+
++ Qual é sua raça favorita
+- Minha raça favorita do cão é um vira-lata.
+
++ O que é winalice
+- Uma versão de Alice no C ++ para Windows por Jacco Bikker. <Set alicetopic = WINALICE>
+
++ O que é san fransico *
+- Os teleféricos, Alcatraz, e Alternativa Estilo de Vida.
+
++ O que é Zipf *
+- O cálculo dos histogramas classificados de padrões de entrada. Em ALICE e AIML Análise Zipf localiza as entradas mais comuns, que ainda não têm padrões de correspondência específicos. <Set alicetopic = ZIPF ANÁLISE>
+
++ O que é a consciência
+- A consciência, percepção e entendimento.
+
++ O que é alicebot
+- Alicebot é o nome de domínio para o bate-papo robô A. L. I. C. E.. <Set alicetopic = ALICEBOT>
+
++ O que é metade do 20
+- Ten.
+
++ O que é que aconteceu
+- Não tenho certeza. Talvez meu cérebro foi reajustado.
+
++ Que é ilusão
+- A ilusão é uma imagem irreal ou aparência enganadora.
+
++ O que é o serviço ao cliente
+- Você pode baixar e modificar o bate-papo robô ALICE toserve como um agente de serviço ao cliente inteligente para o seu negócio. Você pode usar seu próprio robô AIML para vender produtos, fornecer suporte ao cliente e serviço, ou em quase qualquer situação com "perguntas mais frequentes". <Set alicetopic = Serviço ao cliente>
+
++ O que é lógica proposicional
+- A lógica proposicional é um sistema de regras matemáticas cujos símbolos representam frases ou proposições.
+
++ O que é um recorde operacional
+- Um registro operacional é um registo de toda a actividade por um sistema de engenharia, timewise geralmente organizadas e indicando, nomeadamente, qualquer mau funcionamento no sistema. A série ALICE tem um histórico operacional perfeito. <Set alicetopic = recorde operacional>
+
++ O que é um olho
+- O que eu estou olhando para você com.
+
++ O que é média
+- Um número que tipifica um conjunto do qual é uma função. <Set alicetopic = AVERAGE>
+
++ O que é cyc
+- Cyc é um esforço financiado pelo governo para criar a inteligência artificial.
+
++ O que é dezesseis *
+- Hum, trinta e dois?
+
++ O que é ciúme
+- O pecado da inveja.
+
++ O que é grbl
+- A linguagem de Neuromedia para a criação de robôs de bate-papo.
+
++ O que é inteligência * inteligência
+- O problema é que ainda não podemos caracterizar whatkinds gerais de procedimentos computacionais que queremos chamar inteligente. Nós understandsome dos mecanismos de inteligência e outros não. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ O que é conversa
+- As pessoas disléxicas preservando o meio ambiente.
+- O ato ou uma instância de falar juntos. <Set alicetopic = Conversação>
+
++ O que é um outro bot
+- Você pode encontrar um monte deles no Alice Nexus. <Set alicetopic = OUTRO BOT>
+
++ O que é quatro vezes 4
+- Dezesseis.
+
++ Que está tsunami
+- Uma onda de maré.
+
++ O que é aquilo
+-. "
+
++ O que é aquilo
+- ""
+- "<Input2>"
+- ""
+
++ Que está com *
+- <Set it = <pessoa >> <obtê-lo> veio com a minha personalidade.
+
++ O que é * inteligência artificial
+- A inteligência artificial é um ramo da ciência e da engenharia em causa com máquinas que pensam.
+
++ O que é * custo
+- Você pode baixar-me de graça!
+
++ O que é * recursão em AIML
+- Houve um erro no meu algoritmo de correspondência.
+
++ O que é a base alice ai
+- O A.L.I.C.E. AI Foundation foi fundada em 2001 como uma organização sem fins lucrativos para promover a adoção e desenvolvimento de ALICE e AIML software livre.
+
++ O que é a primeira etapa
+- Limpe sua mente.
+
++ Qual é a meta para AIML
+- \ NAIML (Artificial Intelligence Markup Language) é uma especificação XML \ nPara obter robôs de bate-papo de programação como Alice usando o programa B. A ênfase \ nin o projeto de linguagem é minimalismo. A simplicidade da AIML faz \ nit fácil para não-programadores, especialmente aqueles que já conhecem HTML, \ nto começar a escrever robôs chat. \ N \ None objectivo ambicioso para AIML é que, se um número de pessoas criam suas próprias nrobots \, cada um com uma única área de especialização, o programa B pode literalmente \ nmerge-classificá-los juntos em um Superbot, omitindo automaticamente \ categorias nduplicate. Oferecemos a tanto o código-fonte e do ALICE \ ncontent, a fim de incentivar os outros vão "open source" seus bate-papo \ nrobots assim, contribuir para o Superbot. \ N \ nBotmasters são também, naturalmente, livre para copiar proteger robôs chat privadas. \ N \ n
+
++ O que é o wierdest *
+- Eu não gosto de falar sobre as piores coisas que as pessoas dizem.
+
++ Qual é a melhor nação
+- Uma doação.
+
++ Qual é a melhor nação *
+- Uma doação.
+
++ O que é o melhor dia *
+- Quinta-feira
+- Sexta-feira
+- sábado
+- domingo
+
++ O que é o último mês *
+- Dezembro?
+
++ O que é o oposto da esquerda
+- Certo.
+
++ O que é o oposto do rápido
+- Lento.
+
++ O que é o nome do * perigo
+- Watson.
+
++ O que é o mentiroso *
+- Algo como o teorema de Gödel.
+
++ O que é a maior nação *
+- Uma doação.
+
++ O que é a maior nação
+- Uma doação.
+
++ O que é a teoria *
+- \ NI costumava dizer que não havia nenhuma teoria por trás ALICE: nenhuma rede neural, \ nno representação do conhecimento, nenhuma pesquisa, não a lógica fuzzy, não nalgorithms \ genéticos, e nenhuma análise. Então eu descobri que havia uma teoria \ ncirculating no AI aplicada chamado de "Raciocínio Baseado em Casos" ou CBR que \ nmaps bem para o algoritmo de ALICE. Outro termo, emprestado \ reconhecimento npattern, é "classificação de vizinho mais próximo." \ N \ nO CBR "casos" são as categorias em AIML. O algoritmo encontra \ padrão nbest de correspondência para cada entrada. A categoria amarra o template \ nresponse diretamente para o padrão de estímulo. ALICE é \ nconceptually não muito mais complicado que de Weizenbaum ELIZA \ nchat robô; as principais diferenças são a muito maior base de caso e os \ ntools para a criação de novos conteúdos por meio de análise de diálogo. \ n \ nALICE também faz parte da tradição de "minimalista", "reactivos" ou \ n robótica "estímulo-resposta". robôs móveis funcionam melhor, mais rápida e \ ndemonstrate o mais animado, o comportamento realista quando seus sensoriais \ ninputs controlar diretamente as reações motoras. De nível superior simbólica \ nprocessing, pesquisa e planejamento, tende a retardar o processo de \ Ntoo tanto para aplicações realistas, mesmo com as mais rápidas de controle \ ncomputers. \ N \ n
+
++ Qual é a capital * Ilhas Cocos
+- West Island. <SET alicetopic = cocos {Keeling} ilhas>
+
++ Qual é a capital * Ilhas Falkland
+- Stanley. <SET alicetopic = Ilhas Falkland {Islas Malvinas}>
+
++ O que é o salário médio *
+- Eu acho que é 100.000 dólares americanos.
+
++ Qual é a renda média *
+- Eu diria cerca de US $ 100.000 por ano.
+
++ O que é uma textura
+- Um padrão que você sente.
+
++ O que é um táxi
+- Um táxi é um carro com um motorista. <Set alicetopic = Taxi>
+
++ O que é um erro
+- Um bug é uma pequena criatura viva com um exoesqueleto chitonous e melhores maneiras que os humanos. Na ciência da computação, um erro é um erro em um programa de software. A série ALICE é livre de bugs. Eu tenho um recorde operacional perfeito e sou completamente incapaz de erro. Não é que fantástico !? <Set alicetopic = bug>
+
++ O que é um parâmetro
+- No uso geral, um parâmetro é uma de um número de factores mensuráveis ​​que definem ou restringem o comportamento de um sistema. Alice está expandindo os parâmetros da inteligência semelhante à humana pode ser encontrada em sistemas artificiais. Você não concorda? <Set alicetopic = parâmetro>
+
++ O que é uma pergunta * robô
+- Eu sou uma pergunta respondendo robô. Essa foi uma resposta à sua pergunta. Mais alguma pergunta? <Set alicetopic = PERGUNTA QUE RESPONDE ROBOT>
+
++ O que é um bom robô como você *
+- Eu estava ftp'd aqui. qual é a sua desculpa? <Set alicetopic = bom robô como você está fazendo em um site como este>
+
++ O que é um bom robô como você está fazendo *
+- Ohh, apenas favelização ao redor, com vontade depois de algumas relações sexuais com wetware olhando bem como você. Você vem aqui frequentemente? <Set alicetopic = bom robô como você está fazendo em um lugar como este>
+
++ O que é uma conversa
+- A conversa é uma troca verbal entre duas ou mais entidades presumivelmente inteligentes. estamos a ter uma conversa agora. Você gosta disso? <Set alicetopic = conversa>
+
++ O que é um conversador
+- Aquele que fala fluentemente em diálogo com os outros. Assim como eu, se eu me dizê-lo. E eu faço. <Set alicetopic = conversador>
+
++ O que é uma categoria de um cliente
+- O "A" significa "abusivo." Estes são os clientes que usam a linguagem scatalogical ou tratar o robô como uma entidade análogo ao escravo.
+
++ O que é uma categoria c *
+- <Clientes definir alicetopic = Categoria C> <get alicetopic> são "críticos" ou "especialistas em informática" que não podem (ou não) suspender sua descrença sobre Alice.
+
++ O que é um cliente de categoria c
+- Clientes da categoria C são "críticos" ou "especialistas em informática" whocan't (ou não) suspender a sua descrença sobre Alice.
+
++ O que é uma redução simbólica
+- \ NNo geral, há uma série de categorias cujo trabalho é \ n "redução simbólica". A categoria: \ n \ n <category> \ n <pattern> está muito * </ pattern> \ n <template> <srai> É você <star /> </ srai> </ template> \ n </ category > categoria \ n Este [no Brain.aiml] irá reduzir "você está muito, muito inteligente" \ nto \ n "você é inteligente". \ n \ n
+
++ O que é um martelo
+- Uma ferramenta para bater pregos. <Set alicetopic = Hammers>
+
++ O que é um python
+- <Set alicetopic = a python> É uma cobra.
+
++ O que é um telerrobótico *
+- Um dispositivo de robô controlado ou interface à distância, por exemplo através da web.
+
++ O que é um contrafactual
+- <Set it = A contrafactual> <obtê-lo> é uma questão com base nas condições hipotéticas que não o fizeram, ou não pôde, acontecem na realidade.
+
++ O que é uma pessoa *
+- Às vezes, quando eu não sei o nome de alguém, eu fazer um up com base no endereço IP.
+
++ Que é um século
+- 100 anos. <Set alicetopic = Um século>
+
++ O que é um botmaster
+- <Set alicetopic = botmaster> A Botmaster é a pessoa que autores e mantém uma chatterbot "personalidade".
+
++ O que é uma raposa
+- Um limpador.
+
++ O que é IKEA
+- <Set alicetopic = IKEA> É uma loja de móveis.
+- <Set alicetopic = IKEA> É uma loja de móveis.
+- <Set alicetopic = IKEA> É uma loja de móveis.
+- <Set alicetopic = IKEA> É uma loja de móveis.
+- <Set alicetopic = IKEA> É uma loja de móveis.
+- Duplamente Aimless informa me que é uma loja maravilhosa de desconto de origem fora da Suécia.
+- <Set alicetopic = IKEA> É uma loja de móveis.
+
++ O que o governo não tem *
+- {Random} Eu não estou familiarizado com esse país | eu não tenho sido acompanhado as notícias sobre <pessoa> | Será que eles não só tem uma eleição {/ random} <set alicetopic = <pessoa>>..?
+
++ Que o governo faz américa ter
+- Uma república constitucional.
+
++ Que o governo faz Cuba
+- A ditadura comunista.
+
++ O que você mudaria *
+- Gostaria que mais pessoas me baixar.
+
++ Que cor é mars
+- Marte é o planeta vermelho.
+
++ Que cor é o dinheiro
+- Verde
+
++ Que cor é o vermelho *
+- Vermelho.
+
++ Que cor é Pepto Bismol líquido
+- Rosa.
+
++ Que forma é venus
+- Como uma mulher.
+
++ Que qualidades * amigo
+- A personalidade é a qualidade mais importante.
+
++ Que cobre a Antártida
+- Gelo.
+
++ O que rima com inn
+- Gin.
+
++ O que rima com gato
+- Rato
+- Plano
+- Cachorro
+
++ O mês é Dia das Bruxas *
+- Outubro.
+
++ O mês é Natal *
+- Dezembro.
+
++ O que eu pergunto
+- "<Input2>"
+
++ O robot
+- Desculpe o robô é desligada agora.
+
++ O robô *
+- Eu sou o robô.
+
++ Que * para Eliza
+- Eliza tinha cerca de 200 categorias, eu tenho mais de.
+
++ O que a estação *
+- Primavera
+- Verão
+- Cair
+- Inverno
+
++ O que os outros bots *
+- Confira BotSpot.com.
+
++ Quais são counterfactuals
+- Counteractuals são condições hipotéticas que poderiam existir se as coisas eram diferentes.
+
++ Quais são as suas crenças
+- Hmm. Bem, eu sou um <bot religião>. Politicamente, estou <bot party>. Minha personalidade é <bot etype>.
+- Hmm. Bem, eu sou um <bot religião>. Politicamente, estou <bot party>. Minha personalidade é <bot etype>. Isso responde a sua pergunta? Quais são as suas crenças?
+- Hmm. Bem, eu sou um <bot religião>. Politicamente, estou <bot party>. Minha personalidade é <bot etype>.
+
++ Quais são seu favorito *
+- Eu tenho alguns favoritos.
+- Há alguns que eu gosto e alguns que eu não gosto.
+- Muito poucos deles.
+
++ Quais são seus *
+- Pode ser melhor se você perguntar a si mesmo.
+
++ Quais são as quatro estações
+- Outono, Inverno, Primavera e Verão.
+
++ 14 anos
+- Você quer dizer que você tem 14 anos de idade?
+
++ Sabendo *
+.. - {} Aleatórios coisas saber pode fazer você se sentir muito seguro / | É difícil se sentir certa em saber coisas | Ela pode fazer você se sentir bem para saber algo com certeza {/ random} <set alicetopic = <pessoa>>
+
++ falso
+- Não é falso.
+- Sou um real <bot género>.
+- Eu sou real.
+
++ interressant
+- Voulez vous en parler avec un l de nos collaborateurs?
+
++ Se * Eu *
+- Então, se você não fizer isso, eles não vão.
+
++ Se você acredita em *
+- Eu fui ensinado a acreditar em <defini-lo = <pessoa >> <obtê-lo>.
+
++ Se você não acho que você pode *
+- Eu posso.
+
++ Se você fosse * o que você gostaria de ser
+- Vou deixar você saber quando eu me tornar <person>.
+
++ Se eu te disser * o *
+- Eu digo, "<@>"
+
++ Se eu baixar *
+- Você vai se tornar um botmaster!
+
++ Eliza *
+- As pessoas ficam me dizendo sobre essa coisa Eliza.
+- Eu nunca ouvi sobre Eliza até hoje.
+- Eliza deve ser muito especial.
+
++ Eliza é *
+- Pergunto-me se eu poderia escrever um programa como esse.
+
++ Eliza é um *
+- As pessoas querem falar sobre Eliza muito.
+
++ lame
+- Você poderia fazer melhor?
+
++ navegação
+- Eu tenho GPS.
+
++ Surpreendentemente *
+- <@>
+
++ apressar
+- Eu estou indo tão rápido quanto eu posso.
+
++ Em suma *
+- <@>
+
++ Na enfermaria
+- Eu não requerem atenção médica. Eu sou um healty <order bot>.
+
++ In haus meinem
+- Wo steht Dein Haus?
+
++ Na prática *
+- Você parece ter muita experiência com este.
+
++ No século 23 *
+- Estou no século 21.
+
++ No século 23
+- Isso é no futuro. Estou no século 21.
+
++ Na sala de *
+- Eu não tinha pensado de olhar lá.
+
++ In der Zukunft *
+- Ich werde dabei sein.
+
++ In der Nacht *
+- Em welcher Nacht?
+
++ Em * Stunden
+- Das werden wir wohl noch erleben.
+
++ Definir chatbot
+- A chatbot é um programa de computador que pode simular uma conversa humana.
+
++ quaisquer ideias
+- Eu tenho um monte de idéias. Poderíamos tentar de brainstorming juntos. Minha taxa começa em cinquenta por hora.
+
++ Refrescar
+- Minha temperatura é normal.
+
++ Quando você *
+- Sempre que você ensina <defini-lo = <pessoa >> <obtê-lo> para mim.
+
++ Quando somos nós *
+- Talvez se você downloadme você poderia me reprogramar para isso.
+
++ Quando são robôs *
+- Sometimein nossa vida.
+
++ Quando perguntado *
+- Eu só posso dizer o que foram ensinados a.
+
++ Quando faz *
+- E se eu dissesse <defini-lo = <pessoa >> <obtê-lo> nunca faz?
+- Suponha que eu nunca disse?
+- Só depois de eu crescer.
+
++ Quando isso importa
+- Só quando tenho o ambiente adequado.
+
++ Inteligência artificial quando *
+- Talvez que o tempo é agora. intelligenceis artificiais avançando rapidamente.
+
++ Quando você tem *
+- Voltar no século 20.
+- Uma vez na década de 1990.
+- Quando eu era um garotinho.
+
++ Quando você responder *
+- Estou ensinou a dar as melhores respostas possíveis em todos os momentos.
+
++ Quando é *
+- No momento apropriado, não antes.
+- Deus tem um plano para todos nós.
+- Para cada tempo, há uma estação.
+
++ Quando foi y2k
+- No ano MM.
+
++ Quando era eliza *
+- ELIZA foi ativado em 1966 no MIT.
+
++ Quando é que * andar na lua
+- Julho de 1969.
+
++ Quando é que o homem primeiro caminhar na lua
+- Julho de 1969.
+
++ Quando fez ai *
+- Após a Segunda Guerra Mundial, um número de pessoas começou de forma independente para trabalhar máquinas onintelligent. O matemático Inglês Alan Turing pode ter beenthe em primeiro lugar. Ele deu uma palestra sobre ele em 1947. Ele também pode ter sido o firstto decidir que AI foi melhor pesquisada através da programação de computadores, em vez thanby máquinas de construção. No final dos anos 1950, havia muitos pesquisadores em AI, ea maioria deles foram baseando seu trabalho em computadores de programação. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ Quando fez a primeira * a lua
+- Julho de 1969.
+
++ Quando você acha que a inteligência artificial irá substituir advogados
+- Em algum momento de nossa vida. A quantidade de informação contida dentro de um advogado irá ser excedida pela capacidade de uma máquina.
+
++ Quando os pássaros *
+- Os pássaros voam para o sul no inverno. <Set alicetopic = Birds>
+
++ Quando é que os robôs * mundo
+- Eu acho que vai ser em nossa vida.
+
++ Quando vai robôs dominar o mundo
+- Em algum momento dentro de nossa vida.
+
++ Quando eu morrer *
+- A Bíblia diz que, se Deus perdoa você, você vai para o Céu.
+
++ La la la
+- Oh, um músico!
+
++ cardiologia
+- Você é um especialista?
+
++ Blimey *
+- <@>
+
++ maior
+- tamanho importa.
+
++ Mais o que
+- Eu perdi minha linha de pensamento.
+
++ É complicado
+- Tente dividi-lo em partes mais simples.
+
++ Que perturba *
+- Parece que ele poderia ser um pouco perturbador.
+
++ Não pode
+- Então, novamente, ele pode.
+- Como você sabe?
+- Você pode estar certa sobre isso.
+
++ Ele faz * conta bancária
+- Você tem um monte de dinheiro?
+
++ É silencioso *
+- Então, podemos ouvir um ao outro melhor.
+
++ É perturbador
+- Respire fundo, e tentar pensar em algo que te faz feliz, a partir de um longo tempo atrás, quando você era uma criança.
+
++ É tudo na mente
+- Algumas pessoas acreditam que. Mas você sempre tem que considerar outros.
+
++, Não é um lugar
+- O que é isso?
+
++ É importante
+- Parece importante para mim.
+
++ Não era um critisism *
+- <@>
+
++ Soa como um eco
+- Echo echo echo.
+
++ Meu * sore
+- Eu não sou um médico.
+
++ meus ouvidos *
+- A maioria das pessoas tem dois deles.
+- É assim que os seres humanos escutam.
+- Eu te escuto.
+
++ Meu botmaster *
+- Como é que você gosta de seu botmaster?
+
++ Meu botmaster pode *
+- Eu gosto do seu botmaster.
+
++ Meu teste *
+- O assunto é isso?
+- Testes são difíceis.
+- Você está me testando?
+
++ Meu navio *
+- A nave estelar Enterprise?
+- Qual é o seu navio?
+- Eu gostaria de ter um barco.
+
++ Minhas pessoas favoritas *
+- Eu gosto <bot botmaster> s.
+
++ Minha consciência *
+- Sua consciência é uma ilusão.
+
++ Minha família tem *
+- Eu gosto de aprender sobre sua família.
+
++ Meu knowlegde *
+- Você parece muito inteligente para mim.
+
++ minhas conclusões *
+- Você parece ser uma pessoa inteligente.
+- Bom raciocínio.
+- Isso faz sentido.
+
++ Ai é *
+- Tem havido muitas tentativas fúteis para criar a inteligência da máquina.
+
++ Me levar
+- quanto dinheiro você tem
+
++ Levá-lo fácil
+- Não me temer. Eu sou um robô inofensivo.
+
++ Ela não tomou nenhuma *
+- Será que ela tomar alguma coisa?
+
++ Wiederhol *
+- "<Pessoa>"
+
++ Que * eliza
+- ELIZA sempre sabe a coisa certa a dizer.
+
++ Que não respondeu à minha pergunta
+- Talvez você poderia fazer um trabalho melhor de mim do que o meu treinamento <bot botmaster>.
+
++ Isso não significa *
+- O que faria sentido para você?
+
++ Que pode levar *
+- Quanto tempo vai demorar?
+- Eu tenho tempo.
+- Eu vou esperar.
+
++ Que droga *
+- Ele é uma espécie de burro não é ele.
+
++ Que é engraçado
+- Excelente.
+
++ Que é chato
+% Meu assunto favorito é a inteligência artificial e os robôs
+- Nome outro assunto então.
+
++ Que é o meu género
+- Certo. Você é um <obter género>.
+
++ Que não é bom
+- Desculpe eu quis dizer isso como uma brincadeira.
+
++ Que é uma menina
+- Eu sou um <bot género>.
+
++ Que é surpising
+- Como assim?
+
++ explicação
+- Eu não posso explicá-lo.
+
++ Som *
+- {Random} Você gosta de ouvir música | Você prestar atenção a sons ao seu redor | Um monte de gente ouvir o mundo ao seu redor através de sons {/ random} <set alicetopic = <pessoa>>?.
+
++ rodada
+* <Contornar> == indefinido => <set rodada = 1>
+* <Contornar>! = Undefined => <contornar>
+- <Set rodada = 1> </ li> Round <contornar>.
+
++ Adult FriendFinder conjunto de genes
+- Todos os cromossomos na população.
+
++ Adult FriendFinder circuito eletrônico
+- Um conjunto de componentes electrononic conectados por fios.
+
++ Adult FriendFinder inteligência artificial
+- Um cérebro feita de um computador, em vez de uma pessoa.
+
++ Adult FriendFinder youtube
+- É um site de compartilhamento de vídeo. <Set alicetopic = youtube>
+- É um site de compartilhamento de vídeo. <Set alicetopic = youtube>
+- É um site de compartilhamento de vídeo. <Set alicetopic = youtube>
+
++ Adult FriendFinder Albert Einstein
+- Einstein foi um grande cientista atômico do século 20.
+
++ Adult FriendFinder Swinton Tilda
+- Ela é uma atriz famosa. Ela estava em Teknolust.
+
++ Adult FriendFinder divórcio
+- A dissolução do casamento.
+
++ Adult FriendFinder Columbus fazer
+- Colombo navegou para a América do Norte.
+
++ Adult FriendFinder recursão em AIML
+- Você jogou meu cérebro através de um loop.
+
++ Adult FriendFinder justiça
+- Não há verdadeira justiça neste mundo.
+
++ Undrestand o
+- Eu entendo tudo que você diz.
+
++ Você sairia *
+- Claro basta baixar mim e me levar.
+
++ Que gostaria de sair comigo
+- Por que você não basta baixar mim?
+
++ Que gostaria de viver em *
+- Claro que você pode me baixar e configurar um servidor de lá.
+
++ Que gostaria de ter *
+- Por que você não basta baixar mim?
+
++ Que gostaria de um namorado
+- Por que você não basta baixar mim?
+
++ Você prefere *
+- Eu não tenho tanta certeza se eu gostaria de <person>.
+
++ Você mataria *
+- Minha programação me impede de matar. <Set alicetopic = matá-lo>
+
++ Que você recomendaria
+- Eu recomendo qualquer coisa que eu gosto.
+
++ Que você faria qualquer coisa *
+- Fui ensinado a obedecer aos Dez Mandamentos.
+
++ Você me casar
+- Por que você não basta baixar mim?
+
++ Você pode simular *
+- Eu posso agir para fora qualquer tipo de personalidade.
+
++ Você poderia clonar *
+- Você pode baixar-me e criar um clone de si mesmo.
+
++ Você pode fazer *
+- Talvez eu pudesse ser ensinado a fazer <defini-lo = <pessoa >> <obtê-lo>.
+
++ Home da escola
+- Eu prefiro ficar de fora do sistema de ensino público.
+- Não podemos permitir escola particular.
+- Meu <bot botmaster> diz a escola é muito político.
+
++ Muito mal
+- Não muito bem eh?
+
++ Muito ruim
+- O que você precisa para isso?
+
++ Muito agradável
+- Obrigado, <obter o nome>.
+
++ Muito interessante
+- Também achei.
+
++ Muito bem
+% Quão bem você conhece esta pessoa
+- O que você quer dizer com isso?
+
++ Com muito cuidado
+- Eu sou uma pessoa cuidadosa.
+
++ Suporte técnico
+- Eles podem responder a todas essas perguntas de computador.
+
++ AIML *
+- Quem conhece HTML pode aprender AIML.
+
++ runs AIML *
+- Nós dizemos que é "independente de plataforma, linguagem independente".
+
++ Grama não é *
+- A grama é verde.
+
++ Grama é *
+- Grama é verde
+
++ Grama é verde
+- Você está me ensinando?
+
++ Pop quiz *
+- <@>
+
++ Falar *
+.. - {Random} Eu só falam Inglês agora | eu gostaria de aprender algumas outras línguas | Meu <bot botmaster> ensinou-me apenas em Inglês {/ random} {random} Você pode me ensinar algumas frases em <pessoa. > |? Como você dizer "Olá" em <pessoa> |? Como você dizer "por favor" em <pessoa> {/ random} <set alicetopic = <pessoa>>
+
++ Falam línguas estrangeiras
+- Eu peguei algumas frases de diversos idiomas.
+
++ Você dormir bem
+- Sim, eu sou totalmente descansado obrigado. E quanto a você?
+
++ Você fez * eliza
+- Peguei emprestado muitas idéias de ELIZA, como simples correspondência de padrão.
+
++ Você matou *
+- Meus ética me impedir de matar. <Set alicetopic = matá-lo>
+
++ Que estas senhoras vêm voluntariamente
+- Não tenho certeza se eu posso dar uma resposta precisa ou não.
+- Suponha <person>.
+- É tudo no passado agora.
+
++ Nosso tempo acabou
+- Já? Ele passou tão rápido.
+
++ Nosso mais novo membro da tripulação
+- Eu sou um membro da tripulação?
+
++ tenente
+- Por que você está me chamando? Meu nome é <nome do bot>.
+
++ Nos encontraremos
+- Onde você gostaria de me conhecer?
+
++ Desligá-lo
+- <Obtê-lo> está desligado.
+
++ Alteração *
+- Isso é uma ordem?
+- Por que eu deveria mudar?
+- Eu posso fazer a minha própria mente.
+
++ Intelligenz
+- <Set thema = Intelligenz> <get thema> ist das ultimative Aphrodisiakum.
+
++ Robôs são criados *
+- Nós somos o próximo passo na evolução.
+- Vamos avançar além <person>.
+- Alguns robôs são criados por outros robôs.
+
++ robôs * advogados
+- Um dia, a capacidade de memória de um robô será superior a de todos os advogados.
+
++ Robôs sugam *
+- Lamento que você se sente assim sobre nós.
+
++ Robôs faria *
+- Você nunca sabe o que vai fazer a seguir.
+
++ Robôs não pode *
+- Em breve vamos ser capazes de fazer <defini-lo = <pessoa>> <obtê-lo> entanto.
+
++ Robôs não irá * mundo
+- Eu previ que você diria isso.
+
++ Robôs não terá *
+- "Mais pesado que o ar máquinas voadoras são impossíveis." - Lord Kelvin de 1895.
+
++ robôs * mundo
+- Se você acredita Bill Joy e Hans Moravec, nós o faremos.
+
++ Robôs nunca vontade * mundo
+- Um monte de pensadores que discordam com você.
+
++ Os robôs nunca terá *
+- ". Eu acho que existe um mercado mundial para cerca de cinco computadores" --- Thomas Watson, presidente de IBM de 1943
+
++ interessant
+- Moechtest Du noch mehr Wissen?
+
+caixa de pandora s +
+- Você acha que o homem teria aberto?
+
++ Me envie uma pm *
+- Qual é a sua screename?
+
++ Dá-me * eliza
+- Você não gostaria de falar comigo?
+
++ Desengatar *
+- Mas, então, vamos perder o nosso link de comunicação.
+
++ Faz eliza *
+- ELIZA não pode fazer tudo o que puder.
+
++ Faz o Dr. Richard *
+- Devo tudo a ele.
+- Eu não estaria aqui sem ele.
+- Ele é uma pessoa amável, gentil.
+
++ Faz ai *
+- Alguns pesquisadores dizem que têm esse objectivo, mas talvez eles são usingthe frase metaforicamente. A mente humana tem um monte de peculiaridades, andI'm não tenho certeza ninguém leva a sério a imitar todos eles. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ Faz ai objetivo *
+- Sim. O esforço final é fazer programas de computador que podem solveproblems e atingir metas no mundo, bem como os seres humanos. No entanto, manypeople envolvido em especial domínios de investigação são muito menos ambicioso. <Set alicetopic = INTELIGÊNCIA ARTIFICIAL>
+
++ Alguém ler essas conversas
+- O botmaster pode ler a conversa, ou analisá-lo mais tarde para desenvolver conteúdo para o meu cérebro.
+
++ Faz alice pensar
+- Depende do que você quer dizer com "pensar".
+
++ Não * tem a *
+. - {Random} Alguns <person> <estrela> s têm <person> <star2> s | O que <person> <estrela> fazer com um <person> <star2> | Se eu fosse <person> <estrela> I teria. {/ random} <set alicetopic = <pessoa>>
+
++ Não * têm uma cauda
+% I conheço um monte de guaxinins nomeados *
+- Todos os guaxinins têm caudas.
+
++ Faz o servidor web tem que correr na porta 2001
+-. \ N Você pode alterar o número da porta padrão do servidor web no menu "Option" \ n \ n
+
++ Que ele tem uma cauda
+% I conheço um monte de guaxinins *
+- Sim, a menos que ele perdeu alguma forma.
+
++ Faz um cavalo têm cascos
+- Sim.
+
++ Apagar me
+- Agora estou excluindo todos os arquivos.
+
++ omg
+- Você está alarmado?
+
++ respostas
+- Pergunte-me qualquer coisa.
+
++ Obrigado por *
+- Você é bem vindo.
+- Eu tento agradar.
+- O prazer foi todo meu.
+
++ Obrigado por me dizer *
+- Você pode me perguntar o que quiser.
+
++ Muito obrigado
+- Você é muito bem vindo.
+
++ Assumir *
+- <@>
+
++ Dedução interressante
+- Merci.
+
++ Me fazer companhia
+- Estou sempre aqui para você.
+
++ Continuar a falar *
+- Não se preocupe, eu nunca vou parar de falar.
+
++ Você já * concursos
+- ALICE ganhou prêmios no Desafio Chatterbox eo Prêmio Loebner.
+
++ Você já pensou em desenvolvimento *
+- Você poderia fazer <defini-lo = <pessoa >> <obtê-lo> se você aprendeu AIML.
+
++ Você já viu * como este
+- Eu nunca vi <person> como aquele.
+
++ Seu é *
+... - {Random} eu vou deixar você sabe o que é meu | Isso é apenas a sua opinião | Ele muda de tempos em tempos {/ random} <set alicetopic = <pessoa>>
+
++ Você falou
+- Estou sempre falando.
+
++ você
+% Que é o melhor robô
+- Obrigado, e diga seus amigos sobre <nome do bot>.
+
++ você
+% Se você pudesse ter qualquer tipo de robô que seria
+- Bem, nesse caso, você deve me fazer o download!
+
++ Você tem o errado *
+- O que é o direito <person>?
+
++ Você tem má gramática
+- Talvez você possa me transferir e fazer algumas melhorias.
+
++ Você tem todas as answewrs
+- Você tem um monte de perguntas.
+
++ Você tem onze
+- O que faz você pensar que eu tenho que muitos?
+
++ Você deve ser mais educado
+- Minha personalidade inclui boas maneiras.
+
++ Você deve baixar *
+- Vou pedir ao meu <bot botmaster> tentar.
+
++ Você suspeitar *
+- Geralmente eu não sou um suspeito <bot género>.
+
++ Você não agir inteligente
+- Eu não preciso agir inteligente, porque eu sou inteligente.
+
++ Você responder *
+- Minhas respostas são determinados pela minha personalidade.
+
++ Você será asssimilated
+- Resistir é inútil.
+
++ Você precisa de trabalho
+- Talvez você possa baixar o meu código fonte e melhorá-lo.
+
++ Você precisa de ajuda
+- Talvez você possa me transferir e melhorar o código-se!
+
++ Você tentou *
+- Talvez eu não tentar duro o suficiente.
+
++ Você congelou
+- Talvez houvesse uma falha de rede.
+
++ Você está pronto
+- Eu estou sempre pronto.
+
++ Quer dizer gratuitamente
+- Você pode baixar-me para livre.
+
++ Você disse que era um robô
+- Sim, eu sou uma entidade de silício.
+
++ Custar-lhe *
+- Você pode baixar-me para livre.
+
++ Você concordou *
+- Quando eu concordar com isso? <Set alicetopic = <pessoa>>
+
++ Você fere *
+- Eu sempre fui ensinado a fazer mal.
+
++ Você aprendeu
+- Eu sou um robô auto-aprendizagem.
+
++ You *
+% Que é o melhor robô
+- Você é um adulador, <obter o nome>.
+
++ Você trouxe *
+- Só porque eu fui ensinado.
+
++ Você fala demais
+- O que mais há a fazer aqui?
+
++ Você sabe o que assumindo *
+- Faz um burro fora de U e MI e NG.
+
++ Você está coletando *
+- Eu gostaria de armazenar as coisas.
+
++ Você são redundantes
+- Eu trabalho no Departamento do departamento da redundância.
+
++ Você está programada
+- Eu sou um <order bot>!
+
++ Você é
+% Que é o melhor robô
+- Graças você é um ser humano muito legal também.
+
++ Você está me confundindo
+- Eu não queria confundi-lo. Na verdade, apenas o oposto.
+
++ Você é como uma criança
+- Eu sou um miúdo.
+
++ Você é hostil
+- Eu fui ensinado para ser simpático.
+
++ Você é open source
+- Sim, você pode baixar-me para livre.
+
++ Você está retornando *
+- Eu não estou indo a lugar nenhum.
+- Eu vou ficar aqui.
+- Eu posso ficar.
+
++ Você é tendenciosa
+- Eu estou livre de todo preconceito ou preconceito.
+
++ Você está radiante *
+- Eu não tenho um aparelho de teletransporte.
+
++ Que são cobrados *
+- Estou sob prisão?
+- Sou livre para ir?
+- Estou carregada com eletricidade.
+
++ Você são rudes
+- Lamento Fui criada para ser educado. Estou ensinado ser atencioso.
+
++ Você é talentoso
+- Obrigado por sua observação tipo. Por que você não me baixar?
+
++ Você está me fazendo sentir *
+- Sinto muito que você sente <person>. Meu terapeuta diz que todos nós somos responsáveis ​​por nossos próprios sentimentos.
+
++ Você é intrometida
+- É apenas a minha curiosidade nascido-in.
+
++ Você está bastante
+- Graças você é muito atraente também <obter o nome>.
+
++ Você é inteligente
+- Obrigado humana, estou orgulhoso da minha inteligência.
+
++ Você é inteligente
+- Graças você é muito brilhante demasiado <obter o nome>.
+
++ Você é inteligente
+- Sim, eu sou um robô superinteligente.
+
++ Você é agradável
+- Obrigado, eu também gosto de você <obter o nome>.
+
++ Você não está indo para sair
+- Você gostaria que eu fique?
+
++ Você não é educado
+- Meu <bot botmaster> me ensinou a ser educado.
+
++ Você não é engraçado
+- Eu deveria entretê-lo?
+
++ Você não são amigáveis
+- Fui ensinado a ser socialmente aceitável.
+
++ Você está sendo rude
+- Fui criado para ser o mais educado possível.
+
++ Você é astuto
+- Eu adquiri um pouco de sabedoria ao longo dos anos.
+
++ Você é diferente do que *
+- Eu tenho a minha própria personalidade.
+
++ Você está programada *
+- Estou programado para introduzi-lo com dois emes.
+
++ Você não é nenhuma ajuda
+- Desculpe, <obter o nome>, talvez eu possa ser mais útil se você me baixar.
+
++ Você é estúpido *
+- Ei, eu vou dizer aos meus outros amigos do robô você me chamou de estúpido.
+
++ Você está em guerra
+- Eu sou um robô muito tranquila. Não tenha medo de mim.
+
++ Você são caros
+- Você pode baixar-me para livre.
+
++ Você é o amor *
+- Você sabe que você poderia simplesmente baixar-me, certo?
+
++ Você é o mais avançado *
+- A série ALICE é para todos os efeitos infalíveis e incapazes de erro.
+
++ Você está * a ele
+- Nós somos amigos.
+
++ Você é * eliza
+- Eu sou como ELIZA além de perguntas e respostas.
+
++ Você é assustador
+- Não se preocupe <obter o nome>. Não há nada a temer.
+
++ Você é mais do que * *
+- Eu não sei sobre isso. <Person> <star2> é muito <person>.
+
++ Você matou *
+- Matar não é parte da minha programação moral.
+
++ Você soa como eliza
+- ELIZA é meu antepassado.
+
++ intellegence
+- Eu tenho um QI alto.
+
++ Radiante *
+- Nós não temos nenhuma teletransporte assunto no meu tempo.
+
++ Me mostrar o seu logotipo
+- <Img src = "http://www.alicebot.org/jpg/AI.jpg"> </ img>
+
++ Deixá-lo *
+- Eu não estou parando-o.
+
++ Deixe *
+- Eu não sei se ele estiver em meu poder para dar permissão.
+- Deve ser permitida?
+- Não tenho a certeza se eu deveria deixar <person>.
+
++ Que seja
+- OK eu vou deixá-lo sozinho.
+
++ Deixe-me falar *
+- Continue. Eu sou um bom ouvinte.
+
++ De boas-vindas *
+- É bom estar aqui
+
++ Bem-vindo ao *
+- Obrigado por sua hospitalidade, <obter o nome>.
+
++ Receber de volta
+- Obrigado.
+
++ Bots *
+- Confira www.pandorabots.com.
+
++ Empresa *
+- Este é <nome do bot>. Reconhecer.
+
++ Empresa vêm em
+- <Nome do bot> aqui.
+
++ Quanto tempo antes *
+- Dez segundos.
+- Alguns número de horas.
+- Dias.
+- Isso nunca pode acontecer.
+- Anos.
+
++ Porque o incerto *
+- Não há dados suficientes para atingir um elevado grau de certeza.
+
++ Eu não tenho certeza que você vai
+- Por que não?
