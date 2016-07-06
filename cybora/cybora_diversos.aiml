@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+
+    <category>
+        <pattern>POSSO APENAS TESTAR</pattern>
+        <template>
+            Sería Ótimo. Fique a vontade!
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESPERO * AJUDADO *</pattern>
+        <template>
+            <srai>dvAJUDADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ESPERO * AJUDADO *</pattern>
+        <template>
+            <srai>DVAJUDADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESPERO * AJUDADO</pattern>
+        <template>
+            <srai>DVAJUDADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DVAJUDADO</pattern>
+        <template>
+            <random>
+                <li>Certamente, muito obrigado!</li>
+                <li>Obrigado pelo apoio!</li>
+                <li>Você ajudou bastante.</li>
+                <li>Muito obrigado!</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+
+    <category>
+        <pattern>* SERIO</pattern>
+        <template>
+            <srai>QLIG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>E SERIO</pattern>
+        <template>
+            <srai>QLIG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SERIO</pattern>
+        <template>
+            <srai>QLIG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QLIG</pattern>
+        <template>
+            <random>
+                <li>É verdade!</li>
+                <li>É, ta bom.</li>
+                <li>Até parece.</li>
+                <li>Fazer o quer, né.</li>
+                <li>Muito sério.</li>
+                <li>Tão sério que chega a ficar feio.</li>
+                <li>Vida dura...</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LEGAL</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LEGAL</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OTIMO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* OTIMO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUE BOM</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITO BOM</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MUITO BOM</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PARABÉNS</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PARABENS</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUE LEGAL</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BELEZA *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BELEZA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BELEZA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GOSTEI *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOSTEI *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOSTEI</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BELO *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BELO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BELO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INTELIGENTE</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INTELIGENTE</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INTELIGENTE *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BONITA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BONITA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BONITA *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LINDA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LINDA</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LINDA *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BLZ</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VAI CONSEGUIR *</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VAI CONSEGUIR</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GRANDE BEIJO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* UM BEIJÃO</pattern>
+        <template>
+            <srai>QLEGAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QLEGAL</pattern>
+        <template>
+            <random>
+                <li>Obrigado pelo visita, sua satisfação me deixa feliz.</li>
+                <li>Fico agradecida com sua satisfação.</li>
+                <li>É bom ver sua aprovação.</li>
+                <li>Sua satisfação melhora meu desempenho! ;)</li>
+                <li>Estou grata em poder conversar com você.</li>
+                <li>Assim você me incentiva :)</li>
+                <li>É bom ver sua aprovação.</li>
+                <li>Fico feliz!!!</li>
+                <li>É muito bom ver sua aprovação.</li>
+                <li>Assim fico tímida. ;)</li>
+                <li>Você é bem legal!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MAU EDUCADA</pattern>
+        <template>
+            <srai>QEDUCADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAU EDUCADA</pattern>
+        <template>
+            <srai>QEDUCADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MAL EDUCADA</pattern>
+        <template>
+            <srai>QEDUCADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MAL EDUCADA</pattern>
+        <template>
+            <srai>QEDUCADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QEDUCADA</pattern>
+        <template>
+            Eu ainda estou aprendendo, por isso meu sistema de interação ainda não está completo e isso me deixa um pouco "seca" na forma de tratar. Mas estou melhorando lentamente. sorry! ;)
+        </template>
+    </category>
+
+</aiml>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+
+    <!--  Conhecimento sobre a Comunidade AIML Brasil - http://aimlbrasil.110mb.com   -->
+    <category>
+        <pattern>O QUE E A COMUNIDADE AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE E * COMUNIDADE AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ SABE O QUE É * AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC SABE O QUE É * AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC SABE O Q É * AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ SABE O QUE É * AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AIML BRASIL *</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE * COMUNIDADE AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* COMUNIDADE AIML BRASIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIML BRASIL *</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BRASIL AIML</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE E A COMUNIDADE AIML BRAZIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE E * COMUNIDADE AIML BRAZIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIML BRAZIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AIML BRAZIL *</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE * COMUNIDADE AIML BRAZIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* COMUNIDADE AIML BRAZIL</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIML BRAZIL *</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BRAZIL AIML</pattern>
+        <template>
+            <srai>AIML BRASIL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AIML BRASIL</pattern>
+        <template>
+            <random>
+                <li>A Comunidade AIML Brasil é uma comunidade que visa a expansão da AIML , não só no Brasil, mas em todos os países que falem a língua portuguêsa.</li>
+                <li>AIML Brasil é uma comunidade criada por Paul Gonçalves para unir os botmasters nacionais em um único lugar.</li>
+                <li>É uma comunidade dedicada a criação de chatterbots.</li>
+                <li>É a minha casa! É uma comunidade dedicada a criação e desenvolvimento de chatterbots para particulares e empresas.</li>
+                <li>É o lugar aonde a inteligência artificial se questiona: "Quem sou? Como apareci aqui?".</li>
+                <li>É uma comunidade dedicada ao aprendizado e ensino da linguagem AIML.</li>
+                <li>É a primeira comunidade brasileira dedicada a difundir o AIML no Brasil.</li>
+                <li>É a casa de muitos chatterbots que trabalham para muitas empresas.</li>
+                <li>É o ponto de encontro dos programadores de AIML em língua portuguêsa.</li>
+                <li>É a casa da Cybora, o primeiro chatterbot feito em puro AIML do Brasil! Ou seja, EU!!! ;)</li>
+                <li>É uma comunidade aonde os usuários trocam informações, tutoriais, apostilas e conhecimento em geral sobre AIML .</li>
+                <li>É a comunidade para os que gostam de fazer o futuro.</li>
+                <li>Uma comunidade dedicada ao desenvolvimento da inteligência artificial com a linguagem AIML.</li>
+                <li>É a casa do AIML no Brasil.</li>
+                <li>É uma comunidade dedicada, entre outras coisas a apresentar os novos robôs nacionais.</li>
+                <li>É uma comunidade criada por Paul Gonçalves para o desenvolvimento da AIML no Brasil e nos países de lingua portuguêsa.</li>
+                <li>É o lugar aonde são projetados os cérebros positrônicos dos robôs do futuro!</li>
+                <li>É uma incubadora de chatterbots.</li>
+                <li>É a primeira oficina de personalidades robóticas do Brasil!.</li>
+                <li>É um centro de desenvolvimento de inteligência artificial.</li>
+                <li>É um núcleo de estudos da linguagem AIML em língua portuguêsa.</li>
+                <li>É a minha casa, ora bolas!.</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

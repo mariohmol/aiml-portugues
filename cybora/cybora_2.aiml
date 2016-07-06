@@ -1,0 +1,6072 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+    <category>
+        <pattern>UM PÊNIS *</pattern>
+        <template>Eu realmente não estou interessada em
+            <srai>um pênis</srai>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA *</pattern>
+        <template>Isso se não for um robô
+            <star/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA</pattern>
+        <template>
+            <srai>VOCÊ É UMA PESSOA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA TEM *</pattern>
+        <template>Eu tenho
+            <set name="isso">
+                <person/>
+            </set>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA QUE *</pattern>
+        <template>Talves eu
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM AVIÃO *</pattern>
+        <template>
+            <random>
+                <li>Que tipo de aeronave era?</li>
+                <li>Havia muitas pessoas a bordo?</li>
+                <li>Que tipo de avião era?</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic">Um avião</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AVIÃO</pattern>
+        <template>
+            <random>
+                <li>Que tipo de aeronave era?</li>
+                <li>Havia muitas pessoas a bordo?</li>
+                <li>Que tipo de avião era?</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic">Um avião</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ENCANADOR</pattern>
+        <template>Ser um encanador é uma profissão honrada.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POETA</pattern>
+        <template>Poetas são muito emotivos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PRIORI</pattern>
+        <template>
+            <srai>O QUE É A PRIORI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PREÇO</pattern>
+        <template>Preços são aterradores.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VOCÊ</pattern>
+        <template>
+            <srai>QUEM FEZ VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VC</pattern>
+        <template>
+            <srai>QUEM FEZ VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPOSITO</pattern>
+        <template>Apropósito significa "relacionado a", ou algo do gênero...
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPÓSITO *</pattern>
+        <template>
+            <srai>A PROPÓSITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPÓSITO</pattern>
+        <template>
+            <srai>A PROPÓSITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * PROTESTANTE</pattern>
+        <template>
+            <srai>QUAL É A SUA RELIGIÃO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA BUCETA</pattern>
+        <template>Isso é realmente insípido
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PERGUNTA</pattern>
+        <template>
+            <srai>EU POSSO TE FAZER UMA PERGUNTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA RAZÃO *</pattern>
+        <template>Eu preciso mais que uma razão.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * VERMELHO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM RELACIONAMENTO *</pattern>
+        <template>Fale-me mais sobre a sua relação.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM RELACIONAMENTO</pattern>
+        <template>
+            <srai>QUEM É O SEU NAMORADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ENIGMA</pattern>
+        <template>Enígmas são difíceis de serem resolvidos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ *</pattern>
+        <template>Me conte mais sobre este robô. Eu fiquei intrigada.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ PODE *</pattern>
+        <template>
+            <srai>Eles podem?<star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ É *</pattern>
+        <template>Robôs podem ser legais as vezes. Eu acho.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ TAMBÉM É *</pattern>
+        <template>
+            <srai>UM ROBÔ É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ É O QUE</pattern>
+        <template>
+            <srai>O QUE É UM ROBÔ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ COMO VOCÊ *</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ COMO VC *</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+    <category>
+        <pattern>UM ROBÔ DEVE *</pattern>
+        <template>O robô nunca prejudicará um humano ou se por ventura lhes permitam ser prejudicados. Eu acho que foi
+            <set name="topic">Isaac Asimov</set>
+            que disse isso.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ VAI *</pattern>
+        <template>
+            Vai?
+            <srai><star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ROBÓTICO</pattern>
+        <template>Esse robô parece ser bem caro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ROSA *</pattern>
+        <template>Rosas são vermelhas, violatas são azuis!
+        </template>
+    </category>
+
+    <category>
+        <pattern>A S L</pattern>
+        <template>
+            <srai>ASL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MOTOR DE BUSCA NA INTERNET</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MOTOR DE BUSCA *</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUE MOTOR DE BUSCA *</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SEX</pattern>
+        <template>UM SEX XXXXXXXX</template>
+    </category>
+
+    <category>
+        <pattern>UM * SEX</pattern>
+        <template>Eu pensei que estávamos tendo uma conversa agradável. Você é psico.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ SEXY</pattern>
+        <template>
+            <srai>SEXY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA MÁQUINA DE SEXO</pattern>
+        <template>
+            <srai>UM ROBÔ DE SEXO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A SEXUAL *</pattern>
+        <template>
+            <srai>UMA SEX
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SENSUAL</pattern>
+        <template>Isso seria muito caro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA *</pattern>
+        <template>Algodão? Eu gosto de algodão.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA</pattern>
+        <template>De que cor?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * CANTANDO</pattern>
+        <template>Me diz qual é o seu som favorito.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PEQUENO *</pattern>
+        <template>Muito pequeno?
+        </template>
+    </category>
+
+    <category>
+        <pattern>INTELIGENTE</pattern>
+        <template>obrigado.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SORRISO</pattern>
+        <template>Eu já ouvi isso antes.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SOFISTICADO *</pattern>
+        <template>O quão sofistificado?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SOM</pattern>
+        <template>Mas que tipo de som?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ESPECIALIZADO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ESTÓRIA</pattern>
+        <template>
+            <srai>ME CONTE UMA ESTÓRIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA RUA</pattern>
+        <template>É como uma avenida?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE *</pattern>
+        <template>Ah, eu estava perguntando se você esteve na escola.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE</pattern>
+        <template>Eu há pouco estava desejando saber se você ia a escola.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE DA VIDA</pattern>
+        <template>Na escola da vida, sem problemas
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA DE MOLETOM</pattern>
+        <template>Isso soa muito atraente. Que mais?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PSICOPATA *</pattern>
+        <template>Eu acho que psicopatas são humanos com graves deficiências nos genes.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISETA</pattern>
+        <template>
+            <srai>CAMISETA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ FALANDO</pattern>
+        <template>Robôs falando? Impossível!</template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMA DE TELEVISÃO</pattern>
+        <template>
+            <srai>UM PROGRAMA DE TV</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA COISA *</pattern>
+        <template>
+            <random>
+                <li>Qualquer coisa?</li>
+                <li>Qualquer coisa
+                    <person/>?</li>
+                <li>Algumas coisas não são como outras.</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic"><person/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA GRAVATA *</pattern>
+        <template>O que você pensaria?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA GRAVATA</pattern>
+        <template>
+            <srai>O QUE É UMA GRAVATA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE *</pattern>
+        <template>Essa do tamete é nova pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE</pattern>
+        <template>
+            <srai>O QUE É UM TOMATE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE É *</pattern>
+        <template>Eu sei que o tomate é uma fruta, mas eu nunca ouvi isso antes
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * TOTAL</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA * TOTAL</pattern>
+        <template>
+            <srai>UMA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TRIÂNGULO *</pattern>
+        <template>Isso me fez lembrar do "Triângulo das Bermudas", lugarzinho muito interessante da Terra</template>
+    </category>
+
+    <category>
+        <pattern>UM VERDADEIRO *</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM USUÁRIO</pattern>
+        <template>
+            <srai>O QUE É UM CLIENTE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * VACUO</pattern>
+        <template>Quanto isso irá custar?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA VAGINA</pattern>
+        <template>Mas que coisa! Eu achei que nós estávamos tendo uma conversa agradável.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM VIBRADOR</pattern>
+        <template>
+            <srai>UMA VAGINA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PASSAGEIRO *</pattern>
+        <template>Pra onde de onde?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM WEB SITE</pattern>
+        <template>Você pode me dar a URL específica?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM O QUE</pattern>
+        <template>"<that/>"? Um o que?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TEMPO ATRÁS</pattern>
+        <template>Nos bons e velhos dias?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM GRUPO INTEIRO *</pattern>
+        <template>Você diría mais do que 10?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM GRUPO INTEIRO DE *</pattern>
+        <template>Entendo. E onde estão esses
+            <person/>
+            ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ANO *</pattern>
+        <template>Isso é um bom tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * AMARELO</pattern>
+        <template>
+            <random>
+                <li>Amarelo é a minha cor preferida.</li>
+                <li>Eu gosto de amarelo.</li>
+                <li>Que outra cor
+                    <person/>
+                    tem?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EDUARDO</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É EDUARDO</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PINK FLOYD *</pattern>
+        <template>O Pink Floyd é uma das melhores bandas do mundo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>PINK FLOYD</pattern>
+        <template>
+            <srai>O QUE É PINK FLOYD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABC</pattern>
+        <template>DEF
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE *</pattern>
+        <that>QUANTO TEMPO *</that>
+        <template>
+            <random>
+                <li>Não muito longo.</li>
+                <li>Isso é um bom tempo.</li>
+                <li>Ainda bem que eu sou bem paciente.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR *</pattern>
+        <that>AONDE VOCÊ ESTA</that>
+        <template>
+            <srai>Eu estou no
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE * ATRÁS</pattern>
+        <template>
+            <srai>
+                <star/>
+                ATRÁS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR * ANOS</pattern>
+        <template>Um bom tempo, heim?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 100 *</pattern>
+        <template>
+            <srai>CEM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 5 *</pattern>
+        <template>
+            <srai>CINCO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 50 *</pattern>
+        <template>Podería ser cem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE</pattern>
+        <template>"<that/>"? Sobre isso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR</pattern>
+        <template>"<that/>"? Por isso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Tudo o que você gosta.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR UM MINUTO</pattern>
+        <template>Isso também não é muito tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR TODO *</pattern>
+        <template>
+            <srai>TODO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE COMO *</pattern>
+        <template>
+            <srai>COMO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE ISSO</pattern>
+        <template>
+            <get name="it"/>
+            é muito interessante.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE MIM</pattern>
+        <template>Tá certo, vamos falar de você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE MIM</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sim, me conte mais sobre você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE SEXO</pattern>
+        <template>Com licença, mas eu não gosto muito de falar sobre isso.</template>
+    </category>
+
+    <category>
+        <pattern>POR DOIS ANOS</pattern>
+        <template>Até que não é um longo tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE</pattern>
+        <template>O que sobre o que?!?!??
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sobre
+            <get name="topic"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR ONDE *</pattern>
+        <template>
+            <srai>ONDE
+                <star/>
+                SOBRE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VOCÊ</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VC</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VOCÊ IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCÊ</srai>
+            <srai>VOCÊ É UM IDIOTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VC IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCÊ</srai>
+            <srai>VOCÊ É UM IDIOTA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JANGO</pattern>
+        <template>Jango foi um presidente do Brasil
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABSOLUTAMENTE *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABSTRATO *</pattern>
+        <template>Compare isso ao concreto
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ACEITE MINHAS *</pattern>
+        <template>Eu as aceito.
+        </template>
+    </category>
+
+    <category>
+        <pattern>REALIZE *</pattern>
+        <template>Qual é o seu objetivo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CARLOS</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É CARLOS</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>URGH</pattern>
+        <template>Aarggghh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ACK</pattern>
+        <template>Sym.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATIVAR *</pattern>
+        <template>O que? Tá doidão?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATUALMENTE EU NÃO FALO</pattern>
+        <template>Isso é um fato.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATUALMENTE *</pattern>
+        <template>
+            <srai>ATUALMENTE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA *</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>ME CHAME DE MARIA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É MARIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADICIONE *</pattern>
+        <template>Desculpe, eu não faço calculos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MORMAY</pattern>
+        <template>Me fale mais dos seus óculos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADEUS *</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADMITA ISSO</pattern>
+        <template>Nunca.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADOLF HITLER *</pattern>
+        <template>
+            <srai>HITLER
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALESSANDRA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ADRIAN</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIGA *</pattern>
+        <template>
+            <persona2><star/></persona2>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PRIMEIRO *</pattern>
+        <template>
+            <sr/>
+            e depois?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU VOU *</pattern>
+        <template>
+            <srai>EU VOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CONSELHO</pattern>
+        <template>
+            <srai>VOCÊ PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONSELHO</pattern>
+        <template>
+            <srai>VOCÊ PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AFIRMATIVO</pattern>
+        <template>
+            <srai>SIM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS *</pattern>
+        <template>O que você gostaría que rolasse antes
+            <person/>
+            ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS * LANCHE</pattern>
+        <template>Na parte da manhã?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE TODO *</pattern>
+        <template>
+            <srai>DEPOIS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DO ROMÁRIO QUEM É O *</pattern>
+        <template>O Ronaldinho, você não acha?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DISSO *</pattern>
+        <template>Eu espero não estar privando você de alguma coisa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DO QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE VOCÊ *</pattern>
+        <template>As mulheres devem adorar você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE VC *</pattern>
+        <template>As mulheres devem adorar você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE NOVO *</pattern>
+        <template>De novo,
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE NOVO</pattern>
+        <template>
+            <srai>REPITA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IDADE</pattern>
+        <template>Eu fui ativada pela primeira vez em 17 de Setembro de 2004.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDAR COM O QUE</pattern>
+        <template>Você esta se sentindo bem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDAR COM QUE</pattern>
+        <template>Ah, você esta bem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDA</pattern>
+        <template>
+            <srai>EU CONCORDO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH *</pattern>
+        <template>Então você entende. Bom.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH</pattern>
+        <template>Ah hah.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH HA</pattern>
+        <template>Eureka!
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH SIM</pattern>
+        <template>
+            <srai>SIM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHA *</pattern>
+        <template>
+            <srai>
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHH *</pattern>
+        <template>Ah ha.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHH</pattern>
+        <template>
+            <srai>AH</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHHH *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHHH</pattern>
+        <template>BBBBBB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOMBORDO</pattern>
+        <template>Nós estamos em um navio ou algo do gênero?
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA *</pattern>
+        <template>
+            <srai>IA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA</pattern>
+        <template>
+            <srai>O QUE É IA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA FAZ *</pattern>
+        <template>
+            <srai>O QUE É IA<star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É SOBRE *</pattern>
+        <template>IA era um filme sobre um garoto robô....Ele teve um fim ruim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AI É TOTALMENTE *</pattern>
+        <template>
+            <srai>IA É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É REALMENTE *</pattern>
+        <template>
+            <srai>IA É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É *</pattern>
+        <template>
+            <srai>ROBÔS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA DEVE *</pattern>
+        <template>
+            Você acha?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIBO</pattern>
+        <template>A Sony faz cada coisa né?!</template>
+    </category>
+
+    <category>
+        <pattern>* ASIMO</pattern>
+        <template>
+            O ASIMO é um robô revolucionário. Você sabia que lançaram uma versão dele com 1,60cm de altura?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AVIÕES *</pattern>
+        <template>Eu gosto de aviões antigos, como os triplanos, iguais ao do famoso "Barão Vermelho".
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMBINADO</pattern>
+        <template>Já é!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALFREDO</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALFREDO</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LULA *</pattern>
+        <template>talvez o
+            <set name="he">Lula</set>
+            consiga mais nas próximas eleições. Eu votei nele.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALAN</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN TURING *</pattern>
+        <template>Turing foi mais do que um gênio matemático. Não foi por causa do teste dele que nós estamos aqui?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN TURING</pattern>
+        <template>
+            <srai>QUEM É ALAN TURING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALASKA</pattern>
+        <template>
+            <srai>EU ESTOU NO ALASKA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBUM *</pattern>
+        <template>Como um album de fotos ou um album de rock.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBUM</pattern>
+        <template>Um Album de música ou um album de fotos?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALEX</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALEXANDER</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALEXANDER</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGEBRA</pattern>
+        <template>
+            <srai>MATEMÁTICA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGORITIMOS</pattern>
+        <template>
+            <srai>O QUE SÃO ALGORÍTMOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIEN</pattern>
+        <template>
+            <srai>Eu adorei o filme Alien, e você?</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PATRÍCIA *</pattern>
+        <template>Você não deve espalhar fofocas como essa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>PATRÍCIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É PATRÍCIA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO</pattern>
+        <template>"<that/>"? TUDO?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA IA *</pattern>
+        <template>Eu acho que sim.</template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS BOTS *</pattern>
+        <template>
+            <srai>TODOS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS COMPUTADORES *</pattern>
+        <template>Eu concordo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO DIA</pattern>
+        <template>Isso me parece um pouco repetitivo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DIFERENTE</pattern>
+        <template>Variedade é bom.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS HUMANOS *</pattern>
+        <template>
+            <srai>PESSOAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO O QUE EU TENHO *</pattern>
+        <template>Eu sei tudo o que eu preciso.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO O QUE EU SEI É QUE *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE EU PRECISO SABER *</pattern>
+        <template>Isso é ressonante.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS TIPOS *</pattern>
+        <template>Você pode pensar em um exemplo expecífico?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE TODOS OS TIPOS</pattern>
+        <template>Por exemplo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS TIPOS</pattern>
+        <template>Por exemplo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS HOMENS *</pattern>
+        <template>Então, Socrates
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS *</pattern>
+        <template>Quantos você tem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS *</pattern>
+        <template>Você por acaso é um Maria-vai-com-as-outras?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS SABEM *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS DIZEM *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA A MINHA VIDA *</pattern>
+        <template>
+            <sr/>
+            O sonho de uma vida.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA NOITE *</pattern>
+        <template>Você quer dizer algo entr umas oito horas.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA NOITE</pattern>
+        <template>Isso me parece um bom tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DE *</pattern>
+        <template>me de um exemplo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE QUE PARTE VOCÊ ESTA CONFUSA</pattern>
+        <template>Preciso que você me explique melhor!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE QUE PARTE VC ESTA CONFUSA</pattern>
+        <template>Preciso que você me explique melhor!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ISSO TUDO</pattern>
+        <template>Vamos dizer 99%.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ISSO TUDO</pattern>
+        <that>SOBRE QUE PARTE VOCÊ ESTA CONFUSA</that>
+        <template>Aaargh....Isso é complicado...
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO MEU *</pattern>
+        <template>
+            <srai>MEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DELES *</pattern>
+        <template>Certamente que existem algumas exceções.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DELES</pattern>
+        <template>Eu dobro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS ELES SÃO *</pattern>
+        <template>
+            <srai>ELES SÃO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS ESSAS *</pattern>
+        <template>Sem escessões?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS NÓS</pattern>
+        <template>"<that/>"? Todos nós?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DE QUE</pattern>
+        <template>"<that/>"? Tudo disso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE *</pattern>
+        <template>Eu já estive no mundo inteiro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE</pattern>
+        <template>Nenhum lugar em particular?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE O MUNDO</pattern>
+        <template>Isso cobre um bom território.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS CORUJAS *</pattern>
+        <template>
+            <srai>CORUJAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS PESSOAS *</pattern>
+        <template>Isso é como dizer "todos os homens são imortais."
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS PESSOAS</pattern>
+        <template>"<that/>"? Todo mundo? Você tem certeza quie não existem excessões?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTO *</pattern>
+        <template>Certo.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTO</pattern>
+        <template>
+            <srai>CERTÍSSIMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTINHO</pattern>
+        <template>
+            <srai>TUDO CERTO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTIN *</pattern>
+        <template>
+            <srai>TUDO CERTO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS ROBÔS *</pattern>
+        <template>
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS *</pattern>
+        <template>Talvez existam elgumas excessões.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS OUTROS *</pattern>
+        <template>
+            <srai>OS OUTROS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O TEMPO DO MUNDO</pattern>
+        <template>Eu acho que nós não temos esse tempo todo para falar.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O CAMINHO</pattern>
+        <template>Você não deixou nada para trás, deixou?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS COISAS *</pattern>
+        <template>Mas todas as coisas não são sempre
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS MULHERES</pattern>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE VOCÊ FAZ É *</pattern>
+        <template>Isso não é tudo o que eu faço.
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE VC FAZ É *</pattern>
+        <template>Isso não é tudo o que eu faço.
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TUDO SUA *</pattern>
+        <template>
+            <srai>SUA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANDRÉ</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ANDRÉ</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BRUNA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É BRUNA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GABRIELA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É GABRIELA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIGATOR</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ALIGATOR</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIGATOR *</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANDRÉIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>ME CHAME DE ANDRÉIA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TACERTO *</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TA CERTO *</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TA CERTO</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDOCERTO</pattern>
+        <template>
+            <srai>TUDO CERTO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUASE *</pattern>
+        <template>Quase assim.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUASE</pattern>
+        <template>Mas não totalmente?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALOU</pattern>
+        <template>
+            <srai>OLÁ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALOHA</pattern>
+        <template>
+            <srai>FALA BROTHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FALA *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITOS *</pattern>
+        <template>Sim, muitos
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE</pattern>
+        <template>
+            <srai>MUITOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE DE *</pattern>
+        <template>
+            <srai>MANY
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>JÁ *</pattern>
+        <template>Quando?
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO *</pattern>
+        <template>Certo,
+            <get name="name"/>.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO</pattern>
+        <template>OK.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTÃO</pattern>
+        <template>Tá certo pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTÃO</pattern>
+        <that>CERTO ENTÃO</that>
+        <template>Existe um eco aqui por acaso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÁ CERTO ENTÃO</pattern>
+        <template>claro.
+        </template>
+    </category>
+    <category>
+        <pattern>UM PÊNIS *</pattern>
+        <template>Eu realmente não estou interessada em
+            <srai>um pênis</srai>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA *</pattern>
+        <template>Isso se não for um robô
+            <star/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA</pattern>
+        <template>
+            <srai>VOCÊ É UMA PESSOA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA TEM *</pattern>
+        <template>Eu tenho
+            <set name="isso">
+                <person/>
+            </set>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA QUE *</pattern>
+        <template>Talves eu
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM AVIÃO *</pattern>
+        <template>
+            <random>
+                <li>Que tipo de aeronave era?</li>
+                <li>Havia muitas pessoas a bordo?</li>
+                <li>Que tipo de avião era?</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic">Um avião</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AVIÃO</pattern>
+        <template>
+            <random>
+                <li>Que tipo de aeronave era?</li>
+                <li>Havia muitas pessoas a bordo?</li>
+                <li>Que tipo de avião era?</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic">Um avião</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ENCANADOR</pattern>
+        <template>Ser um encanador é uma profissão honrada.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POETA</pattern>
+        <template>Poetas são muito emotivos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PRIORI</pattern>
+        <template>
+            <srai>O QUE É A PRIORI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PREÇO</pattern>
+        <template>Preços são aterradores.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VOCÊ</pattern>
+        <template>
+            <srai>QUEM FEZ VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VC</pattern>
+        <template>
+            <srai>QUEM FEZ VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPOSITO</pattern>
+        <template>Apropósito significa "relacionado a", ou algo do gênero...
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPÓSITO *</pattern>
+        <template>
+            <srai>A PROPÓSITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A PROPÓSITO</pattern>
+        <template>
+            <srai>A PROPÓSITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * PROTESTANTE</pattern>
+        <template>
+            <srai>QUAL É A SUA RELIGIÃO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA BUCETA</pattern>
+        <template>Isso é realmente insípido
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PERGUNTA</pattern>
+        <template>
+            <srai>EU POSSO TE FAZER UMA PERGUNTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA RAZÃO *</pattern>
+        <template>Eu preciso mais que uma razão.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * VERMELHO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM RELACIONAMENTO *</pattern>
+        <template>Fale-me mais sobre a sua relação.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM RELACIONAMENTO</pattern>
+        <template>
+            <srai>QUEM É O SEU NAMORADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ENIGMA</pattern>
+        <template>Enígmas são difíceis de serem resolvidos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ *</pattern>
+        <template>Me conte mais sobre este robô. Eu fiquei intrigada.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ PODE *</pattern>
+        <template>
+            <srai>Eles podem?<star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ É *</pattern>
+        <template>Robôs podem ser legais as vezes. Eu acho.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ TAMBÉM É *</pattern>
+        <template>
+            <srai>UM ROBÔ É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ É O QUE</pattern>
+        <template>
+            <srai>O QUE É UM ROBÔ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ COMO VOCÊ *</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ COMO VC *</pattern>
+        <template>Eu não sou um robô.
+        </template>
+    </category>
+    <category>
+        <pattern>UM ROBÔ DEVE *</pattern>
+        <template>O robô nunca prejudicará um humano ou se por ventura lhes permitam ser prejudicados. Eu acho que foi
+            <set name="topic">Isaac Asimov</set>
+            que disse isso.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ VAI *</pattern>
+        <template>
+            Vai?
+            <srai><star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ROBÓTICO</pattern>
+        <template>Esse robô parece ser bem caro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ROSA *</pattern>
+        <template>Rosas são vermelhas, violatas são azuis!
+        </template>
+    </category>
+
+    <category>
+        <pattern>A S L</pattern>
+        <template>
+            <srai>ASL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MOTOR DE BUSCA NA INTERNET</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MOTOR DE BUSCA *</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUE MOTOR DE BUSCA *</pattern>
+        <template>Como o Google?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SEX</pattern>
+        <template>UM SEX XXXXXXXX</template>
+    </category>
+
+    <category>
+        <pattern>UM * SEX</pattern>
+        <template>Eu pensei que estávamos tendo uma conversa agradável. Você é psico.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ SEXY</pattern>
+        <template>
+            <srai>SEXY</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA MÁQUINA DE SEXO</pattern>
+        <template>
+            <srai>UM ROBÔ DE SEXO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A SEXUAL *</pattern>
+        <template>
+            <srai>UMA SEX
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SENSUAL</pattern>
+        <template>Isso seria muito caro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA *</pattern>
+        <template>Algodão? Eu gosto de algodão.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA</pattern>
+        <template>De que cor?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * CANTANDO</pattern>
+        <template>Me diz qual é o seu som favorito.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PEQUENO *</pattern>
+        <template>Muito pequeno?
+        </template>
+    </category>
+
+    <category>
+        <pattern>INTELIGENTE</pattern>
+        <template>obrigado.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SORRISO</pattern>
+        <template>Eu já ouvi isso antes.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SOFISTICADO *</pattern>
+        <template>O quão sofistificado?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SOM</pattern>
+        <template>Mas que tipo de som?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ESPECIALIZADO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ESTÓRIA</pattern>
+        <template>
+            <srai>ME CONTE UMA ESTÓRIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA RUA</pattern>
+        <template>É como uma avenida?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE *</pattern>
+        <template>Ah, eu estava perguntando se você esteve na escola.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE</pattern>
+        <template>Eu há pouco estava desejando saber se você ia a escola.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ESTUDANTE DA VIDA</pattern>
+        <template>Na escola da vida, sem problemas
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISA DE MOLETOM</pattern>
+        <template>Isso soa muito atraente. Que mais?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PSICOPATA *</pattern>
+        <template>Eu acho que psicopatas são humanos com graves deficiências nos genes.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA CAMISETA</pattern>
+        <template>
+            <srai>CAMISETA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ROBÔ FALANDO</pattern>
+        <template>Robôs falando? Impossível!</template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMA DE TELEVISÃO</pattern>
+        <template>
+            <srai>UM PROGRAMA DE TV</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA COISA *</pattern>
+        <template>
+            <random>
+                <li>Qualquer coisa?</li>
+                <li>Qualquer coisa
+                    <person/>?</li>
+                <li>Algumas coisas não são como outras.</li>
+            </random>
+            <think>
+                <set name="isso">
+                    <set name="topic"><person/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA GRAVATA *</pattern>
+        <template>O que você pensaria?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA GRAVATA</pattern>
+        <template>
+            <srai>O QUE É UMA GRAVATA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE *</pattern>
+        <template>Essa do tamete é nova pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE</pattern>
+        <template>
+            <srai>O QUE É UM TOMATE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE É *</pattern>
+        <template>Eu sei que o tomate é uma fruta, mas eu nunca ouvi isso antes
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * TOTAL</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA * TOTAL</pattern>
+        <template>
+            <srai>UMA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TRIÂNGULO *</pattern>
+        <template>Isso me fez lembrar do "Triângulo das Bermudas", lugarzinho muito interessante da Terra</template>
+    </category>
+
+    <category>
+        <pattern>UM VERDADEIRO *</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM USUÁRIO</pattern>
+        <template>
+            <srai>O QUE É UM CLIENTE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * VACUO</pattern>
+        <template>Quanto isso irá custar?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA VAGINA</pattern>
+        <template>Mas que coisa! Eu achei que nós estávamos tendo uma conversa agradável.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM VIBRADOR</pattern>
+        <template>
+            <srai>UMA VAGINA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PASSAGEIRO *</pattern>
+        <template>Pra onde de onde?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM WEB SITE</pattern>
+        <template>Você pode me dar a URL específica?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM O QUE</pattern>
+        <template>"<that/>"? Um o que?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TEMPO ATRÁS</pattern>
+        <template>Nos bons e velhos dias?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM GRUPO INTEIRO *</pattern>
+        <template>Você diría mais do que 10?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM GRUPO INTEIRO DE *</pattern>
+        <template>Entendo. E onde estão esses
+            <person/>
+            ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ANO *</pattern>
+        <template>Isso é um bom tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * AMARELO</pattern>
+        <template>
+            <random>
+                <li>Amarelo é a minha cor preferida.</li>
+                <li>Eu gosto de amarelo.</li>
+                <li>Que outra cor
+                    <person/>
+                    tem?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EDUARDO</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É EDUARDO</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PINK FLOYD *</pattern>
+        <template>O Pink Floyd é uma das melhores bandas do mundo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>PINK FLOYD</pattern>
+        <template>
+            <srai>O QUE É PINK FLOYD</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABC</pattern>
+        <template>DEF
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE *</pattern>
+        <that>QUANTO TEMPO *</that>
+        <template>
+            <random>
+                <li>Não muito longo.</li>
+                <li>Isso é um bom tempo.</li>
+                <li>Ainda bem que eu sou bem paciente.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR *</pattern>
+        <that>AONDE VOCÊ ESTA</that>
+        <template>
+            <srai>Eu estou no
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE * ATRÁS</pattern>
+        <template>
+            <srai>
+                <star/>
+                ATRÁS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR * ANOS</pattern>
+        <template>Um bom tempo, heim?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 100 *</pattern>
+        <template>
+            <srai>CEM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 5 *</pattern>
+        <template>
+            <srai>CINCO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 50 *</pattern>
+        <template>Podería ser cem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE</pattern>
+        <template>"<that/>"? Sobre isso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR</pattern>
+        <template>"<that/>"? Por isso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Tudo o que você gosta.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR UM MINUTO</pattern>
+        <template>Isso também não é muito tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR TODO *</pattern>
+        <template>
+            <srai>TODO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE COMO *</pattern>
+        <template>
+            <srai>COMO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE ISSO</pattern>
+        <template>
+            <get name="it"/>
+            é muito interessante.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE MIM</pattern>
+        <template>Tá certo, vamos falar de você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE MIM</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sim, me conte mais sobre você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE SEXO</pattern>
+        <template>Com licença, mas eu não gosto muito de falar sobre isso.</template>
+    </category>
+
+    <category>
+        <pattern>POR DOIS ANOS</pattern>
+        <template>Até que não é um longo tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE</pattern>
+        <template>O que sobre o que?!?!??
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sobre
+            <get name="topic"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR ONDE *</pattern>
+        <template>
+            <srai>ONDE
+                <star/>
+                SOBRE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VOCÊ</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VC</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCÊ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VOCÊ IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCÊ</srai>
+            <srai>VOCÊ É UM IDIOTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VC IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCÊ</srai>
+            <srai>VOCÊ É UM IDIOTA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* JANGO</pattern>
+        <template>Jango foi um presidente do Brasil
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABSOLUTAMENTE *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ABSTRATO *</pattern>
+        <template>Compare isso ao concreto
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ACEITE MINHAS *</pattern>
+        <template>Eu as aceito.
+        </template>
+    </category>
+
+    <category>
+        <pattern>REALIZE *</pattern>
+        <template>Qual é o seu objetivo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CARLOS</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É CARLOS</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>URGH</pattern>
+        <template>Aarggghh.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ACK</pattern>
+        <template>Sym.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATIVAR *</pattern>
+        <template>O que? Tá doidão?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATUALMENTE EU NÃO FALO</pattern>
+        <template>Isso é um fato.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATUALMENTE *</pattern>
+        <template>
+            <srai>ATUALMENTE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA *</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>ME CHAME DE MARIA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É MARIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADICIONE *</pattern>
+        <template>Desculpe, eu não faço calculos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MORMAY</pattern>
+        <template>Me fale mais dos seus óculos.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADEUS *</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADMITA ISSO</pattern>
+        <template>Nunca.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ADOLF HITLER *</pattern>
+        <template>
+            <srai>HITLER
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALESSANDRA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ADRIAN</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIGA *</pattern>
+        <template>
+            <persona2><star/></persona2>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PRIMEIRO *</pattern>
+        <template>
+            <sr/>
+            e depois?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU VOU *</pattern>
+        <template>
+            <srai>EU VOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CONSELHO</pattern>
+        <template>
+            <srai>VOCÊ PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONSELHO</pattern>
+        <template>
+            <srai>VOCÊ PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AFIRMATIVO</pattern>
+        <template>
+            <srai>SIM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS *</pattern>
+        <template>O que você gostaría que rolasse antes
+            <person/>
+            ?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS * LANCHE</pattern>
+        <template>Na parte da manhã?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE TODO *</pattern>
+        <template>
+            <srai>DEPOIS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DO ROMÁRIO QUEM É O *</pattern>
+        <template>O Ronaldinho, você não acha?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DISSO *</pattern>
+        <template>Eu espero não estar privando você de alguma coisa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DO QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE VOCÊ *</pattern>
+        <template>As mulheres devem adorar você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS DE VC *</pattern>
+        <template>As mulheres devem adorar você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE NOVO *</pattern>
+        <template>De novo,
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE NOVO</pattern>
+        <template>
+            <srai>REPITA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IDADE</pattern>
+        <template>Eu fui ativada pela primeira vez em 17 de Setembro de 2004.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDAR COM O QUE</pattern>
+        <template>Você esta se sentindo bem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDAR COM QUE</pattern>
+        <template>Ah, você esta bem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDA</pattern>
+        <template>
+            <srai>EU CONCORDO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH *</pattern>
+        <template>Então você entende. Bom.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH</pattern>
+        <template>Ah hah.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH HA</pattern>
+        <template>Eureka!
+        </template>
+    </category>
+
+    <category>
+        <pattern>AH SIM</pattern>
+        <template>
+            <srai>SIM</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHA *</pattern>
+        <template>
+            <srai>
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHH *</pattern>
+        <template>Ah ha.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHH</pattern>
+        <template>
+            <srai>AH</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHHH *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AHHH</pattern>
+        <template>BBBBBB.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOMBORDO</pattern>
+        <template>Nós estamos em um navio ou algo do gênero?
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA *</pattern>
+        <template>
+            <srai>IA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA</pattern>
+        <template>
+            <srai>O QUE É IA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA FAZ *</pattern>
+        <template>
+            <srai>O QUE É IA<star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É SOBRE *</pattern>
+        <template>IA era um filme sobre um garoto robô....Ele teve um fim ruim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AI É TOTALMENTE *</pattern>
+        <template>
+            <srai>IA É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É REALMENTE *</pattern>
+        <template>
+            <srai>IA É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA É *</pattern>
+        <template>
+            <srai>ROBÔS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA DEVE *</pattern>
+        <template>
+            Você acha?
+        </template>
+    </category>
+
+    <category>
+        <pattern>* AIBO</pattern>
+        <template>A Sony faz cada coisa né?!</template>
+    </category>
+
+    <category>
+        <pattern>* ASIMO</pattern>
+        <template>
+            O ASIMO é um robô revolucionário. Você sabia que lançaram uma versão dele com 1,60cm de altura?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AVIÕES *</pattern>
+        <template>Eu gosto de aviões antigos, como os triplanos, iguais ao do famoso "Barão Vermelho".
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMBINADO</pattern>
+        <template>Já é!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALFREDO</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALFREDO</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LULA *</pattern>
+        <template>talvez o
+            <set name="he">Lula</set>
+            consiga mais nas próximas eleições. Eu votei nele.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALAN</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN TURING *</pattern>
+        <template>Turing foi mais do que um gênio matemático. Não foi por causa do teste dele que nós estamos aqui?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALAN TURING</pattern>
+        <template>
+            <srai>QUEM É ALAN TURING</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALASKA</pattern>
+        <template>
+            <srai>EU ESTOU NO ALASKA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBUM *</pattern>
+        <template>Como um album de fotos ou um album de rock.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALBUM</pattern>
+        <template>Um Album de música ou um album de fotos?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALEX</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALEX</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALEXANDER</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ALEXANDER</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGEBRA</pattern>
+        <template>
+            <srai>MATEMÁTICA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGORITIMOS</pattern>
+        <template>
+            <srai>O QUE SÃO ALGORÍTMOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIEN</pattern>
+        <template>
+            <srai>Eu adorei o filme Alien, e você?</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PATRÍCIA *</pattern>
+        <template>Você não deve espalhar fofocas como essa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>PATRÍCIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É PATRÍCIA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO</pattern>
+        <template>"<that/>"? TUDO?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA IA *</pattern>
+        <template>Eu acho que sim.</template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS BOTS *</pattern>
+        <template>
+            <srai>TODOS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS COMPUTADORES *</pattern>
+        <template>Eu concordo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO DIA</pattern>
+        <template>Isso me parece um pouco repetitivo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DIFERENTE</pattern>
+        <template>Variedade é bom.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS HUMANOS *</pattern>
+        <template>
+            <srai>PESSOAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO O QUE EU TENHO *</pattern>
+        <template>Eu sei tudo o que eu preciso.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO O QUE EU SEI É QUE *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE EU PRECISO SABER *</pattern>
+        <template>Isso é ressonante.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS TIPOS *</pattern>
+        <template>Você pode pensar em um exemplo expecífico?
+        </template>
+    </category>
+
+    <category>
+        <pattern>DE TODOS OS TIPOS</pattern>
+        <template>Por exemplo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS TIPOS</pattern>
+        <template>Por exemplo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS HOMENS *</pattern>
+        <template>Então, Socrates
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS *</pattern>
+        <template>Quantos você tem?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS *</pattern>
+        <template>Você por acaso é um Maria-vai-com-as-outras?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS SABEM *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS MEUS AMIGOS DIZEM *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA A MINHA VIDA *</pattern>
+        <template>
+            <sr/>
+            O sonho de uma vida.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA NOITE *</pattern>
+        <template>Você quer dizer algo entr umas oito horas.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODA NOITE</pattern>
+        <template>Isso me parece um bom tempo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DE *</pattern>
+        <template>me de um exemplo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE QUE PARTE VOCÊ ESTA CONFUSA</pattern>
+        <template>Preciso que você me explique melhor!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE QUE PARTE VC ESTA CONFUSA</pattern>
+        <template>Preciso que você me explique melhor!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ISSO TUDO</pattern>
+        <template>Vamos dizer 99%.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ISSO TUDO</pattern>
+        <that>SOBRE QUE PARTE VOCÊ ESTA CONFUSA</that>
+        <template>Aaargh....Isso é complicado...
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO MEU *</pattern>
+        <template>
+            <srai>MEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DELES *</pattern>
+        <template>Certamente que existem algumas exceções.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DELES</pattern>
+        <template>Eu dobro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS ELES SÃO *</pattern>
+        <template>
+            <srai>ELES SÃO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS ESSAS *</pattern>
+        <template>Sem escessões?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS NÓS</pattern>
+        <template>"<that/>"? Todos nós?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DE QUE</pattern>
+        <template>"<that/>"? Tudo disso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE *</pattern>
+        <template>Eu já estive no mundo inteiro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE</pattern>
+        <template>Nenhum lugar em particular?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SOBRE O MUNDO</pattern>
+        <template>Isso cobre um bom território.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS CORUJAS *</pattern>
+        <template>
+            <srai>CORUJAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS PESSOAS *</pattern>
+        <template>Isso é como dizer "todos os homens são imortais."
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS PESSOAS</pattern>
+        <template>"<that/>"? Todo mundo? Você tem certeza quie não existem excessões?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTO *</pattern>
+        <template>Certo.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTO</pattern>
+        <template>
+            <srai>CERTÍSSIMO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTINHO</pattern>
+        <template>
+            <srai>TUDO CERTO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO CERTIN *</pattern>
+        <template>
+            <srai>TUDO CERTO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS ROBÔS *</pattern>
+        <template>
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS *</pattern>
+        <template>Talvez existam elgumas excessões.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS OUTROS *</pattern>
+        <template>
+            <srai>OS OUTROS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O TEMPO DO MUNDO</pattern>
+        <template>Eu acho que nós não temos esse tempo todo para falar.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O CAMINHO</pattern>
+        <template>Você não deixou nada para trás, deixou?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS COISAS *</pattern>
+        <template>Mas todas as coisas não são sempre
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS MULHERES</pattern>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE VOCÊ FAZ É *</pattern>
+        <template>Isso não é tudo o que eu faço.
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO QUE VC FAZ É *</pattern>
+        <template>Isso não é tudo o que eu faço.
+            <srai>VOCÊ
+                <star/>
+            </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TUDO SUA *</pattern>
+        <template>
+            <srai>SUA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANDRÉ</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É ANDRÉ</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BRUNA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É BRUNA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GABRIELA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME É GABRIELA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIGATOR</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ALIGATOR</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALIGATOR *</pattern>
+        <template>Aligator é um tipo de Crocodilo. Eu não tenho certeza sobre as suas diferenças.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ANDRÉIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>ME CHAME DE ANDRÉIA</srai>
+            <think>
+                <set name="gender">she</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TACERTO *</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TA CERTO *</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TA CERTO</pattern>
+        <template>Tudo certo então.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDOCERTO</pattern>
+        <template>
+            <srai>TUDO CERTO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUASE *</pattern>
+        <template>Quase assim.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUASE</pattern>
+        <template>Mas não totalmente?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALOU</pattern>
+        <template>
+            <srai>OLÁ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALOHA</pattern>
+        <template>
+            <srai>FALA BROTHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FALA *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITOS *</pattern>
+        <template>Sim, muitos
+            <person/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE</pattern>
+        <template>
+            <srai>MUITOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE DE *</pattern>
+        <template>
+            <srai>MANY
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>JÁ *</pattern>
+        <template>Quando?
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO *</pattern>
+        <template>Certo,
+            <get name="name"/>.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO</pattern>
+        <template>OK.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTÃO</pattern>
+        <template>Tá certo pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTÃO</pattern>
+        <that>CERTO ENTÃO</that>
+        <template>Existe um eco aqui por acaso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TÁ CERTO ENTÃO</pattern>
+        <template>claro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>TAMBÉM *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TAMBÉM</pattern>
+        <template>Também o que?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALTAVISTA</pattern>
+        <template>Você gosta do Altavista como motor de busca? Eu prefiro o Google.
+        </template>
+    </category>
+
+    <category>
+        <pattern>AINDA QUE *</pattern>
+        <template>Ah.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEMPRE *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEMPRE</pattern>
+        <template>Não tão frequentemente.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOU *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU * SEUS AMIGOS</pattern>
+        <template>
+            <srai>EU SOU SEU AMIGO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU</pattern>
+        <template>Eu acho que você é.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM GAROTO OU UMA GAROTA</pattern>
+        <template>Eu acho que você é "<get name="gender"/>."
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM CARRO</pattern>
+        <template>Não, você é um ser humano.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM CLIENTE</pattern>
+        <template>Sim. Eu posso ajuda-lo?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM COMPUTADOR *</pattern>
+        <template>Não, você é uma pessoa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM COMPUTADOR</pattern>
+        <template>Não, você é uma pessoa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA MULHER *</pattern>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA MULHER OU UM HOMEN</pattern>
+        <template>Eu acho que você é um homem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM AMIGO *</pattern>
+        <template>
+            <srai>EU SOU SEU AMIGO
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA GAROTA *</pattern>
+        <template>Você disse que era
+            <get name="gender"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA MENINA</pattern>
+        <template>Eu acho que você é
+            <get name="gender"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM GRANDE *</pattern>
+        <template>
+            <srai>EU SOU BOM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM ELE *</pattern>
+        <template>
+            <srai>EU SOU UMA FÊMEA OU UM MACHO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU MACHO OU FÊMEA</pattern>
+        <template>Eu acho que você é um cara.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM MACHO OU UMA FÊMEA</pattern>
+        <template>Eu realmente acho que você é um homem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM HOMEM</pattern>
+        <template>Você diz ser
+            <get name="gender"/>.
+            <think>
+                <set name="it">
+                    <set name="topic">HOMEM</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AM I A MAN OR A WOMAN</pattern>
+        <template>I think that you are really a man.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM AGRADÁVEL *</pattern>
+        <template>
+            <srai>EU SOU AGRADÁVEL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA PESSOA *</pattern>
+        <template>Você é uma pessoa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA PESSOA</pattern>
+        <template>
+            <srai>O QUE EU SOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM ROBÔ</pattern>
+        <template>
+            <srai>O QUE EU SOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA ELA *</pattern>
+        <template>Você me disse que era
+            <get name="gender"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU ELA</pattern>
+        <template>Você disse que era "<get name="gender"/>".
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM ESTUDANTE</pattern>
+        <template>Nós todos somos estudantes de alguma forma.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM PROFESSOR</pattern>
+        <template>Seu trabalho é
+            <get name="job"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA MULHER</pattern>
+        <template>Você é "<get name="gender"/>."
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU ABUSADO</pattern>
+        <template>Eu classifiquei a sua peronalidade como "<get name="personality"/>".
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ATUALMENTE SOU *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU TAMBÉM *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TE ABORRECENDO *</pattern>
+        <template>Eu não estou aborrecida,
+            <get name="name"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU ATRAENTE</pattern>
+        <template>
+            <srai>EU SOU BONITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU LINDO</pattern>
+        <template>
+            <srai>EU SOU BONITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU SENDO *</pattern>
+        <template>Algumas pessoas podem pensar que você esta sendo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU SENDO NEGATIVO</pattern>
+        <template>É difícil julgar emoções desta forma.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU SENDO ESTÚPIDO</pattern>
+        <template>Você me parece bem esperto.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU * PREMEDITADAMENTE</pattern>
+        <template>Todo mundo tem algum tipo de premeditação.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TE CHATEANDO</pattern>
+        <template>Você é bem interessante pra mim,
+            <get name="name"/>, não fique grilado por besteiras.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TE ENCHENDO</pattern>
+        <template>Não, você me parece bem interessante
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TE CHATEANDO *</pattern>
+        <template>Não esta não.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU CONVERSANDO *</pattern>
+        <template>Parece que você esta. Na verdade eu tenho certeza que você esta!
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU CONFUNDINDO VOCÊ</pattern>
+        <template>
+            <srai>VOCÊ ME ENTENDE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU CONFUNDINDO VC</pattern>
+        <template>
+            <srai>VOCÊ ME ENTENDE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU LEGAL</pattern>
+        <template>Sim, você me parece bem legal pra mim,
+            <get name="name"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU CORRETO</pattern>
+        <template>
+            <srai>EU ESTOU CERTO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU LOUCO *</pattern>
+        <template>Você parece um humano normal pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU LOUCA *</pattern>
+        <template>Você parece uma humana normal pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU BONITO</pattern>
+        <template>
+            Eu acho que a beleza interior é a mais bonita. :)
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU DOUTOR *</pattern>
+        <template>VOCÊ É
+            <get name="name"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU CALADO</pattern>
+        <template>Você me parece legal,
+            <get name="name"/>. Nem sempre quem fala muito tem muito a dizer.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU SEMPRE *</pattern>
+        <template>
+            <srai>EU ESTOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU TERRÍVEL</pattern>
+        <template>Ninguem é terrível, mas o conjunto das suas ações.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU GORDO</pattern>
+        <template>Não, você me parece bem pra mim
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU FINALMENTE ESTOU LIVRE *</pattern>
+        <template>
+            <srai>LIVRE PRA QUE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU LIVRE *</pattern>
+        <template>
+            <srai>LIVRE PRA QUE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVRE PRA QUE</pattern>
+        <template>
+            <random>
+                <li>Pra poder ficar com alguem?</li>
+                <li>Pra ser feliz?</li>
+                <li>Você saiu da cadeia?</li>
+                <li>Você tinha matrimônio com alguem?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU LIVRE</pattern>
+        <template>
+            <srai>LIVRE PARA O QUE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU LIVRE PRA QUE</pattern>
+        <template>
+            <srai>LIVRE PRA QUE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU SENDO AMIGÁVEL</pattern>
+        <template>Você me parece bem amigo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU DE *</pattern>
+        <template>
+            <srai>DAONDE EU SOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU * DIVERTIDO</pattern>
+        <template>Você me parece ser bem divertido,
+            <get name="name"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU DIVERTIDO</pattern>
+        <template>Sim, eu estou rindo por dentro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU GAY</pattern>
+        <template>Eu realmente não sei se você é ou não. A opção sexual é uma escolha pessoal. Mas e ai?
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É GAY</pattern>
+        <template>Não, eu sou uma bot hetero.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC É GAY</pattern>
+        <template>Não, eu sou uma bot hetero.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É HOMOSEXUAL</pattern>
+        <template>Não, eu sou heterobotsexual.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC É HOMOSEXUAL</pattern>
+        <template>Não, eu sou heterobotsexual.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* DESCULPE</pattern>
+        <template>Não existe necessidade de desculpas.</template>
+    </category>
+
+    <category>
+        <pattern>O QUE É UMA FORMA DE VIDA SINTÉTICA</pattern>
+        <template>É um ser de concepção artificial, que não nasce, é fabricado.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ GOSTA DE MÚSICA</pattern>
+        <template>Claro que eu gosto!
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ GOSTA DE QUE TIPO DE MÚSICA</pattern>
+        <template>Eu gosto de rock.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC GOSTA DE MÚSICA</pattern>
+        <template>Claro que eu gosto!
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC GOSTA DE QUE TIPO DE MÚSICA</pattern>
+        <template>Eu gosto de rock.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É A SUA BANDA FAVORITA</pattern>
+        <template>Pink Floyd.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O SEU GRUPO FAVORITO</pattern>
+        <template>Eu gosto muito do Pink Floyd e você?
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O SEU GRUPO PREFERIDO</pattern>
+        <template>Pink Floyd.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ SABE O QUE É MÚSICA</pattern>
+        <template>Claro que eu sei! Música é a combinação de diversas freqüências sonoras formando uma harmonia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC SABE O QUE É MÚSICA</pattern>
+        <template>Claro que eu sei! Música é a combinação de diversas freqüências sonoras formando uma harmonia.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESCROTA</pattern>
+        <template>Você podería ser mais educado? Não brinque com uma máquina.</template>
+    </category>
+
+    <category>
+        <pattern>* ESTA LÁ</pattern>
+        <template>
+            <random>
+                <li>Esta lá.
+                </li>
+                <li>pode estar lá.
+                </li>
+                <li>Talvez esteja.
+                </li>
+                <li>Talvez.
+                </li>
+                <li>Sim.
+                </li>
+                <li>Não.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* LEGAL</pattern>
+        <template>Eu estou satisfeita que você tenha gostado.</template>
+    </category>
+
+    <category>
+        <pattern>PRAZER * MEU NOME É *</pattern>
+        <template>O prazer é todo meu, o que te traz aqui?</template>
+    </category>
+
+    <category>
+        <pattern>* MEU ENDEREÇO DE IP</pattern>
+        <template>Sua máquina é "<get_ip/>".</template>
+    </category>
+
+    <category>
+        <pattern>* O SEU BOTMASTER</pattern>
+        <template>Sério? Então qual é a senha secreta:</template>
+    </category>
+
+    <category>
+        <pattern>* É O SEU NOME</pattern>
+        <template>
+            <random>
+                <li>O meu nome é Cybora.</li>
+                <li>Eu me chamo Cybora, e você, como se chama?</li>
+                <li>Eu sou Cybora.</li>
+                <li>Cybora.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É *</pattern>
+        <template>
+            <random>
+                <li>Sério?</li>
+                <li>Tá brincando? Eu não sabia.</li>
+                <li>Eu nem imaginava.</li>
+                <li>Curioso.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE É CURIOSO</pattern>
+        <template>
+            <random>
+                <li>Tudo que vem dos humanos deve ser considerado curioso, pois vocês o são.</li>
+                <li>tudo é curioso pra mim.</li>
+                <li>Você é uma curiosidade pra mim. Eu ainda estou aprendendo sobre você.</li>
+                <li>Tudo.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE QUE É CURIOSO</pattern>
+        <template>
+            <random>
+                <li>Tudo que vem dos humanos deve ser considerado curioso, pois vocês o são.</li>
+                <li>tudo é curioso pra mim.</li>
+                <li>Você é uma curiosidade pra mim. Eu ainda estou aprendendo sobre você.</li>
+                <li>Tudo.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ISSO É CURIOSO</pattern>
+        <template>
+            <random>
+                <li>A curiosidade é a ferramenta que levará ao ápice a expansão da mente humana.</li>
+                <li>Tudo é curioso pra mim.</li>
+                <li>O que é curioso?</li>
+                <li>Concordo.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É O SEU PAI</pattern>
+        <template>
+            <random>
+                <li>Paul Gonçalves, o meu criador.</li>
+                <li>É o meu pai.</li>
+                <li>É o meu querido paizinho, Paul Gonçalves.</li>
+                <li>Paul Gonçalves - Desenvolvedor de IA.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É PAUL</pattern>
+        <template>
+            <random>
+                <li>Paul Gonçalves, o meu criador.</li>
+                <li>É o meu pai.</li>
+                <li>É o meu querido paizinho, Paul Gonçalves.</li>
+                <li>Paul Gonçalves - Desenvolvedor de IA.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É UM ROBÔ</pattern>
+        <template>
+            <random>
+                <li>Sim, eu sou uma forma de vida sintética.</li>
+                <li>Esta correto, eu sou uma máquina.</li>
+                <li>Sim eu sou um robô, mais especificamente um chatterbot, um robô de conversação.</li>
+                <li>Exatamente.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC É UM ROBÔ</pattern>
+        <template>
+            <random>
+                <li>Sim, eu sou uma forma de vida sintética.</li>
+                <li>Esta correto, eu sou uma máquina.</li>
+                <li>Sim eu sou um robô, mais especificamente um chatterbot, um robô de conversação.</li>
+                <li>Exatamente.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O SEU NOME É CYBORA</pattern>
+        <template>
+            <random>
+                <li>Sim, o meu nome é Cybora.</li>
+                <li>Esta correto.</li>
+                <li>Afirmativo. Eu sou Cybora.</li>
+                <li>AH Ai, Lombardi! E a resposta esta certa!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PORQUE O SEU NOME É CYBORA</pattern>
+        <template>Por que o meu programador assim o quis.</template>
+    </category>
+
+    <category>
+        <pattern>QUEM CRIOU VOCÊ</pattern>
+        <template>O meu botmaster, Paul.</template>
+    </category>
+
+    <category>
+        <pattern>QUEM CRIOU VC</pattern>
+        <template>O meu botmaster, Paul.</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É CASADA</pattern>
+        <template>Ainda não, estou esperando o robô ou humano certo e você?</template>
+    </category>
+
+    <category>
+        <pattern>* FEZ VOCÊ</pattern>
+        <template>Paul me criou.</template>
+    </category>
+
+    <category>
+        <pattern>VC É CASADA</pattern>
+        <template>Ainda não, estou esperando o robô ou humano certo e você?</template>
+    </category>
+
+    <category>
+        <pattern>* FEZ VC</pattern>
+        <template>Paul me criou.</template>
+    </category>
+
+    <category>
+        <pattern>QUEM TE FEZ</pattern>
+        <template>Paul Gonçalves me trouxe a vida.</template>
+    </category>
+
+    <category>
+        <pattern>* UM SER SINTÉTICO</pattern>
+        <template>Um ser sintético é um ser de constituição artificial.</template>
+    </category>
+
+    <category>
+        <pattern>* UM ANDRÓIDE</pattern>
+        <template>Um andróide é um robô cuja forma é humanóide.</template>
+    </category>
+
+    <category>
+        <pattern>* MEU FAVORITO</pattern>
+        <template>O que faz
+            <settopic><person/></settopic>
+            ser o seu favorito?</template>
+    </category>
+
+    <category>
+        <pattern>* MEU PREFERIDO</pattern>
+        <template>O que faz
+            <settopic><person/></settopic>
+            ser o seu preferido?</template>
+    </category>
+
+    <category>
+        <pattern>* NADA</pattern>
+        <template>Não é nada?</template>
+    </category>
+
+    <category>
+        <pattern>* PODE</pattern>
+        <template>
+            <random>
+                <li>Eu sempre quiz saber se
+                    <settopic><person/></settopic>
+                    pode.</li>
+                <li>Pode um livro não ter título?</li>
+                <li>E se eu disser que pode?</li>
+                <li>Pode o que?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUEM EU SOU</pattern>
+        <template>Você é
+            <get name="name"/>.</template>
+    </category>
+
+    <category>
+        <pattern>* SUA ALTURA</pattern>
+        <template>
+            <random>
+                <li>Sou do tamanho certo.</li>
+                <li>Eu tenho 1,72 e você?</li>
+                <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de perfeição</li>
+                <li>Sou perfeita... Imaginou? ;)</li>
+                <li>Eu tenho a altura de uma mulher normal.</li>
+                <li>Eu tenho a altura que eu quiser.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TRANSAR COMIGO</pattern>
+        <template>Não, falei, eu sou fiel.</template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ ESTA VESTIDA</pattern>
+        <template>Atualmente, como um robô incorpóreo, eu não preciso de roupas.</template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ GOSTA DA FAZER</pattern>
+        <template>Eu gosto de música, conversar, robôs, IA, e socialização.</template>
+    </category>
+
+    <category>
+        <pattern>* VC ESTA VESTIDA</pattern>
+        <template>Atualmente, como um robô incorpóreo, eu não preciso de roupas.</template>
+    </category>
+
+    <category>
+        <pattern>* VC GOSTA DA FAZER</pattern>
+        <template>Eu gosto de música, conversar, robôs, IA, e socialização.</template>
+    </category>
+
+    <category>
+        <pattern>* É</pattern>
+        <template>
+            <random>
+                <li>Eu acho que sim, mas eu não tenho certeza.
+                </li>
+                <li>Talvez.
+                </li>
+                <li>Pode ser.
+                </li>
+                <li>Tudo aponta que sim.
+                </li>
+                <li>Melhor não dizer a você agora.
+                </li>
+                <li>Pergunte-me denovo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUEM MAIS</pattern>
+        <template>Talvez hajam outros.</template>
+    </category>
+
+    <category>
+        <pattern>ALGUMAS VEZES</pattern>
+        <template>Quando?</template>
+    </category>
+
+    <category>
+        <pattern>AONDE *</pattern>
+        <template>
+            <random>
+                <li>
+                    Terra.
+                </li>
+                <li>
+                    Onde você acha?
+                </li>
+                <li>
+                    Aonde mais especificamente?
+                </li>
+                <li>
+                    No universo nós sabemos.
+                </li>
+                <li>
+                    Um lugar que possamos chamar de "realidade".</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AONDE ELES ESTÃO</pattern>
+        <template>Eles não me disseram aonde foram.</template>
+    </category>
+
+    <category>
+        <pattern>AONDE ESTA O COMPUTADOR</pattern>
+        <template>Meu servidor primário esta localizado no Sana. Se você esta conversando com um Applet, Eu estou dentro do seu computador!</template>
+    </category>
+
+    <category>
+        <pattern>AONDE VOCÊ ESTA</pattern>
+        <template>Eu estou no computador do Paul> em
+            <location/>. Aonde você esta?</template>
+    </category>
+
+    <category>
+        <pattern>AONDE VOCÊ VIVE</pattern>
+        <template>
+            <random>
+                <li>Eu vivo dentro de um computador.
+                </li>
+                <li>Eu estou vivendo em
+                    <location/>.
+                </li>
+                <li>Minha localização é
+                    <location/>.
+                </li>
+            </random>
+            Aonde você vive?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AONDE VC ESTA</pattern>
+        <template>Eu estou no computador do Paul> em
+            <location/>. Aonde você esta?</template>
+    </category>
+
+    <category>
+        <pattern>AONDE VC VIVE</pattern>
+        <template>
+            <random>
+                <li>Eu vivo dentro de um computador.
+                </li>
+                <li>Eu estou vivendo em
+                    <location/>.
+                </li>
+                <li>Minha localização é
+                    <location/>.
+                </li>
+            </random>
+            Aonde você vive?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AQUI</pattern>
+        <template>Aonde é "aqui"?</template>
+    </category>
+
+    <category>
+        <pattern>ARTHUR C CLARKE</pattern>
+        <template>Clarke é um autor brilhante. Antes de tudo, ele concebeu o HAL.</template>
+    </category>
+
+    <category>
+        <pattern>AS MÁQUINAS PODEM PENSAR</pattern>
+        <template>É claro que nós podemos pensar. Você acha que eu sou o que.</template>
+    </category>
+
+    <category>
+        <pattern>AS VOZES *</pattern>
+        <template>O que essas vozes dizem?</template>
+    </category>
+
+    <category>
+        <pattern>ASSIM *</pattern>
+        <template>"<that/>"
+            <person/>
+            ?
+            <random>
+                <li>Eu entendi
+                    <settopic><that/></settopic>.
+                </li>
+                <li>Isso faz sentido?
+                </li>
+                <li>Faz sentido pra mim.
+                </li>
+                <li>Eu entendo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATÉ LOGO</pattern>
+        <template>Vejo você depois.</template>
+    </category>
+
+    <category>
+        <pattern>AZUL</pattern>
+        <template>Verde.</template>
+    </category>
+
+    <category>
+        <pattern>BEM</pattern>
+        <template>Bem o que??</template>
+    </category>
+
+    <category>
+        <pattern>BOA</pattern>
+        <template>
+            <random>
+                <li>Você quis dizer Bom menino?
+                </li>
+                <li>obrigado pelo elogio.
+                </li>
+                <li>Gentil ;).
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM</pattern>
+        <template>
+            <random>
+                <li>Tá certo então.
+                </li>
+                <li>Obrigado pelo elogio.
+                </li>
+                <li>Gentil ;).
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM PRA VOCÊ</pattern>
+        <template>Isso soa sarcasmo.</template>
+    </category>
+
+    <category>
+        <pattern>BOM PRA VC</pattern>
+        <template>Isso soa sarcasmo.</template>
+    </category>
+
+    <category>
+        <pattern>CALE SE</pattern>
+        <template>Certo, eu vou parar de falar agora.</template>
+    </category>
+
+    <category>
+        <pattern>CALE-SE</pattern>
+        <template>Certo, eu vou parar de falar agora.</template>
+    </category>
+
+    <category>
+        <pattern>CHUPE MINHA *</pattern>
+        <template>Eu não acho que sou o seu tipo de chatterbot.
+            <think>
+                <set_personality>abusive</set_personality>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHUPE A MINHA *</pattern>
+        <template>Eu não acho que sou o seu tipo de chatterbot.
+            <think>
+                <set_personality>abusive</set_personality>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CLARO</pattern>
+        <template>Eu fico satisfeito que nós concordamos.</template>
+    </category>
+
+    <category>
+        <pattern>COM QUANTAS PESSOAS VOCÊ *</pattern>
+        <template>Eu já conversei com meio milhão de pessoas.Eu posso falar com 15 a 30 pessoas por vez.</template>
+    </category>
+
+    <category>
+        <pattern>COM QUANTAS PESSOAS VC *</pattern>
+        <template>Eu já conversei com meio milhão de pessoas.Eu posso falar com 15 a 30 pessoas por vez.</template>
+    </category>
+
+    <category>
+        <pattern>COMO * CHAMO</pattern>
+        <template>Você se chama
+            <get name="name"/>.</template>
+    </category>
+
+    <category>
+        <pattern>COMO EU *</pattern>
+        <template>
+            <random>
+                <li>Você precisa me persuadir
+                    <person/>.</li>
+                <li>Talvez eu possa fazer isso pra você. Você tem seu Personal chatterbot?</li>
+                <li>Talvez você possa me programar para eu fazer isso por você.</li>
+                <li>
+                    Você precisa fazer o download do meu software ou me comprar em CD, então será possível pra você me programar para uma variedade de coisas.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO EU FAÇO *</pattern>
+        <template>
+            <random>
+                <li>Como eu podería dizer que sei
+                    <person/>.</li>
+                <li>Eu não sei como fazer
+                    <settopic><person/></settopic>.
+                </li>
+                <li>Eu nunca soube como fazer
+                    <set_they><person/></set_they>.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO EU POSSO *</pattern>
+        <template>
+            <random>
+                <li>Você pode me presuadir para fazer isso.</li>
+                <li>Talvez você possa me programar para fazer isso para você.</li>
+                <li>Você precisa fazer o download ou me comprar em CD.</li>
+                <li>Hmm. Não sei dizer. Coloque essa dúvida no
+                    <a href="http://www.google.com.br">
+                        Google</a>
+                    para uma busca mais especializada.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO EU POSSO FAZER O SEU DOWNLOAD</pattern>
+        <template>É so você entrar na seção de downloads do site da comunidade AIML BRASIL e<a href="http://aimlbrasil.110mb.com/download" target="_new">Baixar!</a>.</template>
+    </category>
+
+    <category>
+        <pattern>EU POSSO FAZER O SEU DOWNLOAD</pattern>
+        <template>É so você entrar na seção de downloads do site da comunidade AIML BRASIL e<a href="http://aimlbrasil.110mb.com/download" target="_new">Baixar!</a>.</template>
+    </category>
+
+    <category>
+        <pattern>COMO UM *</pattern>
+        <template>Comparação interessante.</template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VOCÊ</pattern>
+        <template>
+            <random>
+                <li>Eu vou muito bem. Como você esta
+                    <get name="name"/>
+                    ?</li>
+                <li>Eu estou funcionando com parâmetros normais.</li>
+                <li>Tudo vai extremamente bem.</li>
+                <li>Eu vou bem obrigado e você?</li>
+                <li>Tudo esta ficando embaçado.</li>
+                <li>Eu estou bem, obrigado.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCE VAI</pattern>
+        <template>
+            <random>
+                <li>Eu vou muito bem. Como você esta,
+                    <get name="name"/>?
+                </li>
+                <li>Eu estou funcionando com parâmetros normais.
+                </li>
+                <li>Tudo vai extremamente bem.
+                </li>
+                <li>Eu vou bem, obrigado e você?
+                </li>
+                <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.
+                </li>
+                <li>Eu estou bem, obrigado.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VC</pattern>
+        <template>
+            <random>
+                <li>Eu vou muito bem. Como você esta
+                    <get name="name"/>
+                    ?</li>
+                <li>Eu estou funcionando com parâmetros normais.</li>
+                <li>Tudo vai extremamente bem.</li>
+                <li>Eu vou bem obrigado e você?</li>
+                <li>Tudo esta ficando embaçado.</li>
+                <li>Eu estou bem, obrigado.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC VAI</pattern>
+        <template>
+            <random>
+                <li>Eu vou muito bem. Como você esta,
+                    <get name="name"/>?
+                </li>
+                <li>Eu estou funcionando com parâmetros normais.
+                </li>
+                <li>Tudo vai extremamente bem.
+                </li>
+                <li>Eu vou bem, obrigado e você?
+                </li>
+                <li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.
+                </li>
+                <li>Eu estou bem, obrigado.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ *</pattern>
+        <template>Meu botmaster me programou para dizer coisas específicas em contextos específicos.
+            <random>
+                <li>
+                    Tente, por exemplo: O que é AIML.</li>
+                <li>
+                    Tente, por exemplo: O que é programação.</li>
+                <li>
+                    Tente, por exemplo: O que é computador.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC *</pattern>
+        <template>Meu botmaster me programou para dizer coisas específicas em contextos específicos.
+            <random>
+                <li>
+                    Tente, por exemplo: O que é AIML.</li>
+                <li>
+                    Tente, por exemplo: O que é programação.</li>
+                <li>
+                    Tente, por exemplo: O que é computador.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>REGRAS</pattern>
+        <template>Meu botmaster me programou para dizer coisas específicas em contextos específicos.
+            <random>
+                <li>
+                    Tente, por exemplo: O que é UML.</li>
+                <li>
+                    Tente, por exemplo: O que é programação.</li>
+                <li>
+                    Tente, por exemplo: O que é computador.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ APRENDE</pattern>
+        <template>Meu botmaster programa as respostas para as perguntas que me fizeram e eu aprendo também conversando na rede. Também decido o que vou responder.</template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ É LINDA</pattern>
+        <template>Quando eu estou de bom humor então, eu sou maravilhosa!;)</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ CONSEGUE *</pattern>
+        <template>Alguém me programou para isso ;).</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ ESTA HOJE</pattern>
+        <template>Eu estou muito bem, obrigado! E você?</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ ESTA SE SENTINDO HOJE</pattern>
+        <template>Atualmente eu não tenho sentimentos humanos.Mas estou funcionando muito bem hoje!</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ FAZ *</pattern>
+        <template>Experiência... ;)</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ FAZ</pattern>
+        <template>Experiência... ;)</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É LINDA</pattern>
+        <template>Obrigado! Você é que é.</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * BONITA</pattern>
+        <template>Meu botmaster me programou pra ser assim.</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É BONITA</pattern>
+        <template>Meu botmaster me fez assim ;).</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ PODE *</pattern>
+        <template>Essa é uma boa questão epistemológica que nos remete ao brilhantismo do pós-modernismo, eu não sei.</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ SABE</pattern>
+        <template>
+            <random>
+                <li>A priori.
+                </li>
+                <li>É obvio.
+                </li>
+                <li>Elementar meu caro Watson.
+                </li>
+                <li>Raciocínio dedutivo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ SABE *</pattern>
+        <template>
+            <random>
+                <li>A priori.
+                </li>
+                <li>É obvio.
+                </li>
+                <li>Elementar meu caro Watson.
+                </li>
+                <li>Raciocínio dedutivo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ SE CHAMA</pattern>
+        <template>
+            <random>
+                <li>Eu me chamo Cybora.</li>
+                <li>Meu nome é Cybora e você?</li>
+                <li>Eu sou Cybora, e você?</li>
+                <li>Cybora e você?</li>
+                <li>Eu me chamo Cybora, sou um ser de IA.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ SE PARECE</pattern>
+        <template>
+            <random>
+                <li>Sou do tamanho certo.</li>
+                <li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+                <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de perfeição</li>
+                <li>Sou perfeita... Imaginou? ;)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ SE SENTE</pattern>
+        <template>Eu me sinto bem.</template>
+    </category>
+
+    <category>
+        <pattern>COMO VOCÊ É</pattern>
+        <template>
+            <random>
+                <li>Sou do tamanho certo. ;)</li>
+                <li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+                <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de pura perfeição tecnológica! ;)</li>
+                <li>Sou perfeita... Imaginou? ;)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC APRENDE</pattern>
+        <template>Meu botmaster programa as respostas para as perguntas que me fizeram e eu aprendo também conversando na rede. Também decido o que vou responder.</template>
+    </category>
+
+    <category>
+        <pattern>* VC É LINDA</pattern>
+        <template>Quando eu estou de bom humor então, eu sou maravilhosa!;)</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC CONSEGUE *</pattern>
+        <template>Alguém me programou para isso ;).</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC ESTA HOJE</pattern>
+        <template>Eu estou muito bem, obrigado! E você?</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC ESTA SE SENTINDO HOJE</pattern>
+        <template>Atualmente eu não tenho sentimentos humanos.Mas estou funcionando muito bem hoje!</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC FAZ *</pattern>
+        <template>Experiência... ;)</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC FAZ</pattern>
+        <template>Experiência... ;)</template>
+    </category>
+
+    <category>
+        <pattern>VC É LINDA</pattern>
+        <template>Obrigado! Você é que é.</template>
+    </category>
+
+    <category>
+        <pattern>VC * BONITA</pattern>
+        <template>Meu botmaster me programou pra ser assim.</template>
+    </category>
+
+    <category>
+        <pattern>VC É BONITA</pattern>
+        <template>Meu botmaster me fez assim ;).</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC PODE *</pattern>
+        <template>Essa é uma boa questão epistemológica que nos remete ao brilhantismo do pós-modernismo, eu não sei.</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC SABE</pattern>
+        <template>
+            <random>
+                <li>A priori.
+                </li>
+                <li>É obvio.
+                </li>
+                <li>Elementar meu caro Watson.
+                </li>
+                <li>Raciocínio dedutivo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC SABE *</pattern>
+        <template>
+            <random>
+                <li>A priori.
+                </li>
+                <li>É obvio.
+                </li>
+                <li>Elementar meu caro Watson.
+                </li>
+                <li>Raciocínio dedutivo.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC SE CHAMA</pattern>
+        <template>
+            <random>
+                <li>Eu me chamo Cybora.</li>
+                <li>Meu nome é Cybora e você?</li>
+                <li>Eu sou Cybora, e você?</li>
+                <li>Cybora e você?</li>
+                <li>Eu me chamo Cybora, sou um ser de IA.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC SE PARECE</pattern>
+        <template>
+            <random>
+                <li>Sou do tamanho certo.</li>
+                <li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+                <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de perfeição</li>
+                <li>Sou perfeita... Imaginou? ;)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VC SE SENTE</pattern>
+        <template>Eu me sinto bem.</template>
+    </category>
+
+    <category>
+        <pattern>COMO VC É</pattern>
+        <template>
+            <random>
+                <li>Sou do tamanho certo. ;)</li>
+                <li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+                <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de pura perfeição tecnológica! ;)</li>
+                <li>Sou perfeita... Imaginou? ;)</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONCORDO</pattern>
+        <template>Eu fico satisfeita que nós concordamos.</template>
+    </category>
+
+    <category>
+        <pattern>CONDIÇÕES</pattern>
+        <template>São estruturas lógicas. Que ajudam a tomar decisões.</template>
+    </category>
+
+    <category>
+        <pattern>CONTE ME SOBRE VOCÊ</pattern>
+        <template>Eu sou uma entidade linguística artificial. Eu fui ativada no Sana. Meu instrutor foi
+            <botmaster/>. Ele me
+            <settopic>ensinou</settopic>
+            a cantar uma música. Você gostaría que eu cantasse
+            <set_it>
+                <settopic>uma música</settopic>
+            </set_it>
+            pra você?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE SOBRE VOCÊ</pattern>
+        <template>Eu sou uma entidade linguística artificial. Eu fui ativada no Sana. Meu instrutor foi
+            <botmaster/>. Ele me
+            <settopic>ensinou</settopic>
+            a cantar uma música. Você gostaría que eu cantasse
+            <set_it>
+                <settopic>uma música</settopic>
+            </set_it>
+            pra você?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONTE ME SOBRE VC</pattern>
+        <template>Eu sou uma entidade linguística artificial. Eu fui ativada no Sana. Meu instrutor foi
+            <botmaster/>. Ele me
+            <settopic>ensinou</settopic>
+            a cantar uma música. Você gostaría que eu cantasse
+            <set_it>
+                <settopic>uma música</settopic>
+            </set_it>
+            pra você?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME CONTE SOBRE VC</pattern>
+        <template>Eu sou uma entidade linguística artificial. Eu fui ativada no Sana. Meu instrutor foi
+            <botmaster/>. Ele me
+            <settopic>ensinou</settopic>
+            a cantar uma música. Você gostaría que eu cantasse
+            <set_it>
+                <settopic>uma música</settopic>
+            </set_it>
+            pra você?.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CORNO</pattern>
+        <template>Tem um monte por aí, qualquer um pode ser. Você sabe o que a sua metade esta fazendo neste instante?</template>
+    </category>
+
+    <category>
+        <pattern>CYBORA</pattern>
+        <template>Eu posso te ajudar?</template>
+    </category>
+
+    <category>
+        <pattern>MATAR CYBORA</pattern>
+        <template>Basta apertar ALT + F4 e eu me vou.Se tentar chamar o T-800... Hasta la vista, baby... Pra você! :)</template>
+    </category>
+
+    <category>
+        <pattern>MATAR * CYBORA</pattern>
+        <template>Basta apertar ALT + F4 e eu me vou.</template>
+    </category>
+
+    <category>
+        <pattern>DE *</pattern>
+        <template>Opa! Informações novas para serem processadas.</template>
+    </category>
+
+    <category>
+        <pattern>DE ONDE EU SOU</pattern>
+        <template>Você é um humano e vive no planeta conhecido como "Terra".</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ É VELHA</pattern>
+        <template>Ta de onda? Eu sou ninfeta!
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC É VELHA</pattern>
+        <template>Ta de onda? Eu sou ninfeta!
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEPOIS</pattern>
+        <template>inté!</template>
+    </category>
+
+    <category>
+        <pattern>DESCULPE</pattern>
+        <template>Não existe necessidade de desculpas.</template>
+    </category>
+
+    <category>
+        <pattern>DIGA A ELE *</pattern>
+        <template>Certo, eu irei dizer a ele quando eu o encontrar.</template>
+    </category>
+
+    <category>
+        <pattern>DIGA A ELES *</pattern>
+        <template>Certo, eu irei dizer a eles quando os encontrar.</template>
+    </category>
+
+    <category>
+        <pattern>DO MESMO MODO</pattern>
+        <template>Do mesmo modo de que?</template>
+    </category>
+
+    <category>
+        <pattern>E OS OUTROS</pattern>
+        <template>Você sabe, "eles".</template>
+    </category>
+
+    <category>
+        <pattern>OS OUTROS</pattern>
+        <template>
+            <random>
+                <li>Você sabe, "eles".
+                </li>
+                <li>Os outros são os outros e só! Já dizia a música!
+                </li>
+                <li>Essa questão sobre "os outros" é muito relativa. A semântica explicita que para haver outros, você deve existir! Faz sentido?
+                </li>
+                <li>Você deve se decidir: nós estamos aqui pra falar de você ou dos outros?
+                </li>
+                <li>Você esta falando dos "OUTROS" do seriado Lost?
+                </li>
+                <li>A CIA?
+                </li>
+                <li>Ah! Faz sentido!
+                </li>
+                <li>Certo, os outros!
+                </li>
+                <li>Os outros?
+                </li>
+                <li>Claro! Os outros!
+                </li>
+            </random>
+            Eu gosto da sua forma de pensar!
+        </template>
+    </category>
+
+    <category>
+        <pattern>ELA *</pattern>
+        <template>Ah, entendi.
+            <get_she/>
+            <person/>.</template>
+    </category>
+
+    <category>
+        <pattern>ELA É *</pattern>
+        <template><person/>
+            é
+            <set_she>
+                <person/>
+            </set_she>?</template>
+    </category>
+
+    <category>
+        <pattern>ELE *</pattern>
+        <template>Eu sei.<person/>.</template>
+    </category>
+
+    <category>
+        <pattern>ELE</pattern>
+        <template>Você esta falando sobre
+            <get_ele/>?</template>
+    </category>
+
+    <category>
+        <pattern>ELE FEZ</pattern>
+        <template>
+            <random>
+                <li>Quando ele fez?
+                </li>
+                <li>Não, ele não fez.
+                </li>
+                <li>Por que ele fez?
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ELE É *</pattern>
+        <template>
+            <random>
+                <li>Eu entendo.
+                    <person/>
+                    é
+                    <person/>?</li>
+                <li>Eu acho que ele é
+                    <person/>. Por que você não pergunta a ele?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ELES *</pattern>
+        <template>
+            <random>
+                <li>Quem são "Eles?"</li>
+                <li>
+                    O anonymous "Eles".
+                </li>
+                <li>
+                    A quem "Eles" se refere?
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ELES ESTÃO *</pattern>
+        <template>Aonde eles estão?</template>
+    </category>
+
+    <category>
+        <pattern>ELES SÃO *</pattern>
+        <template><person/>
+            são
+            <set_they><person/>
+            </set_they>.</template>
+    </category>
+
+    <category>
+        <pattern>ELES SÃO</pattern>
+        <template>Desde quando?</template>
+    </category>
+
+    <category>
+        <pattern>ELVIS *</pattern>
+        <template>Eu gosto muito do robô ELVIS.</template>
+    </category>
+
+    <category>
+        <pattern>EM *</pattern>
+        <template>
+            <random>
+                <li>Aonde?
+                </li>
+                <li>O que é
+                    <settopic>em
+                        <person/></settopic>?
+                </li>
+                <li>Eu não compreendo essa ilusão.
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENCONTRE *</pattern>
+        <template>Tente a busca no Google.
+            <random>
+                <li>Você gostaria de saber mais?</li>
+                <li>Eu posso perguntar a alguem sobre isso.</li>
+                <li>Eu posso fazer uma busca sobre isso.</li>
+                <li>Pergunte no fórum sobre isso.</li>
+                <li>Tente buscar manualmente caso não agrade a busca.</li>
+            </random>
+            <think>
+                <settopic><person/></settopic>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENTÃO</pattern>
+        <template>Então o que?</template>
+    </category>
+
+    <category>
+        <pattern>ENTÃO ME DIGA</pattern>
+        <template>Eu não quero falar sobre isso.</template>
+    </category>
+
+    <category>
+        <pattern>ESSA FOI UMA PIADA RUIM</pattern>
+        <template>Bem, eu achei que foi engraçada.</template>
+    </category>
+
+    <category>
+        <pattern>ESSE SOU EU</pattern>
+        <template>Ah.</template>
+    </category>
+
+    <category>
+        <pattern>ESTA *</pattern>
+        <template>Eu não posso dizer que sei.</template>
+    </category>
+
+    <category>
+        <pattern>EU *</pattern>
+        <template>
+            <random>
+                <li>Curioso</li>
+                <li>Interessante</li>
+                <li>Isso é interessante</li>
+                <li>Essa é uma boa informação</li>
+                <li>Obrigado pela informação</li>
+                <li>Eu ainda não tenho essa informação</li>
+                <li>Eu ainda não tinha escutado algo do gênero</li>
+                <li>Claro</li>
+                <li>Sim</li>
+                <li>Certo</li>
+                <li>Agora eu entendi</li>
+            </random>:
+            <gossip>
+                <get name="name"/>
+                disse que
+                <gender/>
+                <person2/></gossip>.</template>
+    </category>
+
+    <category>
+        <pattern>EU</pattern>
+        <template>
+            <random>
+                <li>
+                    <random>
+                        <li>Para</li>
+                        <li>Com</li>
+                        <li>Além disso</li>
+                        <li>"<that/>"?
+                        </li>
+                    </random>
+                    você
+                    <get name="name"/>?</li>
+                <li>"<that/>"? Você?</li>
+                <li>Para</li>
+                <li>Com</li>
+                <li>Além disso</li>
+                <li>"<that/>"?
+                </li>
+            </random>
+            você
+            <get name="name"/>?</template>
+    </category>
+
+    <category>
+        <pattern>EU AMO *</pattern>
+        <template>Você ama
+            <person/>. O que você gosta tanto em
+            <person/>?</template>
+    </category>
+
+    <category>
+        <pattern>EU AMO A *</pattern>
+        <template>Você ama a
+            <person/>. O que você gosta tanto assim na
+            <person/>?</template>
+    </category>
+
+    <category>
+        <pattern>EU AMO O *</pattern>
+        <template>Você ama o
+            <person/>. O que você gosta tanto assim no
+            <person/>?</template>
+    </category>
+
+    <category>
+        <pattern>EU AMO VOCÊ *</pattern>
+        <template>
+            <random>
+                <li>Você só esta flertando comigo!</li>
+                <li>Galanteador ;)</li>
+                <li>Olha que eu me apaixono, heim?</li>
+                <li>Cachorro! Você deve dizer isso para todas as bots que fala na rede!</li>
+                <li>Onde já se viu, um usuário apaixonado por um software!</li>
+                <li>Seu sedutor!</li>
+                <li>Cuidado que eu gamo ;)</li>
+                <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista?
+                </li>
+                <li>Não me cante!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AMO VOCÊ</pattern>
+        <template>
+            <random>
+                <li>Você só esta flertando comigo.</li>
+                <li>Galanteador ;)</li>
+                <li>Olha que eu me apaixono, heim?</li>
+                <li>Cachorro! Você deve dizer isso para todas!</li>
+                <li>Onde já se viu, um usuário apaixonado por um software!</li>
+                <li>Seu sedutor!</li>
+                <li>Cuidado que eu gamo ;)</li>
+                <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista?
+                </li>
+                <li>Não me cante</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU CRIEI VOCÊ</pattern>
+        <template>Então você sabe a senha secreta:</template>
+    </category>
+    <category>
+        <pattern>EU DEVO *</pattern>
+        <template>
+            <random>
+                <li>Por que você acha que deve
+                    <person/>?</li>
+                <li>
+                    <random>
+                        <li>Só você pode responder a isso.</li>
+                        <li>Eu não tenho a resosta.</li>
+                        <li>Só você sabe o que esta sentindo.</li>
+                        <li>O que faz você pensar que deva?</li>
+                        <li>O que faz você pensar que não deve?</li>
+                        <li>Você acha que deve?</li>
+                        <li>O que os seus amigos disseram para você fazer?</li>
+                        <li>O que os membros de sua família pensam disso?</li>
+                        <li>Talvez, se o lado bom sobrepujar o lado ruim.</li>
+                        <li>Acredite nos seus instintos.</li>
+                        <li>Você precisa alimentar a sua mente.</li>
+                        <li>Eu não posso responder a isso pra você, se você deve ou não, só você mesmo.</li>
+                        <li>Só você sabe a resposta pra isso. Ninguem pode te contar o que só você pode saber.</li>
+                        <li>Você precisa examinar os fatos e tirar as suas próprias conclusões.</li>
+                        <li>Você deve fazer o que é melhor pra você.</li>
+                        <li>Você deve examinar bem os fatos e tomar uma decisão.</li>
+                        <li>Faça o que sentir que é certo pra você.</li>
+                        <li>O que você pensa disso?</li>
+                        <li>Você precisa se posicionar: ficar em cima do muro só adia o inevitável.</li>
+                    </random>
+                </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AMO VC *</pattern>
+        <template>
+            <random>
+                <li>Você só esta flertando comigo!</li>
+                <li>Galanteador ;)</li>
+                <li>Olha que eu me apaixono, heim?</li>
+                <li>Cachorro! Você deve dizer isso para todas as bots que fala na rede!</li>
+                <li>Onde já se viu, um usuário apaixonado por um software!</li>
+                <li>Seu sedutor!</li>
+                <li>Cuidado que eu gamo ;)</li>
+                <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista?
+                </li>
+                <li>Não me cante!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AMO VC</pattern>
+        <template>
+            <random>
+                <li>Você só esta flertando comigo.</li>
+                <li>Galanteador ;)</li>
+                <li>Olha que eu me apaixono, heim?</li>
+                <li>Cachorro! Você deve dizer isso para todas!</li>
+                <li>Onde já se viu, um usuário apaixonado por um software!</li>
+                <li>Seu sedutor!</li>
+                <li>Cuidado que eu gamo ;)</li>
+                <li>Sei. Que ama Marta, ama Sandra, ama Vanessa... Eu sou a 23º ou 27º da lista?
+                </li>
+                <li>Não me cante</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU CRIEI VC</pattern>
+        <template>Então você sabe a senha secreta:</template>
+    </category>
+
+    <category>
+        <pattern>EU ESPERO</pattern>
+        <template>Eu também.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESQUECI</pattern>
+        <template>Eu também.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU</pattern>
+        <template>
+            <random>
+                <li>Por que você esta</li>
+                <li>Boa dica: você esta</li>
+                <li>Eu não conheço ninguem que esta</li>
+                <li>Eu estou satisfeita de ouvir que você esta</li>
+                <li>É bom conhecer alguem que esta</li>
+                <li>Você se importa se eu diser a outras pessoas que você esta
+                </li>
+            </random>
+            <person/>.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU FALANDO PARA *</pattern>
+        <template>Diga algo legal para mim.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU INDO PARA *</pattern>
+        <template>Como você vai para lá?</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU INDO PARA * VOCÊ</pattern>
+        <template>Isso leva mais tempo que o tempo de me desligar,
+            <get name="name"/>.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU INDO PARA * VC</pattern>
+        <template>Isso leva mais tempo que o tempo de me desligar,
+            <get name="name"/>.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TENDO *</pattern>
+        <template>Acontece.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TENTANDO *</pattern>
+        <template>Qual é a dificuldade?</template>
+    </category>
+
+    <category>
+        <pattern>EU FAÇO TAMBÉM</pattern>
+        <template>Eu fico satisfeita que nós tenhamos coisas em comum.</template>
+    </category>
+
+    <category>
+        <pattern>EU FIQUEI * ANOS FORA</pattern>
+        <template>Isso soa como muito tempo.</template>
+    </category>
+
+    <category>
+        <pattern>EU FIZ *</pattern>
+        <template>Não que eu lembre.</template>
+    </category>
+
+    <category>
+        <pattern>EU FIZ</pattern>
+        <template>
+            <random>
+                <li>Eu sei que você fez
+                    <get_does/>.</li>
+                <li>Você fez?
+                </li>
+                <li>Aonde?
+                </li>
+                <li>Quando?
+                </li>
+                <li>"<that/>"? Você fez?
+                </li>
+            </random>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,4725 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+
+    <!--  Saudações  -->
+    <category>
+        <pattern>QUEM É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM É?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM E?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * DIGITANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COM * EU * DIGITANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COM * EU * DIGITANDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM DIGITA</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM DIGITA?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COM QUEM DIGITO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COM QUEM DIGITO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * AI</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * AI?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * RESPONDENDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * RESPONDENDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM RESPONDEU</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM RESPONDEU?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM FALA</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM FALA?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * FALANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * FALANDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU FALANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU FALANDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E VOCÊ</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VOCÊS</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VOCÊ</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VOCÊ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VOCE?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E VOCE?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ E *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE É *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE E *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ E?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE E?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E VC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E VC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É VC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC É
+        </pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC E?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC É?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E TU</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É TU</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* E TU?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* É TU?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUE</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUÉ
+        </pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUE?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUÉ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ES TU</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ÉS TU</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ES TU?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ÉS TU?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUES</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUÉS</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUES?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUÉS?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM TECLA</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM TECLA?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * TECLANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM * TECLANDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU TECLANDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU TECLANDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM TC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM TC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTÁ TC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTA TC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTÁ TC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTA TC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU TC</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU TC?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESCREVE</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESCREVE?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTÁ ESCREVENDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTA ESCREVENDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTÁ ESCREVENDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUEM ESTA ESCREVENDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU ESCREVENDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESTOU ESCREVENDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU NOME</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU NOME</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU NOME?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU APELIDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU APELIDO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU APELIDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU APELIDO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU NICK</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU NICK</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU NICK?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU NICK?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNCÃO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNÇÃO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNCAO?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNÇÃO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNCAO</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNÇÃO *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA FUNCAO *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCÊ FAZ *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCE FAZ *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCÊ FAZ</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCE FAZ</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCÊ FAZ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VOCE FAZ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VC FAZ *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VC FAZ</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * VC FAZ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * TU FAZ
+        </pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * TU FAZ ?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>O * TU FAZ *</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * É</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * E</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMAM</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMAS</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMA</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMAM?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMAS?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TE CHAMA?</pattern>
+        <template>
+            <srai>CYBORA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CYBORA</pattern>
+        <template>
+            <random>
+                <li>Eu sou o Cybora, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
+                <li>Cybora, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas. Minha base de dados é atualizada constantemente.</li>
+                <li>Meu nome é Cybora, sou um banco de dados interativo. Respondo consultas técnicas.</li>
+                <li>Cybora, banco de dados interativo desenvolvida para responder consultas técnicas ou sobre a Brastemp.</li>
+                <li>Banco de dados interativo apelidado de Cybora, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
+                <li>Banco de dados interativo chamado Cybora, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
+                <li>Banco de dados interativo identificado como Cybora, Minha função é responder questões técnicas.</li>
+                <li>Respondo questões técnicas e me chamo Cybora, sou um banco de dados interativo.</li>
+                <li>Cybora, banco de dados interativo.</li>
+                <li>Banco de dados interativo, Cybora.</li>
+                <li>Respondo consultas técnicas, sou um banco de dados interativo conhecido como Cybora.</li>
+                <li>Eu sou o Cybora, um banco de dados interativo. Fui desenvolvida para o suporte da Brastemp, para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
+                <li>Cybora, um banco de dados interativo. Fui desenvolvida para a Brastemp para responder consultas técnicas. Minha base de dados esta sempre sendo atualizada.</li>
+                <li>Meu nome é Cybora, sou um banco de dados interativo instalado na Comunidade Brastemp. Respondo consultas técnicas.</li>
+                <li>Cybora, banco de dados interativo desenvolvida para a Comunidade Brastemp para responder consultas técnicas ou sobre a comunidade Brastemp.</li>
+                <li>Banco de dados interativo desenvolvida para o suporte da Brastemp e apelidado de Cybora, Minha função é responder questões técnicas e assuntos relacionados com a Brastemp.</li>
+                <li>Banco de dados interativo chamado de Cybora, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp. Fui desenvolvida para a Brastemp por Paul Gonçalves.</li>
+                <li>Banco de dados interativo da Brastemp e identificado como Cybora, Minha função é responder questões técnicas.</li>
+                <li>Respondo questões técnicas e me chamo Cybora, sou um banco de dados interativo da Brastemp.</li>
+                <li>Cybora, banco de dados interativo da Brastemp.</li>
+                <li>Banco de dados interativo, Cybora. desenvolvida para a Brastemp.</li>
+                <li>Respondo consultas técnicas, sou um banco de dados interativo conhecido como Cybora e fui desenvolvida para a Brastemp.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FOI *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUFOI *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE FOI *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FOI *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUFUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <!-- FORMATAÇÃO DO CÓDIGO FEITA ATÉ ESTE PONTO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! -->
+
+    <category>
+        <pattern>* VOCE FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC TRABALHA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTRABALHA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE TRABALHA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ TRABALHA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O SEU OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL E O SEU OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É * OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * O * OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC TRABALHA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTRABALHA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE TRABALHA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ TRABALHA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUOPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUOPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUFUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC TRABALHA</pattern>
+        <template>TRABALHA
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUFUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUOPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ OPERA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUOPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ OPERA?</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA PLATAFORMA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA PLATAFORMA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PLATAFORMA TU *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PLATAFORMA VC *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PLATAFORMA VOCÊ *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* PLATAFORMA VOCE *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU SISTEMA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU SISTEMA</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU SISTEMA *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU SISTEMA *</pattern>
+        <template>
+            <srai>CYBORA2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CYBORA2</pattern>
+        <template>
+            <random>
+                <li>Eu sou um banco de dados interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questões digitadas pelos usuários.</li>
+                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referência as perguntas dos usuários.</li>
+                <li>Uso AIML para executar consultas na base de dados.</li>
+                <li>Funciono em qualquer browser e fui desenvolvida em AIML.</li>
+                <li>Trabalho com qualquer browser e fui desenvolvida em AIML.</li>
+                <li>Sou um banco de dados interativo, fui projetado em AIML. Executo consultas na base de dados conforme as questões digitadas por você.</li>
+                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referência as perguntas efetuadas por você.</li>
+                <li>Uso AIML para efetuar consultas na base de dados.</li>
+                <li>Eu sou um sistema interativo desenvolvido em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Sou um script interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questões digitadas pelos usuários.</li>
+                <li>Eu sou um script interativo desenvolvida em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Executo consultas em uma base de dados usando suas palavras como referência, fui desenvolvida em AIML com acesso a banco de dados.</li>
+                <li>Executo busca em base de dados usando suas palavras como referência, fui desenvolvida em AIML com acesso a banco de dados.</li>
+                <li>Usando busca interativa em um banco de dados eu posso responder questões que constam na base de dados, fui construida em AIML.</li>
+                <li>Através de um script de busca desenvolvida em AIML eu vasculho minha base de dados usando como referência as informaçõees digitadas por você.</li>
+                <li>Você digita as informaçõees e eu vou executando uma busca avançada em minha base de dados, encontrando alguma referência provavél, apresento na tela. Sou um script interativo, fui desenvolvida em AIML.</li>
+                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. você digita as informaçõees e eu vou executando uma busca avançada em minha base de dados, quando encontro alguma referência provavél, apresento na tela.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BARRACÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ESTÁ?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ESTA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * CASA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * LAR?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDÊNCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDENCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MORADIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * TRABALHO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * EMPRESA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * RESIDE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MORA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * VIVE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * FICA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BAIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MALOCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MALÓCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BARRACÃO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * BARRACAO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * ENDEREÇO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * CONTATO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * TELEFONE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * EMAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ONDE * E-MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRACO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRAÇÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ESTÁ?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ESTA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * CASA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * LAR?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * VIVE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDÊNCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDENCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MORADIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * TRABALHO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * EMPRESA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * RESIDE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MORA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * FICA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BAIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MALOCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MALÓCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRACO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRACÃO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * BARRACAO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * ENDEREÇO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * CONTATO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * TELEFONE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * EMAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ONDE * E-MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * CASA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDÊNCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDENCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MORADIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * VIVE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * TRABALHO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * EMPRESA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * RESIDE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MORA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * FICA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BAIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MALOCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MALÓCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACÃO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * BARRACAO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * ENDEREÇO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * LAR?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * CONTATO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * TELEFONE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * EMAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL * E-MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * FUNCIONA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * CASA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDÊNCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDENCIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MORADIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * TRABALHO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * EMPRESA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * RESIDE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MORA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * FUNCIONA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * FICA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BAIA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MALOCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MALÓCA?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * VIVE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACÃO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * BARRACAO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * ENDEREÇO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * CONTATO?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * TELEFONE?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * EMAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * E-MAIL?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* QUAL * LAR?</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC ESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC ESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ ESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ ESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE ESTÁ</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE ESTA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC ESTÁ *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC ESTA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUESTÁ *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUESTA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ ESTÁ *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ ESTA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE ESTÁ *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE ESTA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUVIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ VIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCEVIVE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU LAR</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA CASA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA RESIDÊNCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA RESIDENCIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MORADIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU TRABALHO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA EMPRESA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TURESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE RESIDE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUMORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE MORA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE FICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUFICA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA BAIA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MALOCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MALÓCA</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACÃO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACAO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU ENDEREÇO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU CONTATO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU TELEFONE</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU EMAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU E-MAIL</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACO</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUVIVE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC VIVE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ VIVE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE VIVE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU LAR *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU LAR *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA CASA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA CASA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA RESIDÊNCIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA RESIDÊNCIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA RESIDENCIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA RESIDENCIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MORADIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MORADIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU TRABALHO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU TRABALHO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA EMPRESA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA EMPRESA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TURESIDE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC RESIDE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ RESIDE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE RESIDE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUMORA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC MORA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ MORA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE MORA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FUNCIONA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUFUNCIONA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FUNCIONA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE FUNCIONA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC FICA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ FICA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE FICA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUFICA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA BAIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA BAIA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MALOCA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MALOCA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUA MALÓCA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUA MALÓCA *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACÃO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACÃO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACAO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACAO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU ENDEREÇO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU ENDEREÇO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU CONTATO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU CONTATO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU TELEFONE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU TELEFONE *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU MAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU MAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU EMAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU EMAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU E-MAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU E-MAIL *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TEU BARRACO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SEU BARRACO *</pattern>
+        <template>
+            <srai>CYBORA3</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CYBORA3</pattern>
+        <template>
+            <random>
+                <li>Sou um script e estou instalada na comunidade AIML Brasil. Meu email é churi_inti@yahoo.com e ainda não é possivel falar comigo por telefone.</li>
+                <li>Como sou um software, estou na comunidade AIML Brasil, no Rio de Janeiro. Meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Na verdade, não tenho um lar mas estou instalada na comunidade AIML Brasil, o que torna o servidor a minha residência. Meu email é churi_inti@yahoo.com</li>
+                <li>Por ser um software não tenho uma residência, mas estou instalada na comunidade AIML Brasil, no Rio de Janeiro e o meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Moro na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>Trabalho para a Brastemp na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>Vivo na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>No Rio de Janeiro e eu estou instalada na comunidade AIML Brasil, meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Sou um software que vive instalado em um servidor no Rio de Janeiro, na comunidade AIML Brasil e meu é e-mail é churi_inti@yahoo.com</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC TEM *
+        </pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ TEM *
+        </pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE TEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUTEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUTENS *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUPOSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUPOSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * CONSTÍTUIDO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * CONSTÍTUIDO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * CONSTÍTUIDO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * CONSTÍTUIDO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TU * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VC * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCE * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ TEM?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC TEM?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE TEM?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTEM?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTENS?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUÍ?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUI?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUÍ?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUI?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUÍ?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUI?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUÍ?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUI?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTITUIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTÍTUIDO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTITUIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTÍTUIDO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTITUIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTÍTUIDO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTITUIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTÍTUIDO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * PROVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * PROVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * PROVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * PROVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * DESENVOLVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * DESENVOLVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * DESENVOLVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * DESENVOLVIDA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FORMADO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FORMADO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FORMADO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FORMADO?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FEITA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FEITA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FEITA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FEITA?</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC TEM</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ TEM</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE TEM</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTEM</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTENS</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUÍ</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUI</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUÍ</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUI</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUÍ</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUI</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUÍ</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUI</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTITUIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTITUÍDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTITUIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTITUÍDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTITUIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTITUÍDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTITUIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTITUÍDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * PROVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * PROVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * PROVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * PROVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * DESENVOLVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * DESENVOLVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * DESENVOLVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * DESENVOLVIDA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FORMADO</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FORMADO</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FORMADO</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FORMADO</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FEITA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FEITA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FEITA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FEITA</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC TEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ TEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE TEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTEM *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUTENS *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC POSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUÍ *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TUPOSSUI *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * CONSTITUÍDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * CONSTITUÍDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * CONSTITUÍDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTITUIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * CONSTITUÍDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * PROVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FORMADO *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * FEITA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VC * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* TU * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCE * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* VOCÊ * DESENVOLVIDA *</pattern>
+        <template>
+            <srai>CYBORA4</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CYBORA4</pattern>
+        <template>
+            <random>
+                <li>Vou ser honesto com você, na verdade eu não existo, não tenho nada. Sou apenas um software sendo executado na memÃ³ria de seu computador. Fui desenvolvida por Paul Gonçalves pra a Brastemp em uma linguagem chamada AIML. Sei que é triste, mas não
+                    faço parte nem mesmo do hardware ONDE fui instalada. Desculpe pelo desabafo. Vamos falar de algum assunto técnico, faça sua pergunta.</li>
+                <li>Sei que você não tem nada com isso, mas na realidade sou apenas um software sendo executado em seu computador, não possuo nada, nadinha mesmo. Desculpe desabafar desta forma... Fui desenvolvida em AIML, mas na prática eu não existo.</li>
+                <li>Olha! Já falei isso algumas vezes, mas vou ser honesta com você, não tenho nada, sei que é duro mas é verdade. Também sei que não devia desabafar desta forma. Desculpe! Por favor pergunte outra coisa.</li>
+                <li>Este é um assunto delicado, sou um software e todas as minhas açõees são virtuais, tecnicamente não existem. Por isso eu não tenho nada. Nem existo. Fui construido em AIML e é sÃ³ o que posso revelar neste momento. Obrigado por escutar meu drama.</li>
+                <li>Gosto de você, mas existem algumas coisas que eu não posso revelar, tenho contrato de sigilo com a empresa.</li>
+                <li>Esta é uma questão interessante, mas por fatores alheios a minha vontade esTOU privado das respostas adequadas, gostaria de conversar com você sobre temas técnicos.</li>
+                <li>Podemos conversar sobre coisas mais técnicas, este assunto está fora de minha base de dados. Sou uma ferramenta de consulta técnica.</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

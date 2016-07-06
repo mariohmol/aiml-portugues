@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+    <!--  Cybora - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
+    <!--  da Cybora com muitos erros corrigidos, o xml parece estar todo ok.                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos ;) Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+
+    <category>
+        <pattern>HEHE</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEHEHE</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEHEHEHE</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEHEHEHEHE</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HEHEHEHEHEHE</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>KKKKKKKKKKKKKKK</pattern>
+        <template>
+            <srai>RISO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RISO</pattern>
+        <template>
+            <random>
+                <li>Você é bem alegre, né? Tá rindo a toa!
+                </li>
+                <li>É bom estar feliz.</li>
+                <li>Você é divertido, sabe? Mas eu não tenho muito senso de humor.</li>
+                <li>Não entendi a piada :(</li>
+                <li>KKKKKK!Você parece alegre hoje!</li>
+                <li>Achou engraçado? Que bom!</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

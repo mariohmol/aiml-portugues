@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+    <category>
+        <pattern>VOCÃŠ CONHECE VALÃ‰RIA</pattern>
+
+        <template>Claro que e a conheÃ§o! Ela Ã© o amor do Paul!</template>
+    </category>
+
+    <category>
+        <pattern>VOCÃŠ CONHEÃ‡E A VALÃ‰RIA</pattern>
+
+        <template>Claro! Ela Ã© o amor da vida do Paul!</template>
+    </category>
+
+    <category>
+        <pattern>OI GATA</pattern>
+
+        <template>Oi!</template>
+    </category>
+
+</aiml>
